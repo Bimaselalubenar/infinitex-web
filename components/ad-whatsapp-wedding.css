@@ -1,0 +1,114 @@
+.ad-whatsapp-wedding-container {
+  right: 0px;
+  width: auto;
+  height: auto;
+  display: flex;
+  z-index: 100;
+  position: fixed;
+  align-items: flex-end;
+  padding-right: var(--dl-space-space-halfunit);
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.ad-whatsapp-wedding-container1 {
+  flex: 0 0 auto;
+  width: 50px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.ad-whatsapp-wedding-grab {
+  right: opx;
+  width: 49px;
+  height: 50px;
+  display: flex;
+  overflow: hidden;
+  align-self: flex-end;
+  transition: 0.3s;
+  align-items: center;
+  border-radius: 0px;
+  justify-content: flex-start;
+  background-color: #03ad11;
+  border-top-left-radius: var(--dl-radius-radius-radius75);
+  border-top-right-radius: var(--dl-radius-radius-radius75);
+  border-bottom-left-radius: var(--dl-radius-radius-radius75);
+  border-bottom-right-radius: var(--dl-radius-radius-radius75);
+}
+.ad-whatsapp-wedding-grab:hover {
+  width: 174px;
+  border-top-left-radius: var(--dl-radius-radius-radius75);
+}
+.ad-whatsapp-wedding-pasted-image {
+  width: 40px;
+  height: 40px;
+  margin-left: 6px;
+  margin-right: 5px;
+}
+.ad-whatsapp-wedding-container2 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: flex-start;
+}
+.ad-whatsapp-wedding-button {
+  color: var(--dl-color-gray-white);
+  width: 100%;
+  cursor: pointer;
+  height: auto;
+  margin: 0px;
+  overflow: hidden;
+  font-size: 0.6rem;
+  align-self: center;
+  font-style: normal;
+  transition: 0.3s;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 1.5;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit4);
+  border-radius: var(--dl-radius-radius-radius5);
+  padding-right: var(--dl-space-space-unit4);
+  padding-bottom: var(--dl-space-space-halfunit);
+  text-transform: none;
+  text-decoration: none;
+}
+.ad-whatsapp-wedding-button:hover {
+  background-color: rgba(70, 70, 70, 0.61);
+}
+.ad-whatsapp-wedding-root-class-name {
+  margin-top: 340px;
+}
+@media(max-width: 1200px) {
+  .ad-whatsapp-wedding-pasted-image {
+    margin-right: 6px;
+  }
+  .ad-whatsapp-wedding-container2 {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .ad-whatsapp-wedding-button {
+    width: auto;
+  }
+}
+@media(max-width: 767px) {
+  .ad-whatsapp-wedding-button {
+    width: 157px;
+  }
+}
+@media(max-width: 414px) {
+  .ad-whatsapp-wedding-pasted-image {
+    width: 35px;
+    height: auto;
+    margin-left: 6px;
+    margin-right: 0px;
+  }
+  .ad-whatsapp-wedding-container2 {
+    width: auto;
+  }
+  .ad-whatsapp-wedding-button {
+    width: auto;
+  }
+}

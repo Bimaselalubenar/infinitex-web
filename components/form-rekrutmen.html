@@ -1,0 +1,153 @@
+<div>
+  <link href="./form-rekrutmen.css" rel="stylesheet" />
+  <div class="form-rekrutmen-form">
+    <span id="form-rekrutmen" class="form-rekrutmen-text">
+      <span>Bergabung bersama Infinitex</span>
+      <br />
+    </span>
+    <div class="form-rekrutmen-base-form">
+      <div class="form-rekrutmen-container">
+        <span class="form-rekrutmen-text03">
+          <span>Apa yang anda lakukan ketika bergabung?</span>
+          <br />
+        </span>
+        <span class="form-rekrutmen-text06 Diskripsi3">
+          <span>Lihat layanan kami?</span>
+        </span>
+        <button name="done" type="button" class="form-rekrutmen-button">
+          <span>Lihat Jasa kami   ></span>
+        </button>
+      </div>
+      <form
+        name="formulir-rekrutmen"
+        action="rekrutmen-sukses"
+        method="POST"
+        autocomplete="off"
+        data-netlify="true"
+        class="form-rekrutmen-form1"
+      >
+        <label for="contact" class="form-rekrutmen-text07 Diskripsi3">
+          <span>Nama lengkap</span>
+        </label>
+        <input
+          type="text"
+          name="name"
+          required
+          placeholder="Nama"
+          class="form-rekrutmen-textinput Diskripsi3"
+        />
+        <label for="contact" class="form-rekrutmen-text08 Diskripsi3">
+          <span>Mendalami bidang</span>
+        </label>
+        <input
+          type="text"
+          name="Keahlian"
+          required
+          placeholder="IT/ Design/ Fotografi/ Copywriting"
+          class="form-rekrutmen-textinput1 Diskripsi3"
+        />
+        <label for="contact" class="form-rekrutmen-text09 Diskripsi3">
+          <span>Masukan Email anda*</span>
+        </label>
+        <input
+          type="email"
+          name="email"
+          required
+          placeholder="Email"
+          autocomplete="email"
+          class="form-rekrutmen-textinput2 Diskripsi3"
+        />
+        <label for="contact" class="form-rekrutmen-text10 Diskripsi3">
+          <span>Ceritakan tentang dirimu</span>
+        </label>
+        <textarea
+          name="Tentang"
+          placeholder="Saya adalah supermen, yang mampu mengendalikan 5 elemen alam"
+          class="form-rekrutmen-textarea Diskripsi3"
+        ></textarea>
+        <label for="contact" class="form-rekrutmen-text11 Diskripsi3">
+          <span>Kirim link portofolio mu/ hasil kerja mu</span>
+        </label>
+        <input
+          type="text"
+          name="Link-portofolio-1"
+          required
+          placeholder="Link drive portofolio 1"
+          autocomplete="email"
+          class="form-rekrutmen-textinput3 Diskripsi3"
+        />
+        <input
+          type="text"
+          name="Link-portofolio-2"
+          placeholder="Link drive portofolio 2 jika ada"
+          autocomplete="email"
+          class="form-rekrutmen-textinput4 Diskripsi3"
+        />
+        <input
+          type="text"
+          name="Link-portofolio-3"
+          placeholder="Link drive portofolio 3 jika ada"
+          autocomplete="email"
+          class="form-rekrutmen-textinput5 Diskripsi3"
+        />
+        <label for="contact" class="form-rekrutmen-text12 Diskripsi3">
+          <span>Pilih opsi*</span>
+        </label>
+        <div class="form-rekrutmen-container1 Diskripsi3">
+          <div class="form-rekrutmen-container2">
+            <label for="contact" class="form-rekrutmen-text13 Diskripsi3">
+              <span>Jenis Kelamin</span>
+            </label>
+            <select
+              for="Jenis-kelamin"
+              name="Kategori"
+              required
+              class="form-rekrutmen-select"
+            >
+              <option value="Laki - Laki" selected>Laki - Laki</option>
+              <option value="Perempuan">Perempuan</option>
+            </select>
+          </div>
+          <div class="form-rekrutmen-container3">
+            <label for="contact" class="form-rekrutmen-text14 Diskripsi3">
+              <span>Usia*</span>
+            </label>
+            <select name="Usia" required class="form-rekrutmen-select1">
+              <option value="19" selected>19</option>
+              <option value="20">20</option>
+              <option value="21">21</option>
+              <option value="22">22</option>
+              <option value="23">23</option>
+              <option value="24">24</option>
+            </select>
+          </div>
+          <div class="form-rekrutmen-container4">
+            <label for="contact" class="form-rekrutmen-text15 Diskripsi3">
+              <span>Memiliki pekerjaan utama?</span>
+            </label>
+            <select
+              name="sedang-bekerja?"
+              required
+              class="form-rekrutmen-select2"
+            >
+              <option value="Ya" selected>Ya</option>
+              <option value="Tidak">Tidak</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-rekrutmen-container5">
+          <input type="checkbox" required />
+          <span class="form-rekrutmen-text16 Deskripsi4">
+            <span>
+              Menyetujui data apa saja yang di masukan itu benar, data anda aman
+              dan tidak di salah gunakan dan kami segera menghubungi anda
+            </span>
+          </span>
+        </div>
+        <button name="done" type="submit" class="form-rekrutmen-button1">
+          <span>Kirim</span>
+        </button>
+      </form>
+    </div>
+  </div>
+</div>

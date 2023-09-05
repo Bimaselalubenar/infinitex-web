@@ -1,0 +1,57 @@
+.rekrutmen-sukses-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.rekrutmen-sukses-image {
+  width: 200px;
+  object-fit: cover;
+}
+.rekrutmen-sukses-text {
+  margin: var(--dl-space-space-unit);
+}
+.rekrutmen-sukses-text1 {
+  font-style: normal;
+}
+.rekrutmen-sukses-navlink {
+  display: contents;
+}
+.rekrutmen-sukses-get-started {
+  color: white;
+  cursor: pointer;
+  display: flex;
+  margin-top: var(--dl-space-space-twounits);
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-twounits);
+  border-radius: 56px;
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+  background-color: #000000;
+}
+.rekrutmen-sukses-get-started:hover {
+  color: black;
+  background-color: #ffffff;
+}
+.rekrutmen-sukses-text2 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+}
+@media(max-width: 767px) {
+  .rekrutmen-sukses-get-started {
+    margin-top: var(--dl-space-space-twounits);
+  }
+}
+@media(max-width: 414px) {
+  .rekrutmen-sukses-get-started {
+    width: 235px;
+  }
+}
