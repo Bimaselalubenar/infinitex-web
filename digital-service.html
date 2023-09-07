@@ -2175,6 +2175,12 @@
       AOS.init({
         duration: 1000
       });
+
+      let url = window.location.search;
+      let urlParam = new URLSearchParams(url);
+      let namaTamu = urlParam.get('nama_tamu') || 'Anonim';
+
+      document.getElementById('nama-tamu').innerHTML = namaTamu;
     </script>
   </body>
 </html>

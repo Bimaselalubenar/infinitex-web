@@ -103,7 +103,7 @@
 
       <div class="suma-wedding-container">
         <div id="1" class="suma-wedding-hero">
-          <span data-aos="zoom-in-up" class="suma-wedding-text">
+          <span id="nama-tamu" data-aos="zoom-in-up" class="suma-wedding-text">
             Suma wedding&nbsp;organizer
           </span>
           <h1 data-aos="zoom-in-up" class="suma-wedding-text001">
@@ -922,6 +922,12 @@
       AOS.init({
         duration: 1000
       });
+
+      let url = window.location.search;
+      let urlParam = new URLSearchParams(url);
+      let namaTamu = urlParam.get('nama_tamu') || 'Anonim';
+
+      document.getElementById('nama-tamu').innerHTML = namaTamu;
     </script>
   </body>
 </html>

@@ -4,7 +4,7 @@
     <title>Order Form Infinitex</title>
     <meta
       name="description"
-      content="Layanan Jasa Website Madiun Terbaik Infinitex yang telah di dukung TIM Programmer Terbaik"
+      content="Jasa Pembuatan Website Murah Madiun – Harga Mulai Rp300.000-, kapasitas terbesar, akses cepat dan gratis konsultasi dan panduan SEO."
     />
     <meta property="og:title" content="Order Sekarang!" />
     <meta
@@ -615,6 +615,12 @@
       AOS.init({
         duration: 1000
       });
+
+      let url = window.location.search;
+      let urlParam = new URLSearchParams(url);
+      let namaTamu = urlParam.get('nama_tamu') || 'Anonim';
+
+      document.getElementById('nama-tamu').innerHTML = namaTamu;
     </script>
   </body>
 </html>
