@@ -1722,7 +1722,7 @@
   border-bottom-left-radius: var(--dl-radius-radius-radius40);
 }
 .ad-whatsapp-grab:hover {
-  width: 199px;
+  width: 191px;
 }
 .ad-whatsapp-pasted-image {
   width: 40px;
@@ -1765,7 +1765,7 @@
   background-color: rgba(70, 70, 70, 0.61);
 }
 .ad-whatsapp-root-class-name {
-  margin-top: 400px;
+  margin-top: 450px;
 }
 .ad-whatsapp-root-class-name1 {
   margin-top: 400px;
@@ -1798,12 +1798,17 @@
   .ad-whatsapp-pasted-image {
     width: 35px;
     height: auto;
+    margin-left: 6px;
+    margin-right: 6px;
   }
   .ad-whatsapp-container1 {
     width: auto;
   }
   .ad-whatsapp-link {
     width: auto;
+  }
+  .ad-whatsapp-root-class-name {
+    margin-top: 340px;
   }
 }
 
@@ -1972,7 +1977,6 @@
   display: flex;
   padding: var(--dl-space-space-halfunit);
   margin-top: 10px;
-  transition: 0.3s;
   align-items: flex-start;
   margin-left: 10px;
   border-color: rgba(103, 116, 142, 0.08);
@@ -1983,10 +1987,6 @@
   margin-bottom: 10px;
   flex-direction: column;
   justify-content: flex-start;
-}
-.rekrutmen-rq1:hover {
-  transform: translate(0px,-15px);
-  box-shadow: 5px 5px 10px 0px rgba(212, 212, 212, 0.4);
 }
 .rekrutmen-text07 {
   color: var(--dl-color-secondary-700);
@@ -2112,7 +2112,6 @@
   display: flex;
   padding: var(--dl-space-space-halfunit);
   margin-top: 10px;
-  transition: 0.3s;
   align-items: flex-start;
   margin-left: 10px;
   border-color: rgba(103, 116, 142, 0.08);
@@ -2123,10 +2122,6 @@
   margin-bottom: 10px;
   flex-direction: column;
   justify-content: flex-start;
-}
-.rekrutmen-rq2:hover {
-  transform: translate(0px,-15px);
-  box-shadow: 5px 5px 10px 0px rgba(212, 212, 212, 0.4);
 }
 .rekrutmen-text14 {
   color: var(--dl-color-secondary-700);

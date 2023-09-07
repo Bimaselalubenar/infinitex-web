@@ -468,6 +468,7 @@
   min-height: 80vh;
   align-items: center;
   flex-direction: column;
+  animation-delay: 0.5s;
   background-size: cover;
   justify-content: center;
   background-image: linear-gradient(225deg, rgba(40, 47, 51, 0.54) 0.00%,rgba(31, 36, 40, 0.83) 99.00%),url('https://2cdc80ace5.imgdist.com/public/users/Integrators/BeeProAgency/1011568_996439/editor_images/D1.jpg');
@@ -580,17 +581,11 @@
 .suma-wedding-container02 {
   display: flex;
   margin-top: 51px;
-  transition: 0.3s;
   align-items: center;
   border-radius: var(--dl-radius-radius-radius40);
   flex-direction: column;
   justify-content: center;
   background-color: rgba(217, 217, 217, 0.13);
-}
-.suma-wedding-container02:hover {
-  height: auto;
-  margin-top: 71px;
-  animation-delay: 1s;
 }
 .suma-wedding-link {
   display: contents;
@@ -1062,13 +1057,15 @@
   margin-left: 5px;
 }
 .suma-wedding-features2 {
-  width: 1835px;
+  width: 100%;
+  height: auto;
   display: flex;
   padding: var(--dl-space-space-threeunits);
-  flex-wrap: wrap;
   max-width: var(--dl-size-size-maxwidth);
+  min-height: auto;
   align-items: center;
   flex-direction: column;
+  justify-content: center;
 }
 .suma-wedding-text035 {
   font-size: 24px;
@@ -2567,9 +2564,6 @@
   .suma-wedding-feature-card2 {
     width: 329px;
   }
-  .suma-wedding-features2 {
-    width: 100%;
-  }
   .suma-wedding-separator14 {
     width: var(--dl-size-size-xlarge);
   }
@@ -2629,7 +2623,7 @@
     text-align: left;
   }
   .suma-wedding-features2 {
-    align-items: center;
+    flex-direction: column;
   }
   .suma-wedding-container13 {
     flex-direction: column;
@@ -2969,7 +2963,7 @@
 }
 @media(max-width: 414px) {
   .suma-wedding-hero {
-    height: 880px;
+    height: 768px;
     background-position: top;
   }
   .suma-wedding-text001 {
@@ -2996,8 +2990,11 @@
     margin-top: 0px;
   }
   .suma-wedding-hero1 {
-    height: auto;
+    height: 768px;
     align-self: center;
+    min-height: auto;
+    align-items: center;
+    justify-content: center;
   }
   .suma-wedding-container03 {
     width: 100%;
@@ -3018,13 +3015,14 @@
     width: var(--dl-size-size-medium);
   }
   .suma-wedding-text016 {
-    font-size: 16px;
+    font-size: 13px;
+    margin-bottom: 21px;
   }
   .suma-wedding-btn-group {
     margin-top: 0px;
   }
   .suma-wedding-features {
-    height: auto;
+    height: 768px;
     align-self: center;
   }
   .suma-wedding-text017 {
@@ -3041,7 +3039,7 @@
   }
   .suma-wedding-image01 {
     width: 100%;
-    height: auto;
+    height: 311px;
     border-radius: var(--dl-radius-radius-round);
     border-top-left-radius: 40%;
     border-top-right-radius: 40%;
@@ -3050,7 +3048,7 @@
   }
   .suma-wedding-image02 {
     width: 100%;
-    height: 100%;
+    height: 311px;
     border-radius: var(--dl-radius-radius-round);
     border-top-left-radius: 40%;
     border-top-right-radius: 40%;
@@ -3059,7 +3057,7 @@
   }
   .suma-wedding-image03 {
     width: 100%;
-    height: 100%;
+    height: 311px;
     border-radius: var(--dl-radius-radius-round);
     border-top-left-radius: 40%;
     border-top-right-radius: 40%;
@@ -3073,11 +3071,13 @@
     width: 314px;
   }
   .suma-wedding-text018 {
+    font-size: 13px;
     margin-top: var(--dl-space-space-twounits);
   }
   .suma-wedding-features1 {
     height: auto;
     align-self: center;
+    justify-content: flex-start;
   }
   .suma-wedding-text019 {
     font-size: 24px;
@@ -3089,6 +3089,9 @@
   .suma-wedding-container08 {
     flex-wrap: wrap;
     flex-direction: row;
+  }
+  .suma-wedding-container09 {
+    width: auto;
   }
   .suma-wedding-feature-card {
     width: 100%;
@@ -3131,12 +3134,9 @@
     align-self: flex-start;
   }
   .suma-wedding-features2 {
-    width: 100%;
     height: auto;
     align-self: center;
-    align-items: center;
-    padding-left: var(--dl-space-space-halfunit);
-    padding-right: var(--dl-space-space-halfunit);
+    justify-content: flex-start;
   }
   .suma-wedding-text035 {
     font-size: 24px;
@@ -3288,11 +3288,12 @@
     width: var(--dl-size-size-medium);
   }
   .suma-wedding-banner {
-    height: auto;
+    height: 768px;
+    justify-content: center;
   }
   .suma-wedding-image07 {
     width: 100%;
-    height: 100%;
+    height: auto;
     margin-bottom: 29px;
   }
   .suma-wedding-container28 {
@@ -3314,8 +3315,13 @@
   .suma-wedding-separator14 {
     width: var(--dl-size-size-medium);
   }
+  .suma-wedding-ceo {
+    height: 768px;
+    justify-content: center;
+  }
   .suma-wedding-image09 {
-    left: 253px;
+    top: 173px;
+    left: 266px;
     margin: auto;
   }
   .suma-wedding-tag {

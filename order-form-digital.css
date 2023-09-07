@@ -1160,6 +1160,7 @@
   .form-pay-digital-service-image {
     width: 396px;
     height: 410px;
+    display: none;
     align-self: flex-end;
   }
   .form-pay-digital-service-form1 {
@@ -1622,7 +1623,7 @@
   border-bottom-left-radius: var(--dl-radius-radius-radius40);
 }
 .ad-whatsapp-grab:hover {
-  width: 199px;
+  width: 191px;
 }
 .ad-whatsapp-pasted-image {
   width: 40px;
@@ -1665,7 +1666,7 @@
   background-color: rgba(70, 70, 70, 0.61);
 }
 .ad-whatsapp-root-class-name {
-  margin-top: 400px;
+  margin-top: 450px;
 }
 .ad-whatsapp-root-class-name1 {
   margin-top: 400px;
@@ -1698,12 +1699,17 @@
   .ad-whatsapp-pasted-image {
     width: 35px;
     height: auto;
+    margin-left: 6px;
+    margin-right: 6px;
   }
   .ad-whatsapp-container1 {
     width: auto;
   }
   .ad-whatsapp-link {
     width: auto;
+  }
+  .ad-whatsapp-root-class-name {
+    margin-top: 340px;
   }
 }
 

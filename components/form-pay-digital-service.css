@@ -452,6 +452,7 @@
   .form-pay-digital-service-image {
     width: 396px;
     height: 410px;
+    display: none;
     align-self: flex-end;
   }
   .form-pay-digital-service-form1 {
