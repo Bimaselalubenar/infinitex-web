@@ -152,11 +152,9 @@
       let url = window.location.search;
       let urlParam = new URLSearchParams(url);
 
-      let namaTamu = urlParam.get('nama_tamu') || 'Anonim';
-      let cust = urlParam.get('cust') || 'Internet!';
+      let custTom = urlParam.get('cust_tom') || 'Anonim';
 
-      document.getElementById('nama-tamu').innerHTML = namaTamu;
-      document.getElementById('cust').innerHTML = cust;
+      document.getElementById('cust-tom').innerHTML = custTom;
     </script>
   </body>
 </html>
