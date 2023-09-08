@@ -103,7 +103,7 @@
 
       <div class="suma-wedding-container">
         <div id="1" class="suma-wedding-hero">
-          <span id="nama-tamu" data-aos="zoom-in-up" class="suma-wedding-text">
+          <span data-aos="zoom-in-up" class="suma-wedding-text">
             Suma wedding&nbsp;organizer
           </span>
           <h1 data-aos="zoom-in-up" class="suma-wedding-text001">
@@ -144,9 +144,10 @@
             </a>
           </div>
         </div>
-        <div id="2" data-aos="zoom-out-down" class="suma-wedding-hero1">
+        <div data-aos="zoom-out-down" class="suma-wedding-hero1">
           <div class="suma-wedding-container03">
             <img
+              id="2"
               alt="suma wedding madiun"
               src="https://2cdc80ace5.imgdist.com/public/users/Integrators/BeeProAgency/1011568_996439/editor_images/wedding.png"
               loading="lazy"
@@ -174,7 +175,7 @@
             Kenapa Harus Kami?
           </h1>
           <div data-aos="zoom-in-down" class="suma-wedding-separator01"></div>
-          <div data-aos="zoom-in-down" class="suma-wedding-container05">
+          <div id="3" data-aos="zoom-in-down" class="suma-wedding-container05">
             <img
               alt="suma wedding madiun"
               src="https://2cdc80ace5.imgdist.com/public/users/Integrators/BeeProAgency/1011568_996439/editor_images/C1.jpg"
@@ -215,8 +216,8 @@
             </a>
           </div>
         </div>
-        <div id="4" data-aos="zoom-in-up" class="suma-wedding-features1">
-          <h1 data-aos="zoom-in-down" class="suma-wedding-text019">
+        <div data-aos="zoom-in-up" class="suma-wedding-features1">
+          <h1 id="4" data-aos="zoom-in-down" class="suma-wedding-text019">
             Apa yang Kami Tawarkan?
           </h1>
           <div data-aos="zoom-in-down" class="suma-wedding-separator02"></div>
@@ -705,7 +706,7 @@
             </div>
           </div>
           <span class="suma-wedding-text241">Suma</span>
-          <span class="suma-wedding-text242">photography</span>
+          <span class="suma-wedding-text242">Photography</span>
           <img
             alt="suma wedding madiun"
             src="https://2cdc80ace5.imgdist.com/public/users/Integrators/BeeProAgency/1011568_996439/editor_images/photo-camera%20%281%29.gif"
@@ -925,9 +926,12 @@
 
       let url = window.location.search;
       let urlParam = new URLSearchParams(url);
+
       let namaTamu = urlParam.get('nama_tamu') || 'Anonim';
+      let cust = urlParam.get('cust') || 'Sobat Infinitex';
 
       document.getElementById('nama-tamu').innerHTML = namaTamu;
+      document.getElementById('cust').innerHTML = cust;
     </script>
   </body>
 </html>

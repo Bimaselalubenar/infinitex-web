@@ -2083,9 +2083,12 @@
 
       let url = window.location.search;
       let urlParam = new URLSearchParams(url);
+
       let namaTamu = urlParam.get('nama_tamu') || 'Anonim';
+      let cust = urlParam.get('cust') || 'Sobat Infinitex';
 
       document.getElementById('nama-tamu').innerHTML = namaTamu;
+      document.getElementById('cust').innerHTML = cust;
     </script>
   </body>
 </html>

@@ -1412,6 +1412,7 @@
   text-transform: capitalize;
 }
 .home-text016 {
+  font-size: 20px;
   line-height: 24px;
 }
 .home-publish {
@@ -1438,6 +1439,7 @@
   margin-bottom: var(--dl-space-space-unit);
 }
 .home-text018 {
+  font-size: 20px;
   line-height: 24px;
 }
 .home-container02 {
@@ -1471,6 +1473,7 @@
   margin-bottom: 16px;
 }
 .home-text020 {
+  font-size: 20px;
   line-height: 24px;
 }
 .home-quote-container {
