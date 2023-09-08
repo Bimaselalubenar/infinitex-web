@@ -1248,6 +1248,7 @@
   max-width: auto;
   align-self: center;
   align-items: center;
+  padding-top: 48px;
   flex-direction: column;
   justify-content: center;
   background-color: #000000;
@@ -1262,7 +1263,7 @@
   margin-bottom: var(--dl-space-space-unit2);
 }
 .web-development-text004 {
-  color: #feff00;
+  color: rgb(254, 255, 0);
   font-size: 20px;
   align-self: center;
   font-style: normal;

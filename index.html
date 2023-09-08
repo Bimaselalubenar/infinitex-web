@@ -2084,9 +2084,9 @@
       let url = window.location.search;
       let urlParam = new URLSearchParams(url);
 
-      let nama = urlParam.get('nama') || 'Anonim';
+      let namaUser = urlParam.get('nama_user') || 'INTERNET';
 
-      document.getElementById('nama').innerHTML = nama;
+      document.getElementById('nama_user').innerHTML = namaUser;
     </script>
   </body>
 </html>

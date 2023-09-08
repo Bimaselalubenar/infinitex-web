@@ -313,11 +313,17 @@
             </div>
           </div>
         </section>
-        <div id="promo_spesial" class="web-development-stats">
-          <span class="web-development-text003">Halo!&nbsp;</span>
-          <span id="nama" class="web-development-text004">
-            Sobat Infenesia!
+        <div class="web-development-stats">
+          <span data-aos="zoom-in-up" class="web-development-text003">
+            Halo!&nbsp;
           </span>
+          <label
+            id="nama_user"
+            data-aos="zoom-in-up"
+            class="web-development-text004"
+          >
+            Infenesia
+          </label>
           <div class="web-development-container002">
             <div data-aos="zoom-in-up" class="web-development-container003">
               <div class="web-development-container004">
@@ -2104,9 +2110,9 @@
       let url = window.location.search;
       let urlParam = new URLSearchParams(url);
 
-      let custTom = urlParam.get('cust_tom') || 'Anonim';
+      let namaUser = urlParam.get('nama_user') || 'INTERNET';
 
-      document.getElementById('cust-tom').innerHTML = custTom;
+      document.getElementById('nama_user').innerHTML = namaUser;
     </script>
   </body>
 </html>
