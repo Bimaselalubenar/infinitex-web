@@ -9,7 +9,7 @@
     <meta property="og:title" content="infinitex" />
     <meta
       property="og:description"
-      content="Layanan Jasa Website Madiun Terbaik Infinitex yang telah di dukung TIM Terbaik"
+      content="Jasa Pembuatan Website Murah Madiun – Harga Mulai Rp300.000-, kapasitas terbesar, akses cepat dan gratis konsultasi dan panduan SEO."
     />
     <meta
       property="og:image"
@@ -42,7 +42,7 @@
     </style>
     <link
       rel="shortcut icon"
-      href="public/icon-infinitex.svg"
+      href="public/infinitex1.png"
       type="icon/png"
       sizes="32x32"
     />
@@ -1877,9 +1877,7 @@
               <a href="eror.html" class="menu-text06">
                 <span>Template Premium (Segera Hadir)</span>
               </a>
-              <a href="order-form-digital.html" class="menu-text07">
-                <span>Order Form</span>
-              </a>
+              <span class="menu-text07"><span>Order Form</span></span>
               <a href="rekrutmen.html" class="menu-text08">
                 <span>Rekrutmen</span>
               </a>
@@ -2087,6 +2085,28 @@
       let namaUser = urlParam.get('nama_user') || 'INTERNET';
 
       document.getElementById('nama_user').innerHTML = namaUser;
+    </script>
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbwqZyRXwro1U_OvI_skhqAUHTPRGIsMWKnloS972AMdkuDrzr6CLT0tMm6ZGVGwlIdG/exec'
+      const form = document.forms['Form-pesanan-infinitex']
+
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => console.log('Success!', response))
+          .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbwBeuw-Pm2-8J8N-tUKEFsP903PxxXgH1nxaA0Cz6vEne2JmsDOACu3CHCcoWKUBcKV/exec'
+      const form = document.forms['Form-order-socmed']
+
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => console.log('Success!', response))
+          .catch(error => console.error('Error!', error.message))
+        })
     </script>
   </body>
 </html>

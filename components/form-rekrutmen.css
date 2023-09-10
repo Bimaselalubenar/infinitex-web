@@ -364,7 +364,6 @@
   background-color: transparent;
   background-image: radial-gradient(circle at center top, rgb(192, 36, 37) 0.00%,rgb(240, 203, 53) 100.00%);
 }
-
 @media(max-width: 1600px) {
   .form-rekrutmen-base-form {
     height: auto;

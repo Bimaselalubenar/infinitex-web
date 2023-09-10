@@ -706,657 +706,6 @@
   }
 }
 
-.form-rekrutmen-form {
-  flex: 0 0 auto;
-  width: 100%;
-  display: flex;
-  position: relative;
-  align-self: center;
-  align-items: center;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-.form-rekrutmen-text {
-  margin: var(--dl-space-space-unit6);
-  font-size: 2.25rem;
-  font-style: normal;
-  text-align: center;
-  font-family: Poppins;
-  font-weight: 700;
-  line-height: 1.625;
-}
-.form-rekrutmen-base-form {
-  width: 1521px;
-  height: auto;
-  display: flex;
-  max-width: auto;
-  align-self: center;
-  margin-top: 35px;
-  transition: 0.3s;
-  align-items: center;
-  padding-top: 31px;
-  border-color: #8c9098;
-  border-style: dotted;
-  border-width: 2px;
-  padding-left: 31px;
-  border-radius: var(--dl-radius-radius-radius40);
-  margin-bottom: 35px;
-  padding-right: 31px;
-  flex-direction: row;
-  padding-bottom: 31px;
-  justify-content: space-between;
-}
-.form-rekrutmen-base-form:hover {
-  box-shadow: 5px 5px 10px 0px #d4d4d4;
-}
-.form-rekrutmen-container {
-  width: 470px;
-  height: auto;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.form-rekrutmen-text03 {
-  margin: var(--dl-space-space-unit6);
-  font-size: 2.25rem;
-  font-style: normal;
-  font-family: Poppins;
-  font-weight: 700;
-  line-height: 1.3;
-  text-transform: none;
-  text-decoration: none;
-}
-.form-rekrutmen-text06 {
-  margin-top: 0px;
-  margin-left: var(--dl-space-space-unit6);
-  margin-right: var(--dl-space-space-unit6);
-  margin-bottom: var(--dl-space-space-unit6);
-}
-.form-rekrutmen-button {
-  color: #ffffff;
-  width: 209px;
-  font-size: 1rem;
-  font-style: normal;
-  margin-top: 0px;
-  transition: 2s;
-  font-family: Poppins;
-  font-weight: 600;
-  line-height: 1.5;
-  padding-top: var(--dl-space-space-unit6);
-  margin-right: var(--dl-space-space-unit6);
-  padding-left: 28px;
-  border-radius: var(--dl-radius-radius-radius40);
-  margin-bottom: var(--dl-space-space-unit6);
-  padding-right: var(--dl-space-space-unit6);
-  padding-bottom: var(--dl-space-space-unit6);
-  text-transform: none;
-  text-decoration: none;
-  background-image: linear-gradient(to right, #c02425 0%, #f0cb35 100%);
-}
-.form-rekrutmen-button:hover {
-  width: 100%;
-  cursor: pointer;
-  box-shadow: 5px 5px 10px 0px rgba(212, 212, 212, 0.61);
-  transition: 2s;
-  border-color: #ffffff;
-  border-width: 2px;
-  background-image: radial-gradient(circle at center top, rgb(192, 36, 37) 0.00%,rgb(240, 203, 53) 100.00%);
-}
-.form-rekrutmen-form1 {
-  width: 50%;
-  height: auto;
-  display: flex;
-  align-self: center;
-  align-items: flex-start;
-  margin-left: 50px;
-  margin-right: 50px;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-.form-rekrutmen-text07 {
-  color: #313135;
-  align-self: flex-start;
-  font-style: normal;
-  margin-left: var(--dl-space-space-halfunit);
-}
-.form-rekrutmen-textinput {
-  width: 100%;
-  padding: var(--dl-space-space-unit6);
-  font-style: normal;
-  margin-top: var(--dl-space-space-halfunit);
-  margin-left: 0px;
-  margin-right: 0px;
-  padding-left: 28px;
-  border-radius: var(--dl-radius-radius-radius40);
-  margin-bottom: var(--dl-space-space-halfunit);
-  background-color: #efe8e8;
-}
-.form-rekrutmen-text08 {
-  color: #313135;
-  align-self: flex-start;
-  font-style: normal;
-  margin-left: var(--dl-space-space-halfunit);
-}
-.form-rekrutmen-textinput1 {
-  width: 100%;
-  padding: var(--dl-space-space-unit6);
-  font-style: normal;
-  margin-top: var(--dl-space-space-halfunit);
-  margin-left: 0px;
-  margin-right: 0px;
-  padding-left: 28px;
-  border-radius: var(--dl-radius-radius-radius40);
-  margin-bottom: var(--dl-space-space-halfunit);
-  background-color: #efe8e8;
-}
-.form-rekrutmen-text09 {
-  color: #313135;
-  align-self: flex-start;
-  font-style: normal;
-  margin-left: var(--dl-space-space-halfunit);
-}
-.form-rekrutmen-textinput2 {
-  width: 100%;
-  font-style: normal;
-  margin-top: var(--dl-space-space-halfunit);
-  margin-left: 0px;
-  padding-top: var(--dl-space-space-unit6);
-  margin-right: 0px;
-  padding-left: 28px;
-  border-radius: var(--dl-radius-radius-radius40);
-  margin-bottom: var(--dl-space-space-halfunit);
-  padding-right: var(--dl-space-space-unit6);
-  padding-bottom: var(--dl-space-space-unit6);
-  background-color: #efe8e8;
-}
-.form-rekrutmen-text10 {
-  color: #313135;
-  align-self: flex-start;
-  font-style: normal;
-  margin-left: var(--dl-space-space-halfunit);
-}
-.form-rekrutmen-textarea {
-  width: 100%;
-  font-style: normal;
-  margin-top: var(--dl-space-space-halfunit);
-  margin-left: 0px;
-  padding-top: var(--dl-space-space-unit6);
-  margin-right: 0px;
-  padding-left: 28px;
-  border-radius: var(--dl-radius-radius-radius40);
-  margin-bottom: var(--dl-space-space-halfunit);
-  padding-right: var(--dl-space-space-unit6);
-  padding-bottom: var(--dl-space-space-unit6);
-  background-color: #efe8e8;
-}
-.form-rekrutmen-text11 {
-  color: #313135;
-  align-self: flex-start;
-  font-style: normal;
-  margin-left: var(--dl-space-space-halfunit);
-}
-.form-rekrutmen-textinput3 {
-  width: 100%;
-  font-style: normal;
-  margin-top: var(--dl-space-space-halfunit);
-  margin-left: 0px;
-  padding-top: var(--dl-space-space-unit6);
-  margin-right: 0px;
-  padding-left: 28px;
-  border-radius: var(--dl-radius-radius-radius40);
-  margin-bottom: var(--dl-space-space-halfunit);
-  padding-right: var(--dl-space-space-unit6);
-  padding-bottom: var(--dl-space-space-unit6);
-  background-color: #efe8e8;
-}
-.form-rekrutmen-textinput4 {
-  width: 100%;
-  font-style: normal;
-  margin-top: var(--dl-space-space-halfunit);
-  margin-left: 0px;
-  padding-top: var(--dl-space-space-unit6);
-  margin-right: 0px;
-  padding-left: 28px;
-  border-radius: var(--dl-radius-radius-radius40);
-  margin-bottom: var(--dl-space-space-halfunit);
-  padding-right: var(--dl-space-space-unit6);
-  padding-bottom: var(--dl-space-space-unit6);
-  background-color: #efe8e8;
-}
-.form-rekrutmen-textinput5 {
-  width: 100%;
-  font-style: normal;
-  margin-top: var(--dl-space-space-halfunit);
-  margin-left: 0px;
-  padding-top: var(--dl-space-space-unit6);
-  margin-right: 0px;
-  padding-left: 28px;
-  border-radius: var(--dl-radius-radius-radius40);
-  margin-bottom: var(--dl-space-space-halfunit);
-  padding-right: var(--dl-space-space-unit6);
-  padding-bottom: var(--dl-space-space-unit6);
-  background-color: #efe8e8;
-}
-.form-rekrutmen-text12 {
-  color: #313135;
-  align-self: flex-start;
-  font-style: normal;
-  margin-left: var(--dl-space-space-halfunit);
-}
-.form-rekrutmen-container1 {
-  width: 100%;
-  font-style: normal;
-  margin-top: var(--dl-space-space-halfunit);
-  margin-left: 0px;
-  padding-top: var(--dl-space-space-unit6);
-  margin-right: 0px;
-  padding-left: 28px;
-  border-radius: 20px;
-  margin-bottom: var(--dl-space-space-halfunit);
-  padding-right: var(--dl-space-space-unit6);
-  padding-bottom: var(--dl-space-space-unit6);
-  background-color: #efe8e8;
-}
-.form-rekrutmen-container2 {
-  flex: 0 0 auto;
-  width: 100%;
-  height: auto;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-}
-.form-rekrutmen-text13 {
-  color: rgb(49, 49, 53);
-  align-self: flex-start;
-  font-style: normal;
-  margin-left: 0px;
-  margin-right: 0px;
-}
-.form-rekrutmen-select {
-  width: 100%;
-  margin-top: var(--dl-space-space-halfunit);
-  padding-left: 4px;
-  border-radius: var(--dl-radius-radius-radius75);
-  padding-right: 4px;
-}
-.form-rekrutmen-container3 {
-  flex: 0 0 auto;
-  width: 100%;
-  height: auto;
-  display: flex;
-  margin-top: var(--dl-space-space-twounits);
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-}
-.form-rekrutmen-text14 {
-  color: rgb(49, 49, 53);
-  align-self: flex-start;
-  font-style: normal;
-  margin-left: 0px;
-  margin-right: 0px;
-}
-.form-rekrutmen-select1 {
-  width: 100%;
-  margin-top: var(--dl-space-space-halfunit);
-  padding-left: 4px;
-  border-radius: var(--dl-radius-radius-radius75);
-  padding-right: 4px;
-}
-.form-rekrutmen-container4 {
-  flex: 0 0 auto;
-  width: 100%;
-  height: auto;
-  display: flex;
-  margin-top: var(--dl-space-space-twounits);
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-}
-.form-rekrutmen-text15 {
-  color: rgb(49, 49, 53);
-  align-self: flex-start;
-  font-style: normal;
-  margin-left: 0px;
-  margin-right: 0px;
-}
-.form-rekrutmen-select2 {
-  width: 100%;
-  margin-top: var(--dl-space-space-halfunit);
-  padding-left: 4px;
-  border-radius: var(--dl-radius-radius-radius75);
-  padding-right: 4px;
-}
-.form-rekrutmen-container5 {
-  flex: 0 0 auto;
-  width: auto;
-  height: auto;
-  display: flex;
-  margin-top: var(--dl-space-space-unit6);
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.form-rekrutmen-text16 {
-  margin-left: var(--dl-space-space-halfunit);
-}
-.form-rekrutmen-button1 {
-  color: #ffffff;
-  width: 209px;
-  font-size: 1rem;
-  font-style: normal;
-  margin-top: var(--dl-space-space-halfunit);
-  transition: 2s;
-  font-family: Poppins;
-  font-weight: 600;
-  line-height: 1.5;
-  margin-left: 0px;
-  padding-top: var(--dl-space-space-unit6);
-  margin-right: 0px;
-  padding-left: 28px;
-  border-radius: var(--dl-radius-radius-radius40);
-  margin-bottom: var(--dl-space-space-halfunit);
-  padding-right: var(--dl-space-space-unit6);
-  padding-bottom: var(--dl-space-space-unit6);
-  text-transform: none;
-  text-decoration: none;
-  background-image: linear-gradient(to right, #c02425 0%, #f0cb35 100%);
-}
-.form-rekrutmen-button1:hover {
-  width: 100%;
-  cursor: pointer;
-  align-self: flex-start;
-  box-shadow: 5px 5px 10px 0px rgba(212, 212, 212, 0.61);
-  border-color: #ffffff;
-  border-width: 2px;
-  background-color: transparent;
-  background-image: radial-gradient(circle at center top, rgb(192, 36, 37) 0.00%,rgb(240, 203, 53) 100.00%);
-}
-
-@media(max-width: 1600px) {
-  .form-rekrutmen-base-form {
-    height: auto;
-  }
-  .form-rekrutmen-button {
-    margin-left: var(--dl-space-space-unit);
-  }
-}
-@media(max-width: 1200px) {
-  .form-rekrutmen-base-form {
-    width: 1133px;
-    margin-top: 0px;
-    padding-top: 31px;
-    padding-bottom: 31px;
-  }
-  .form-rekrutmen-button {
-    margin-left: var(--dl-space-space-unit);
-  }
-}
-@media(max-width: 991px) {
-  .form-rekrutmen-form {
-    margin-top: 0px;
-    align-items: center;
-    justify-content: flex-start;
-  }
-  .form-rekrutmen-text {
-    display: none;
-  }
-  .form-rekrutmen-base-form {
-    width: 928px;
-    height: auto;
-    margin-top: 35px;
-    padding-top: 30px;
-    flex-direction: column;
-    padding-bottom: 30px;
-  }
-  .form-rekrutmen-container {
-    width: 50%;
-  }
-  .form-rekrutmen-text06 {
-    color: var(--dl-color-secondary-700);
-    margin-left: 0px;
-  }
-  .form-rekrutmen-text07 {
-    text-transform: capitalize;
-  }
-  .form-rekrutmen-text08 {
-    text-transform: capitalize;
-  }
-  .form-rekrutmen-text09 {
-    text-transform: capitalize;
-  }
-  .form-rekrutmen-text10 {
-    text-transform: capitalize;
-  }
-  .form-rekrutmen-text11 {
-    text-transform: capitalize;
-  }
-  .form-rekrutmen-text12 {
-    text-transform: capitalize;
-  }
-  .form-rekrutmen-text13 {
-    text-transform: capitalize;
-  }
-  .form-rekrutmen-select {
-    height: 39px;
-    padding-left: 4px;
-    border-radius: var(--dl-radius-radius-radius75);
-    padding-right: 4px;
-  }
-  .form-rekrutmen-text14 {
-    text-transform: capitalize;
-  }
-  .form-rekrutmen-select1 {
-    height: 39px;
-    padding-left: 4px;
-    border-radius: var(--dl-radius-radius-radius75);
-    padding-right: 4px;
-  }
-  .form-rekrutmen-text15 {
-    text-transform: capitalize;
-  }
-  .form-rekrutmen-select2 {
-    height: 39px;
-    padding-left: 4px;
-    border-radius: var(--dl-radius-radius-radius75);
-    padding-right: 4px;
-  }
-}
-@media(max-width: 767px) {
-  .form-rekrutmen-form {
-    width: 100%;
-    height: auto;
-    margin: 0px;
-    margin-top: 0px;
-    align-items: center;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    justify-content: flex-start;
-  }
-  .form-rekrutmen-text {
-    display: none;
-  }
-  .form-rekrutmen-base-form {
-    width: 698px;
-    margin-top: 0px;
-    padding-top: 40px;
-    margin-bottom: 0px;
-    flex-direction: column;
-    padding-bottom: 0px;
-  }
-  .form-rekrutmen-container {
-    align-self: flex-start;
-  }
-  .form-rekrutmen-button {
-    margin-left: 0px;
-  }
-  .form-rekrutmen-form1 {
-    width: 100%;
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-}
-@media(max-width: 414px) {
-  .form-rekrutmen-form {
-    width: 100%;
-    height: auto;
-    position: relative;
-    align-self: center;
-    margin-top: 0px;
-    align-items: center;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .form-rekrutmen-text {
-    display: none;
-    font-size: 2.25rem;
-    font-style: normal;
-    font-family: Poppins;
-    font-weight: 700;
-    line-height: 1.3;
-    text-transform: none;
-    text-decoration: none;
-  }
-  .form-rekrutmen-base-form {
-    width: 100%;
-    height: auto;
-    padding: var(--dl-space-space-halfunit);
-    max-width: auto;
-    align-self: center;
-    margin-top: 0px;
-    align-items: center;
-    margin-left: 0px;
-    padding-top: 13px;
-    border-color: #b0b6bc;
-    border-style: dashed;
-    border-width: 1px2;
-    margin-right: 0px;
-    padding-left: var(--dl-space-space-halfunit);
-    border-radius: 30px;
-    margin-bottom: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-halfunit);
-    padding-bottom: var(--dl-space-space-halfunit);
-    justify-content: center;
-  }
-  .form-rekrutmen-container {
-    width: 100%;
-    height: auto;
-  }
-  .form-rekrutmen-button {
-    padding: var(--dl-space-space-halfunit);
-    align-self: flex-start;
-    margin-left: 0px;
-    margin-right: var(--dl-space-space-halfunit);
-  }
-  .form-rekrutmen-form1 {
-    width: 100%;
-    height: auto;
-    margin-top: 40px;
-  }
-  .form-rekrutmen-textinput {
-    align-self: center;
-    margin-left: var(--dl-space-space-halfunit);
-    padding-top: var(--dl-space-space-halfunit);
-    margin-right: var(--dl-space-space-halfunit);
-    padding-left: var(--dl-space-space-halfunit);
-    padding-right: var(--dl-space-space-halfunit);
-    padding-bottom: var(--dl-space-space-halfunit);
-  }
-  .form-rekrutmen-textinput1 {
-    align-self: center;
-    margin-left: var(--dl-space-space-halfunit);
-    padding-top: var(--dl-space-space-halfunit);
-    margin-right: var(--dl-space-space-halfunit);
-    padding-left: var(--dl-space-space-halfunit);
-    padding-right: var(--dl-space-space-halfunit);
-    padding-bottom: var(--dl-space-space-halfunit);
-  }
-  .form-rekrutmen-textinput2 {
-    padding: var(--dl-space-space-halfunit);
-    align-self: center;
-    margin-left: var(--dl-space-space-halfunit);
-    margin-right: var(--dl-space-space-halfunit);
-  }
-  .form-rekrutmen-textarea {
-    padding: var(--dl-space-space-halfunit);
-    align-self: center;
-    margin-left: var(--dl-space-space-halfunit);
-    margin-right: var(--dl-space-space-halfunit);
-  }
-  .form-rekrutmen-textinput3 {
-    padding: var(--dl-space-space-halfunit);
-    align-self: center;
-    margin-left: var(--dl-space-space-halfunit);
-    margin-right: var(--dl-space-space-halfunit);
-  }
-  .form-rekrutmen-textinput4 {
-    padding: var(--dl-space-space-halfunit);
-    align-self: center;
-    margin-left: var(--dl-space-space-halfunit);
-    margin-right: var(--dl-space-space-halfunit);
-  }
-  .form-rekrutmen-textinput5 {
-    padding: var(--dl-space-space-halfunit);
-    align-self: center;
-    margin-left: var(--dl-space-space-halfunit);
-    margin-right: var(--dl-space-space-halfunit);
-  }
-  .form-rekrutmen-container1 {
-    align-self: center;
-    margin-top: var(--dl-space-space-halfunit);
-    margin-left: var(--dl-space-space-halfunit);
-    padding-top: var(--dl-space-space-unit);
-    margin-right: var(--dl-space-space-halfunit);
-    padding-left: var(--dl-space-space-halfunit);
-    margin-bottom: var(--dl-space-space-halfunit);
-    padding-right: var(--dl-space-space-halfunit);
-    padding-bottom: var(--dl-space-space-unit);
-  }
-  .form-rekrutmen-container2 {
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .form-rekrutmen-text13 {
-    align-self: flex-start;
-  }
-  .form-rekrutmen-select {
-    width: 100%;
-  }
-  .form-rekrutmen-container3 {
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .form-rekrutmen-text14 {
-    align-self: flex-start;
-  }
-  .form-rekrutmen-select1 {
-    width: 100%;
-  }
-  .form-rekrutmen-container4 {
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .form-rekrutmen-text15 {
-    align-self: flex-start;
-  }
-  .form-rekrutmen-select2 {
-    width: 100%;
-  }
-  .form-rekrutmen-button1 {
-    padding: var(--dl-space-space-halfunit);
-    align-self: center;
-    margin-left: var(--dl-space-space-halfunit);
-    margin-right: var(--dl-space-space-halfunit);
-  }
-}
-
 .footer-footer {
   width: 100%;
   display: flex;
@@ -1830,7 +1179,7 @@
   padding-left: var(--dl-space-space-sevenunits);
   padding-right: var(--dl-space-space-sevenunits);
   flex-direction: column;
-  background-image: linear-gradient(90deg, rgba(252, 0, 255, 0.7) 0.00%,rgba(0, 219, 222, 0.7) 99.00%),url('https://2cdc80ace5.imgdist.com/public/users/Integrators/BeeProAgency/1011568_996439/editor_images/13031912_1606.m00.i125.n007.S.c12.150566579%20Earth%20globe%20world%20map%20of%20dots%20vector%20illustration.png');
+  background-color: #000000;
 }
 .rekrutmen-banner-manage {
   width: 100%;
@@ -1923,6 +1272,19 @@
   text-decoration: none;
 }
 .rekrutmen-text06 {
+  color: var(--dl-color-secondary-700);
+  font-size: 1.25rem;
+  align-self: flex-start;
+  font-style: normal;
+  margin-top: var(--dl-space-space-halfunit);
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 1.625;
+  margin-bottom: var(--dl-space-space-halfunit);
+  text-transform: none;
+  text-decoration: none;
+}
+.rekrutmen-text09 {
   color: rgb(255, 255, 255);
   height: 100%;
   margin: 0px;
@@ -1988,7 +1350,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.rekrutmen-text07 {
+.rekrutmen-text10 {
   color: var(--dl-color-secondary-700);
   font-size: 0.875rem;
   align-self: flex-start;
@@ -2041,7 +1403,7 @@
   align-items: flex-start;
   flex-direction: row;
 }
-.rekrutmen-text08 {
+.rekrutmen-text11 {
   color: var(--dl-color-secondary-700);
   margin-bottom: 0px;
 }
@@ -2062,7 +1424,7 @@
   align-items: flex-start;
   flex-direction: row;
 }
-.rekrutmen-text11 {
+.rekrutmen-text14 {
   color: var(--dl-color-secondary-700);
   font-family: Poppins;
   margin-bottom: 0px;
@@ -2123,7 +1485,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.rekrutmen-text14 {
+.rekrutmen-text17 {
   color: var(--dl-color-secondary-700);
   font-size: 0.875rem;
   align-self: flex-start;
@@ -2176,7 +1538,7 @@
   align-items: flex-start;
   flex-direction: row;
 }
-.rekrutmen-text15 {
+.rekrutmen-text18 {
   color: var(--dl-color-secondary-700);
   margin-bottom: 0px;
 }
@@ -2197,7 +1559,7 @@
   align-items: flex-start;
   flex-direction: row;
 }
-.rekrutmen-text18 {
+.rekrutmen-text21 {
   color: var(--dl-color-secondary-700);
   font-family: Poppins;
   margin-bottom: 0px;
@@ -2240,6 +1602,369 @@
   transform: scale(110%);
   background-color: var(--dl-color-secondary-400);
 }
+.rekrutmen-form {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.rekrutmen-text24 {
+  margin: var(--dl-space-space-unit6);
+  font-size: 2.25rem;
+  font-style: normal;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: 1.625;
+}
+.rekrutmen-base-form {
+  width: 1521px;
+  height: auto;
+  display: flex;
+  max-width: auto;
+  align-self: center;
+  margin-top: 35px;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: 31px;
+  border-color: #8c9098;
+  border-style: dotted;
+  border-width: 2px;
+  padding-left: 31px;
+  border-radius: var(--dl-radius-radius-radius40);
+  margin-bottom: 35px;
+  padding-right: 31px;
+  flex-direction: row;
+  padding-bottom: 31px;
+  justify-content: space-between;
+}
+.rekrutmen-base-form:hover {
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+}
+.rekrutmen-container15 {
+  width: 470px;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.rekrutmen-text27 {
+  margin: var(--dl-space-space-unit6);
+  font-size: 2.25rem;
+  font-style: normal;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: 1.3;
+  text-transform: none;
+  text-decoration: none;
+}
+.rekrutmen-text30 {
+  margin-top: 0px;
+  margin-left: var(--dl-space-space-unit6);
+  margin-right: var(--dl-space-space-unit6);
+  margin-bottom: var(--dl-space-space-unit6);
+}
+.rekrutmen-button {
+  color: #ffffff;
+  width: 209px;
+  font-size: 1rem;
+  font-style: normal;
+  margin-top: 0px;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 1.5;
+  padding-top: var(--dl-space-space-unit6);
+  margin-right: var(--dl-space-space-unit6);
+  padding-left: 28px;
+  border-radius: var(--dl-radius-radius-radius40);
+  margin-bottom: var(--dl-space-space-unit6);
+  padding-right: var(--dl-space-space-unit6);
+  padding-bottom: var(--dl-space-space-unit6);
+  text-transform: none;
+  text-decoration: none;
+  background-image: linear-gradient(to right, #c02425 0%, #f0cb35 100%);
+}
+.rekrutmen-form1 {
+  width: 50%;
+  height: auto;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  margin-left: 50px;
+  margin-right: 50px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.rekrutmen-text31 {
+  color: #313135;
+  align-self: flex-start;
+  font-style: normal;
+  margin-left: var(--dl-space-space-halfunit);
+}
+.rekrutmen-textinput {
+  width: 100%;
+  padding: var(--dl-space-space-unit6);
+  font-style: normal;
+  margin-top: var(--dl-space-space-halfunit);
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 28px;
+  border-radius: var(--dl-radius-radius-radius40);
+  margin-bottom: var(--dl-space-space-halfunit);
+  background-color: #efe8e8;
+}
+.rekrutmen-text32 {
+  color: #313135;
+  align-self: flex-start;
+  font-style: normal;
+  margin-left: var(--dl-space-space-halfunit);
+}
+.rekrutmen-textinput1 {
+  width: 100%;
+  padding: var(--dl-space-space-unit6);
+  font-style: normal;
+  margin-top: var(--dl-space-space-halfunit);
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 28px;
+  border-radius: var(--dl-radius-radius-radius40);
+  margin-bottom: var(--dl-space-space-halfunit);
+  background-color: #efe8e8;
+}
+.rekrutmen-text33 {
+  color: #313135;
+  align-self: flex-start;
+  font-style: normal;
+  margin-left: var(--dl-space-space-halfunit);
+}
+.rekrutmen-textinput2 {
+  width: 100%;
+  font-style: normal;
+  margin-top: var(--dl-space-space-halfunit);
+  margin-left: 0px;
+  padding-top: var(--dl-space-space-unit6);
+  margin-right: 0px;
+  padding-left: 28px;
+  border-radius: var(--dl-radius-radius-radius40);
+  margin-bottom: var(--dl-space-space-halfunit);
+  padding-right: var(--dl-space-space-unit6);
+  padding-bottom: var(--dl-space-space-unit6);
+  background-color: #efe8e8;
+}
+.rekrutmen-text34 {
+  color: #313135;
+  align-self: flex-start;
+  font-style: normal;
+  margin-left: var(--dl-space-space-halfunit);
+}
+.rekrutmen-textarea {
+  width: 100%;
+  font-style: normal;
+  margin-top: var(--dl-space-space-halfunit);
+  margin-left: 0px;
+  padding-top: var(--dl-space-space-unit6);
+  margin-right: 0px;
+  padding-left: 28px;
+  border-radius: var(--dl-radius-radius-radius40);
+  margin-bottom: var(--dl-space-space-halfunit);
+  padding-right: var(--dl-space-space-unit6);
+  padding-bottom: var(--dl-space-space-unit6);
+  background-color: #efe8e8;
+}
+.rekrutmen-text35 {
+  color: #313135;
+  align-self: flex-start;
+  font-style: normal;
+  margin-left: var(--dl-space-space-halfunit);
+}
+.rekrutmen-textinput3 {
+  width: 100%;
+  font-style: normal;
+  margin-top: var(--dl-space-space-halfunit);
+  margin-left: 0px;
+  padding-top: var(--dl-space-space-unit6);
+  margin-right: 0px;
+  padding-left: 28px;
+  border-radius: var(--dl-radius-radius-radius40);
+  margin-bottom: var(--dl-space-space-halfunit);
+  padding-right: var(--dl-space-space-unit6);
+  padding-bottom: var(--dl-space-space-unit6);
+  background-color: #efe8e8;
+}
+.rekrutmen-textinput4 {
+  width: 100%;
+  font-style: normal;
+  margin-top: var(--dl-space-space-halfunit);
+  margin-left: 0px;
+  padding-top: var(--dl-space-space-unit6);
+  margin-right: 0px;
+  padding-left: 28px;
+  border-radius: var(--dl-radius-radius-radius40);
+  margin-bottom: var(--dl-space-space-halfunit);
+  padding-right: var(--dl-space-space-unit6);
+  padding-bottom: var(--dl-space-space-unit6);
+  background-color: #efe8e8;
+}
+.rekrutmen-textinput5 {
+  width: 100%;
+  font-style: normal;
+  margin-top: var(--dl-space-space-halfunit);
+  margin-left: 0px;
+  padding-top: var(--dl-space-space-unit6);
+  margin-right: 0px;
+  padding-left: 28px;
+  border-radius: var(--dl-radius-radius-radius40);
+  margin-bottom: var(--dl-space-space-halfunit);
+  padding-right: var(--dl-space-space-unit6);
+  padding-bottom: var(--dl-space-space-unit6);
+  background-color: #efe8e8;
+}
+.rekrutmen-text36 {
+  color: #313135;
+  align-self: flex-start;
+  font-style: normal;
+  margin-left: var(--dl-space-space-halfunit);
+}
+.rekrutmen-container16 {
+  width: 100%;
+  font-style: normal;
+  margin-top: var(--dl-space-space-halfunit);
+  margin-left: 0px;
+  padding-top: var(--dl-space-space-unit6);
+  margin-right: 0px;
+  padding-left: 28px;
+  border-radius: 20px;
+  margin-bottom: var(--dl-space-space-halfunit);
+  padding-right: var(--dl-space-space-unit6);
+  padding-bottom: var(--dl-space-space-unit6);
+  background-color: #efe8e8;
+}
+.rekrutmen-container17 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.rekrutmen-text37 {
+  color: rgb(49, 49, 53);
+  align-self: flex-start;
+  font-style: normal;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.rekrutmen-select {
+  width: 100%;
+  margin-top: var(--dl-space-space-halfunit);
+  padding-left: 4px;
+  border-radius: var(--dl-radius-radius-radius75);
+  padding-right: 4px;
+}
+.rekrutmen-container18 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.rekrutmen-text38 {
+  color: rgb(49, 49, 53);
+  align-self: flex-start;
+  font-style: normal;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.rekrutmen-select1 {
+  width: 100%;
+  margin-top: var(--dl-space-space-halfunit);
+  padding-left: 4px;
+  border-radius: var(--dl-radius-radius-radius75);
+  padding-right: 4px;
+}
+.rekrutmen-container19 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.rekrutmen-text39 {
+  color: rgb(49, 49, 53);
+  align-self: flex-start;
+  font-style: normal;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.rekrutmen-select2 {
+  width: 100%;
+  margin-top: var(--dl-space-space-halfunit);
+  padding-left: 4px;
+  border-radius: var(--dl-radius-radius-radius75);
+  padding-right: 4px;
+}
+.rekrutmen-container20 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  margin-top: var(--dl-space-space-unit6);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rekrutmen-text40 {
+  margin-left: var(--dl-space-space-halfunit);
+}
+.rekrutmen-button1 {
+  color: #ffffff;
+  width: 100%;
+  font-size: 1rem;
+  align-self: flex-start;
+  font-style: normal;
+  margin-top: var(--dl-space-space-halfunit);
+  transition: 2s;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-left: 0px;
+  padding-top: var(--dl-space-space-unit6);
+  margin-right: 0px;
+  padding-left: 28px;
+  border-radius: var(--dl-radius-radius-radius40);
+  margin-bottom: var(--dl-space-space-halfunit);
+  padding-right: var(--dl-space-space-unit6);
+  padding-bottom: var(--dl-space-space-unit6);
+  text-transform: none;
+  text-decoration: none;
+  background-image: linear-gradient(to right, #c02425 0%, #f0cb35 100%);
+}
+.rekrutmen-button1:hover {
+  width: 100%;
+  cursor: pointer;
+  align-self: flex-start;
+  box-shadow: 5px 5px 10px 0px rgba(212, 212, 212, 0.61);
+  background-color: transparent;
+  background-image: radial-gradient(circle at center top, rgb(192, 36, 37) 0.00%,rgb(240, 203, 53) 100.00%);
+}
+@media(max-width: 1600px) {
+  .rekrutmen-base-form {
+    height: auto;
+  }
+  .rekrutmen-button {
+    margin-left: var(--dl-space-space-unit);
+  }
+}
 @media(max-width: 1200px) {
   .rekrutmen-banner-manage {
     padding-bottom: 100px;
@@ -2270,6 +1995,15 @@
   .rekrutmen-container14 {
     width: 100%;
     justify-content: space-between;
+  }
+  .rekrutmen-base-form {
+    width: 1133px;
+    margin-top: 0px;
+    padding-top: 31px;
+    padding-bottom: 31px;
+  }
+  .rekrutmen-button {
+    margin-left: var(--dl-space-space-unit);
   }
 }
 @media(max-width: 991px) {
@@ -2309,6 +2043,74 @@
     padding: var(--dl-space-space-unit);
     align-self: center;
     align-items: center;
+  }
+  .rekrutmen-form {
+    margin-top: 0px;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .rekrutmen-text24 {
+    display: none;
+  }
+  .rekrutmen-base-form {
+    width: 928px;
+    height: auto;
+    margin-top: 35px;
+    padding-top: 30px;
+    flex-direction: column;
+    padding-bottom: 30px;
+  }
+  .rekrutmen-container15 {
+    width: 50%;
+  }
+  .rekrutmen-text30 {
+    color: var(--dl-color-secondary-700);
+    margin-left: 0px;
+  }
+  .rekrutmen-text31 {
+    text-transform: capitalize;
+  }
+  .rekrutmen-text32 {
+    text-transform: capitalize;
+  }
+  .rekrutmen-text33 {
+    text-transform: capitalize;
+  }
+  .rekrutmen-text34 {
+    text-transform: capitalize;
+  }
+  .rekrutmen-text35 {
+    text-transform: capitalize;
+  }
+  .rekrutmen-text36 {
+    text-transform: capitalize;
+  }
+  .rekrutmen-text37 {
+    text-transform: capitalize;
+  }
+  .rekrutmen-select {
+    height: 39px;
+    padding-left: 4px;
+    border-radius: var(--dl-radius-radius-radius75);
+    padding-right: 4px;
+  }
+  .rekrutmen-text38 {
+    text-transform: capitalize;
+  }
+  .rekrutmen-select1 {
+    height: 39px;
+    padding-left: 4px;
+    border-radius: var(--dl-radius-radius-radius75);
+    padding-right: 4px;
+  }
+  .rekrutmen-text39 {
+    text-transform: capitalize;
+  }
+  .rekrutmen-select2 {
+    height: 39px;
+    padding-left: 4px;
+    border-radius: var(--dl-radius-radius-radius75);
+    padding-right: 4px;
   }
 }
 @media(max-width: 767px) {
@@ -2377,6 +2179,39 @@
     padding-right: var(--dl-space-space-unit);
     justify-content: flex-start;
   }
+  .rekrutmen-form {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    margin-top: 0px;
+    align-items: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    justify-content: flex-start;
+  }
+  .rekrutmen-text24 {
+    display: none;
+  }
+  .rekrutmen-base-form {
+    width: 698px;
+    margin-top: 0px;
+    padding-top: 40px;
+    margin-bottom: 0px;
+    flex-direction: column;
+    padding-bottom: 0px;
+  }
+  .rekrutmen-container15 {
+    align-self: flex-start;
+  }
+  .rekrutmen-button {
+    margin-left: 0px;
+  }
+  .rekrutmen-form1 {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
 }
 @media(max-width: 414px) {
   .rekrutmen-tentang {
@@ -2424,5 +2259,162 @@
     color: var(--dl-color-secondary-700);
     border-color: var(--dl-color-secondary-700);
     border-width: 2px;
+  }
+  .rekrutmen-form {
+    width: 100%;
+    height: auto;
+    position: relative;
+    align-self: center;
+    margin-top: 0px;
+    align-items: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .rekrutmen-text24 {
+    display: none;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: 1.3;
+    text-transform: none;
+    text-decoration: none;
+  }
+  .rekrutmen-base-form {
+    width: 100%;
+    height: auto;
+    padding: var(--dl-space-space-halfunit);
+    max-width: auto;
+    align-self: center;
+    margin-top: 0px;
+    align-items: center;
+    margin-left: 0px;
+    padding-top: 13px;
+    border-color: #b0b6bc;
+    border-style: dashed;
+    border-width: 1px2;
+    margin-right: 0px;
+    padding-left: var(--dl-space-space-halfunit);
+    border-radius: 30px;
+    margin-bottom: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
+    justify-content: center;
+  }
+  .rekrutmen-container15 {
+    width: 100%;
+    height: auto;
+  }
+  .rekrutmen-button {
+    padding: var(--dl-space-space-halfunit);
+    align-self: flex-start;
+    margin-left: 0px;
+    margin-right: var(--dl-space-space-halfunit);
+  }
+  .rekrutmen-form1 {
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+  }
+  .rekrutmen-textinput {
+    align-self: center;
+    margin-left: var(--dl-space-space-halfunit);
+    padding-top: var(--dl-space-space-halfunit);
+    margin-right: var(--dl-space-space-halfunit);
+    padding-left: var(--dl-space-space-halfunit);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
+  }
+  .rekrutmen-textinput1 {
+    align-self: center;
+    margin-left: var(--dl-space-space-halfunit);
+    padding-top: var(--dl-space-space-halfunit);
+    margin-right: var(--dl-space-space-halfunit);
+    padding-left: var(--dl-space-space-halfunit);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
+  }
+  .rekrutmen-textinput2 {
+    padding: var(--dl-space-space-halfunit);
+    align-self: center;
+    margin-left: var(--dl-space-space-halfunit);
+    margin-right: var(--dl-space-space-halfunit);
+  }
+  .rekrutmen-textarea {
+    padding: var(--dl-space-space-halfunit);
+    align-self: center;
+    margin-left: var(--dl-space-space-halfunit);
+    margin-right: var(--dl-space-space-halfunit);
+  }
+  .rekrutmen-textinput3 {
+    padding: var(--dl-space-space-halfunit);
+    align-self: center;
+    margin-left: var(--dl-space-space-halfunit);
+    margin-right: var(--dl-space-space-halfunit);
+  }
+  .rekrutmen-textinput4 {
+    padding: var(--dl-space-space-halfunit);
+    align-self: center;
+    margin-left: var(--dl-space-space-halfunit);
+    margin-right: var(--dl-space-space-halfunit);
+  }
+  .rekrutmen-textinput5 {
+    padding: var(--dl-space-space-halfunit);
+    align-self: center;
+    margin-left: var(--dl-space-space-halfunit);
+    margin-right: var(--dl-space-space-halfunit);
+  }
+  .rekrutmen-container16 {
+    align-self: center;
+    margin-top: var(--dl-space-space-halfunit);
+    margin-left: var(--dl-space-space-halfunit);
+    padding-top: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-halfunit);
+    padding-left: var(--dl-space-space-halfunit);
+    margin-bottom: var(--dl-space-space-halfunit);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-unit);
+  }
+  .rekrutmen-container17 {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .rekrutmen-text37 {
+    align-self: flex-start;
+  }
+  .rekrutmen-select {
+    width: 100%;
+  }
+  .rekrutmen-container18 {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .rekrutmen-text38 {
+    align-self: flex-start;
+  }
+  .rekrutmen-select1 {
+    width: 100%;
+  }
+  .rekrutmen-container19 {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .rekrutmen-text39 {
+    align-self: flex-start;
+  }
+  .rekrutmen-select2 {
+    width: 100%;
+  }
+  .rekrutmen-button1 {
+    padding: var(--dl-space-space-halfunit);
+    align-self: center;
+    margin-left: var(--dl-space-space-halfunit);
+    margin-right: var(--dl-space-space-halfunit);
   }
 }
