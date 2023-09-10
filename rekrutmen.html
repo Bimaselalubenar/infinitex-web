@@ -130,6 +130,56 @@
                 <span>Rekrutmen</span>
               </a>
             </div>
+            <div class="menu-menu2">
+              <a href="index.html" class="menu-text09"><span>Home</span></a>
+              <a href="about.html" class="menu-text10"><span>About</span></a>
+              <a href="web-development.html" class="menu-text11">
+                <span>Web Service</span>
+              </a>
+              <a href="web-development.html" class="menu-text12">
+                <span>Web Development Service</span>
+              </a>
+              <a href="digital-service.html" class="menu-text13">
+                <span>Digital Service</span>
+              </a>
+              <a href="suma-wedding.html" class="menu-text14">
+                <span>Wedding Organizer</span>
+              </a>
+              <a href="eror.html" class="menu-text15">
+                <span>Digital Invitation (Segera Hadir)</span>
+              </a>
+              <span class="menu-text16"><span>Order Form</span></span>
+              <a href="rekrutmen.html" class="menu-text17">
+                <span>Rekrutmen</span>
+              </a>
+              <a href="rekrutmen.html" class="menu-text18"><span>Team</span></a>
+              <div class="menu-container">
+                <img
+                  src="https://2cdc80ace5.imgdist.com/public/users/Integrators/BeeProAgency/1011568_996439/Hosting/1689250266401.jpg"
+                  alt="Bima"
+                  loading="lazy"
+                  class="menu-image"
+                />
+                <img
+                  src="https://2cdc80ace5.imgdist.com/public/users/Integrators/BeeProAgency/1011568_996439/editor_images/363864696_1266645100709302_3878041660708368078_n.jpg"
+                  alt="Reny"
+                  loading="lazy"
+                  class="menu-image1"
+                />
+                <img
+                  src="https://2cdc80ace5.imgdist.com/public/users/Integrators/BeeProAgency/1011568_996439/editor_images/358358761_1473811430112386_8504524068254179052_n.jpg"
+                  alt="Hamzah"
+                  loading="lazy"
+                  class="menu-image2"
+                />
+                <img
+                  src="https://2cdc80ace5.imgdist.com/public/users/Integrators/BeeProAgency/1011568_996439/editor_images/Bagas.jpg"
+                  alt="Suma"
+                  loading="lazy"
+                  class="menu-image3"
+                />
+              </div>
+            </div>
             <div id="close-mobile-menu" class="menu-close-mobile-menu">
               <svg viewBox="0 0 804.5714285714286 1024" class="menu-icon">
                 <path
@@ -162,7 +212,7 @@
                     data-thq="thq-dropdown-toggle"
                     class="menu-dropdown-toggle"
                   >
-                    <span class="menu-text09"><span>Service</span></span>
+                    <span class="menu-text19"><span>Service</span></span>
                     <div
                       data-thq="thq-dropdown-arrow"
                       class="menu-dropdown-arrow"
@@ -179,7 +229,7 @@
                           data-thq="thq-dropdown-toggle"
                           class="menu-dropdown-toggle1"
                         >
-                          <span class="menu-text10">
+                          <span class="menu-text20">
                             <span>Web Development</span>
                           </span>
                         </div>
@@ -188,7 +238,7 @@
                         data-thq="thq-dropdown-toggle"
                         class="menu-dropdown-toggle2"
                       >
-                        <span class="menu-text11">
+                        <span class="menu-text21">
                           <span>Web Invitation</span>
                         </span>
                       </div>
@@ -197,7 +247,7 @@
                           data-thq="thq-dropdown-toggle"
                           class="menu-dropdown-toggle3"
                         >
-                          <span class="menu-text12">
+                          <span class="menu-text22">
                             <span>Wedding Organizer</span>
                           </span>
                         </div>
@@ -213,7 +263,7 @@
                     data-thq="thq-dropdown-toggle"
                     class="menu-dropdown-toggle4"
                   >
-                    <span class="menu-text13">
+                    <span class="menu-text23">
                       <span>DigitaL Service</span>
                     </span>
                     <div
@@ -235,7 +285,7 @@
                           data-thq="thq-dropdown-toggle"
                           class="menu-dropdown-toggle5"
                         >
-                          <span class="menu-text14">
+                          <span class="menu-text24">
                             <span>Social Media Service</span>
                           </span>
                         </div>
@@ -702,28 +752,6 @@
       let namaUser = urlParam.get('nama_user') || 'INTERNET';
 
       document.getElementById('nama_user').innerHTML = namaUser;
-    </script>
-    <script>
-      const scriptURL = 'https://script.google.com/macros/s/AKfycbwqZyRXwro1U_OvI_skhqAUHTPRGIsMWKnloS972AMdkuDrzr6CLT0tMm6ZGVGwlIdG/exec'
-      const form = document.forms['Form-pesanan-infinitex']
-
-      form.addEventListener('submit', e => {
-        e.preventDefault()
-        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-          .then(response => console.log('Success!', response))
-          .catch(error => console.error('Error!', error.message))
-        })
-    </script>
-    <script>
-      const scriptURL = 'https://script.google.com/macros/s/AKfycbwBeuw-Pm2-8J8N-tUKEFsP903PxxXgH1nxaA0Cz6vEne2JmsDOACu3CHCcoWKUBcKV/exec'
-      const form = document.forms['Form-order-socmed']
-
-      form.addEventListener('submit', e => {
-        e.preventDefault()
-        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-          .then(response => console.log('Success!', response))
-          .catch(error => console.error('Error!', error.message))
-        })
     </script>
   </body>
 </html>

@@ -104,22 +104,49 @@
       <div class="set-menu-container">
         <div class="set-menu-menu">
           <a href="index.html" class="set-menu-text">Home</a>
-          <a href="about.html" class="set-menu-text1">About</a>
-          <span class="set-menu-text2">Web Service</span>
-          <a href="web-development.html" class="set-menu-text3">
+          <a href="about.html" class="set-menu-text01">About</a>
+          <a href="web-development.html" class="set-menu-text02">Web Service</a>
+          <a href="web-development.html" class="set-menu-text03">
             Web Development Service
           </a>
-          <a href="digital-service.html" class="set-menu-text4">
+          <a href="digital-service.html" class="set-menu-text04">
             Digital Service
           </a>
-          <a href="suma-wedding.html" class="set-menu-text5">
+          <a href="suma-wedding.html" class="set-menu-text05">
             Wedding Organizer
           </a>
-          <a href="**" class="set-menu-text6">
-            Template Premium (Segera Hadir)
+          <a href="**" class="set-menu-text06">
+            Digital Invitation (Segera Hadir)
           </a>
-          <span class="set-menu-text7">Order Form</span>
-          <a href="rekrutmen.html" class="set-menu-text8">Rekrutmen</a>
+          <span class="set-menu-text07">Order Form</span>
+          <a href="rekrutmen.html" class="set-menu-text08">Rekrutmen</a>
+          <a href="rekrutmen.html" class="set-menu-text09">Team</a>
+          <div class="set-menu-container1">
+            <img
+              src="https://2cdc80ace5.imgdist.com/public/users/Integrators/BeeProAgency/1011568_996439/Hosting/1689250266401.jpg"
+              alt="Bima"
+              loading="lazy"
+              class="set-menu-image"
+            />
+            <img
+              src="https://2cdc80ace5.imgdist.com/public/users/Integrators/BeeProAgency/1011568_996439/editor_images/363864696_1266645100709302_3878041660708368078_n.jpg"
+              alt="Reny"
+              loading="lazy"
+              class="set-menu-image1"
+            />
+            <img
+              src="https://2cdc80ace5.imgdist.com/public/users/Integrators/BeeProAgency/1011568_996439/editor_images/358358761_1473811430112386_8504524068254179052_n.jpg"
+              alt="Hamzah"
+              loading="lazy"
+              class="set-menu-image2"
+            />
+            <img
+              src="https://2cdc80ace5.imgdist.com/public/users/Integrators/BeeProAgency/1011568_996439/editor_images/Bagas.jpg"
+              alt="Suma"
+              loading="lazy"
+              class="set-menu-image3"
+            />
+          </div>
         </div>
       </div>
     </div>
@@ -153,28 +180,6 @@
       let namaUser = urlParam.get('nama_user') || 'INTERNET';
 
       document.getElementById('nama_user').innerHTML = namaUser;
-    </script>
-    <script>
-      const scriptURL = 'https://script.google.com/macros/s/AKfycbwqZyRXwro1U_OvI_skhqAUHTPRGIsMWKnloS972AMdkuDrzr6CLT0tMm6ZGVGwlIdG/exec'
-      const form = document.forms['Form-pesanan-infinitex']
-
-      form.addEventListener('submit', e => {
-        e.preventDefault()
-        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-          .then(response => console.log('Success!', response))
-          .catch(error => console.error('Error!', error.message))
-        })
-    </script>
-    <script>
-      const scriptURL = 'https://script.google.com/macros/s/AKfycbwBeuw-Pm2-8J8N-tUKEFsP903PxxXgH1nxaA0Cz6vEne2JmsDOACu3CHCcoWKUBcKV/exec'
-      const form = document.forms['Form-order-socmed']
-
-      form.addEventListener('submit', e => {
-        e.preventDefault()
-        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-          .then(response => console.log('Success!', response))
-          .catch(error => console.error('Error!', error.message))
-        })
     </script>
   </body>
 </html>

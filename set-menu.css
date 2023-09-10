@@ -26,97 +26,174 @@
   font-style: normal;
   font-weight: 500;
 }
-.set-menu-text1 {
+.set-menu-text01 {
   font-size: 15px;
   transition: 0.3s;
   text-decoration: none;
 }
-.set-menu-text1:hover {
+.set-menu-text01:hover {
   color: var(--dl-color-secondary-700);
   transform: translate(5px,0px);
   font-style: normal;
   font-weight: 500;
 }
-.set-menu-text2 {
+.set-menu-text02 {
   font-size: 15px;
   transition: 0.3s;
   text-decoration: none;
 }
-.set-menu-text2:hover {
+.set-menu-text02:hover {
   color: var(--dl-color-secondary-700);
   transform: translate(5px,0px);
   font-style: normal;
   font-weight: 500;
 }
-.set-menu-text3 {
-  font-size: 15px;
-  transition: 0.3s;
-  margin-left: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.set-menu-text3:hover {
-  color: var(--dl-color-secondary-700);
-  transform: translate(5px,0px);
-  font-style: normal;
-  font-weight: 500;
-}
-.set-menu-text4 {
+.set-menu-text03 {
   font-size: 15px;
   transition: 0.3s;
   margin-left: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.set-menu-text4:hover {
+.set-menu-text03:hover {
   color: var(--dl-color-secondary-700);
   transform: translate(5px,0px);
   font-style: normal;
   font-weight: 500;
 }
-.set-menu-text5 {
+.set-menu-text04 {
   font-size: 15px;
   transition: 0.3s;
   margin-left: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.set-menu-text5:hover {
+.set-menu-text04:hover {
   color: var(--dl-color-secondary-700);
   transform: translate(5px,0px);
   font-style: normal;
   font-weight: 500;
 }
-.set-menu-text6 {
+.set-menu-text05 {
   font-size: 15px;
   transition: 0.3s;
   margin-left: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.set-menu-text6:hover {
+.set-menu-text05:hover {
   color: var(--dl-color-secondary-700);
   transform: translate(5px,0px);
   font-style: normal;
   font-weight: 500;
 }
-.set-menu-text7 {
+.set-menu-text06 {
+  font-size: 15px;
+  transition: 0.3s;
+  margin-left: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.set-menu-text06:hover {
+  color: var(--dl-color-secondary-700);
+  transform: translate(5px,0px);
+  font-style: normal;
+  font-weight: 500;
+}
+.set-menu-text07 {
   font-size: 15px;
   transition: 0.3s;
   text-decoration: none;
 }
-.set-menu-text7:hover {
+.set-menu-text07:hover {
   color: var(--dl-color-secondary-700);
   transform: translate(5px,0px);
   font-style: normal;
   font-weight: 500;
 }
-.set-menu-text8 {
+.set-menu-text08 {
   font-size: 15px;
   transition: 0.3s;
   text-decoration: none;
 }
-.set-menu-text8:hover {
+.set-menu-text08:hover {
   color: var(--dl-color-secondary-700);
   transform: translate(5px,0px);
   font-style: normal;
   font-weight: 500;
+}
+.set-menu-text09 {
+  font-size: 15px;
+  margin-top: var(--dl-space-space-fiveunits);
+  transition: 0.3s;
+  text-decoration: none;
+}
+.set-menu-text09:hover {
+  color: var(--dl-color-secondary-700);
+  transform: translate(5px,0px);
+  font-style: normal;
+  font-weight: 500;
+}
+.set-menu-container1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.set-menu-image {
+  width: 49px;
+  height: 49px;
+  object-fit: cover;
+  transition: 0.3s;
+  border-color: #ffffff;
+  border-width: 2px;
+  margin-right: var(--dl-space-space-halfunit);
+  border-radius: var(--dl-radius-radius-radius40);
+}
+.set-menu-image:hover {
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  border-color: #ffffff;
+  border-width: 2px;
+}
+.set-menu-image1 {
+  width: 49px;
+  height: 49px;
+  object-fit: cover;
+  transition: 0.3s;
+  border-color: #ffffff;
+  border-width: 2px;
+  margin-right: var(--dl-space-space-halfunit);
+  border-radius: var(--dl-radius-radius-radius40);
+}
+.set-menu-image1:hover {
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  border-color: #ffffff;
+  border-width: 2px;
+}
+.set-menu-image2 {
+  width: 49px;
+  height: 49px;
+  object-fit: cover;
+  transition: 0.3s;
+  border-color: #ffffff;
+  border-width: 2px;
+  margin-right: var(--dl-space-space-halfunit);
+  border-radius: var(--dl-radius-radius-radius40);
+}
+.set-menu-image2:hover {
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  border-color: #ffffff;
+  border-width: 2px;
+}
+.set-menu-image3 {
+  width: 49px;
+  height: 49px;
+  object-fit: cover;
+  transition: 0.3s;
+  border-color: #ffffff;
+  border-width: 2px;
+  margin-right: var(--dl-space-space-halfunit);
+  border-radius: var(--dl-radius-radius-radius40);
+}
+.set-menu-image3:hover {
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  border-color: #ffffff;
+  border-width: 2px;
 }
 @media(max-width: 991px) {
   .set-menu-menu {
@@ -127,39 +204,43 @@
     font-size: 16px;
     text-decoration: none;
   }
-  .set-menu-text1 {
+  .set-menu-text01 {
     font-size: 16px;
     text-decoration: none;
   }
-  .set-menu-text2 {
+  .set-menu-text02 {
     font-size: 16px;
     text-decoration: none;
   }
-  .set-menu-text3 {
-    font-size: 16px;
-    margin-left: var(--dl-space-space-unit);
-    text-decoration: none;
-  }
-  .set-menu-text4 {
+  .set-menu-text03 {
     font-size: 16px;
     margin-left: var(--dl-space-space-unit);
     text-decoration: none;
   }
-  .set-menu-text5 {
+  .set-menu-text04 {
     font-size: 16px;
     margin-left: var(--dl-space-space-unit);
     text-decoration: none;
   }
-  .set-menu-text6 {
+  .set-menu-text05 {
     font-size: 16px;
     margin-left: var(--dl-space-space-unit);
     text-decoration: none;
   }
-  .set-menu-text7 {
+  .set-menu-text06 {
+    font-size: 16px;
+    margin-left: var(--dl-space-space-unit);
+    text-decoration: none;
+  }
+  .set-menu-text07 {
     font-size: 16px;
     text-decoration: none;
   }
-  .set-menu-text8 {
+  .set-menu-text08 {
+    font-size: 16px;
+    text-decoration: none;
+  }
+  .set-menu-text09 {
     font-size: 16px;
     text-decoration: none;
   }
@@ -168,64 +249,109 @@
   .set-menu-text {
     font-size: 16px;
   }
-  .set-menu-text1 {
+  .set-menu-text01 {
     font-size: 16px;
   }
-  .set-menu-text2 {
+  .set-menu-text02 {
     font-size: 16px;
   }
-  .set-menu-text3 {
+  .set-menu-text03 {
     font-size: 16px;
   }
-  .set-menu-text4 {
+  .set-menu-text04 {
     font-size: 16px;
   }
-  .set-menu-text5 {
+  .set-menu-text05 {
     font-size: 16px;
   }
-  .set-menu-text6 {
+  .set-menu-text06 {
     font-size: 16px;
   }
-  .set-menu-text7 {
+  .set-menu-text07 {
     font-size: 16px;
   }
-  .set-menu-text8 {
+  .set-menu-text08 {
+    font-size: 16px;
+  }
+  .set-menu-text09 {
     font-size: 16px;
   }
 }
 @media(max-width: 414px) {
   .set-menu-menu {
     width: 100%;
-    height: 529px;
+    height: 700px;
     align-items: flex-start;
     justify-content: flex-start;
   }
   .set-menu-text {
     font-size: 16px;
   }
-  .set-menu-text1 {
+  .set-menu-text01 {
     font-size: 16px;
   }
-  .set-menu-text2 {
+  .set-menu-text02 {
     font-size: 16px;
   }
-  .set-menu-text3 {
+  .set-menu-text03 {
     font-size: 16px;
   }
-  .set-menu-text4 {
+  .set-menu-text04 {
     font-size: 16px;
   }
-  .set-menu-text5 {
+  .set-menu-text05 {
     font-size: 16px;
     text-decoration: none;
   }
-  .set-menu-text6 {
+  .set-menu-text06 {
     font-size: 16px;
   }
-  .set-menu-text7 {
+  .set-menu-text07 {
+    font-size: 16px;
+    text-decoration: none;
+  }
+  .set-menu-text08 {
     font-size: 16px;
   }
-  .set-menu-text8 {
+  .set-menu-text09 {
     font-size: 16px;
+    margin-top: var(--dl-space-space-fiveunits);
+    text-decoration: none;
+  }
+  .set-menu-container1 {
+    margin-top: var(--dl-space-space-halfunit);
+    flex-direction: row;
+  }
+  .set-menu-image {
+    width: 49px;
+    height: 49px;
+    margin: var(--dl-space-space-halfunit);
+    border-color: #ffffff;
+    border-width: 2px;
+    border-radius: var(--dl-radius-radius-radius40);
+  }
+  .set-menu-image1 {
+    width: 49px;
+    height: 49px;
+    margin: var(--dl-space-space-halfunit);
+    border-color: #ffffff;
+    border-width: 2px;
+    border-radius: var(--dl-radius-radius-radius40);
+  }
+  .set-menu-image2 {
+    width: 49px;
+    height: 49px;
+    margin: var(--dl-space-space-halfunit);
+    border-color: #ffffff;
+    border-width: 2px;
+    border-radius: var(--dl-radius-radius-radius40);
+  }
+  .set-menu-image3 {
+    width: 49px;
+    height: 49px;
+    margin: var(--dl-space-space-halfunit);
+    border-color: #ffffff;
+    border-width: 2px;
+    border-radius: var(--dl-radius-radius-radius40);
   }
 }
