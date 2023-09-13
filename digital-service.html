@@ -130,6 +130,7 @@
                 <span>Rekrutmen</span>
               </a>
             </div>
+<<<<<<< HEAD
             <div class="menu-menu2">
               <a href="index.html" class="menu-text09"><span>Home</span></a>
               <a href="about.html" class="menu-text10"><span>About</span></a>
@@ -180,6 +181,8 @@
                 />
               </div>
             </div>
+=======
+>>>>>>> parent of 6aadc24 (add menu mobile)
             <div id="close-mobile-menu" class="menu-close-mobile-menu">
               <svg viewBox="0 0 804.5714285714286 1024" class="menu-icon">
                 <path
@@ -214,7 +217,7 @@
                     data-thq="thq-dropdown-toggle"
                     class="menu-dropdown-toggle"
                   >
-                    <span class="menu-text19"><span>Service</span></span>
+                    <span class="menu-text09"><span>Service</span></span>
                     <div
                       data-thq="thq-dropdown-arrow"
                       class="menu-dropdown-arrow"
@@ -231,8 +234,13 @@
                           data-thq="thq-dropdown-toggle"
                           class="menu-dropdown-toggle1"
                         >
+<<<<<<< HEAD
                           <span class="menu-text20">
                             <span>Web Service</span>
+=======
+                          <span class="menu-text10">
+                            <span>Web Development</span>
+>>>>>>> parent of 6aadc24 (add menu mobile)
                           </span>
                         </div>
                       </a>
@@ -240,14 +248,20 @@
                         data-thq="thq-dropdown-toggle"
                         class="menu-dropdown-toggle2"
                       >
+<<<<<<< HEAD
                         <span class="menu-text21"><span>Order Form</span></span>
+=======
+                        <span class="menu-text11">
+                          <span>Web Invitation</span>
+                        </span>
+>>>>>>> parent of 6aadc24 (add menu mobile)
                       </div>
                       <a href="suma-wedding.html">
                         <div
                           data-thq="thq-dropdown-toggle"
                           class="menu-dropdown-toggle3"
                         >
-                          <span class="menu-text22">
+                          <span class="menu-text12">
                             <span>Wedding Organizer</span>
                           </span>
                         </div>
@@ -263,7 +277,7 @@
                     data-thq="thq-dropdown-toggle"
                     class="menu-dropdown-toggle4"
                   >
-                    <span class="menu-text23">
+                    <span class="menu-text13">
                       <span>DigitaL Service</span>
                     </span>
                     <div
@@ -285,8 +299,13 @@
                           data-thq="thq-dropdown-toggle"
                           class="menu-dropdown-toggle5"
                         >
+<<<<<<< HEAD
                           <span class="menu-text24">
                             <span>Rekrutmen</span>
+=======
+                          <span class="menu-text14">
+                            <span>Social Media Service</span>
+>>>>>>> parent of 6aadc24 (add menu mobile)
                           </span>
                         </div>
                       </a>
@@ -2053,7 +2072,7 @@
             </div>
           </section>
         </section>
-        <section id="order" class="digital-service-tentang">
+        <div id="order" class="digital-service-tentang">
           <div class="digital-service-banner-manage1">
             <div class="digital-service-container94">
               <div class="digital-service-left1">
@@ -2077,8 +2096,8 @@
                   name="Form-order-socmed"
                   action="pemesanan-sukses"
                   method="POST"
-                  autocomplete="on"
                   data-netlify="true"
+                  autocomplete="on"
                   class="digital-service-form"
                 >
                   <div class="digital-service-container96">
@@ -2116,28 +2135,12 @@
                     class="digital-service-textinput2"
                   />
                   <input
-                    type="text"
-                    id="kodeProduk"
-                    name="kodeproduk"
-                    required=""
-                    placeholder="Kode Produk"
-                    class="digital-service-textinput3"
-                  />
-                  <input
                     type="number"
                     id="jumlah"
                     name="jumlahPesanan"
                     required=""
                     placeholder="Masukan jumlah followers/ Like"
-                    class="digital-service-textinput4"
-                  />
-                  <input
-                    type="number"
-                    id="kodepromo"
-                    name="kodepromo"
-                    required=""
-                    placeholder="Masukan jumlah followers/ Like"
-                    class="digital-service-textinput5"
+                    class="digital-service-textinput3"
                   />
                   <div class="digital-service-container97">
                     <input
@@ -2177,7 +2180,7 @@
               </div>
             </div>
           </div>
-        </section>
+        </div>
         <footer class="footer-footer footer-root-class-name2">
           <div class="footer-top">
             <div class="footer-right">
@@ -2328,6 +2331,28 @@
       let namaUser = urlParam.get('nama_user') || 'INTERNET';
 
       document.getElementById('nama_user').innerHTML = namaUser;
+    </script>
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbwqZyRXwro1U_OvI_skhqAUHTPRGIsMWKnloS972AMdkuDrzr6CLT0tMm6ZGVGwlIdG/exec'
+      const form = document.forms['Form-pesanan-infinitex']
+
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => console.log('Success!', response))
+          .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbwBeuw-Pm2-8J8N-tUKEFsP903PxxXgH1nxaA0Cz6vEne2JmsDOACu3CHCcoWKUBcKV/exec'
+      const form = document.forms['Form-order-socmed']
+
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => console.log('Success!', response))
+          .catch(error => console.error('Error!', error.message))
+        })
     </script>
   </body>
 </html>
