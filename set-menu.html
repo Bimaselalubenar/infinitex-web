@@ -104,18 +104,17 @@
       <div class="set-menu-container">
         <div class="set-menu-menu">
           <a href="index.html" class="set-menu-text">Home</a>
-          <a href="about.html" class="set-menu-text1">About</a>
-          <span class="set-menu-text2">Web Service</span>
-          <a href="web-development.html" class="set-menu-text3">
+          <a href="about.html" class="set-menu-text01">About</a>
+          <a href="web-development.html" class="set-menu-text02">Web Service</a>
+          <a href="web-development.html" class="set-menu-text03">
             Web Development Service
           </a>
-          <a href="digital-service.html" class="set-menu-text4">
+          <a href="digital-service.html" class="set-menu-text04">
             Digital Service
           </a>
-          <a href="suma-wedding.html" class="set-menu-text5">
+          <a href="suma-wedding.html" class="set-menu-text05">
             Wedding Organizer
           </a>
-<<<<<<< HEAD
           <a href="404" class="set-menu-text06">
             Digital Invitation (Segera Hadir)
           </a>
@@ -148,13 +147,6 @@
               class="set-menu-image3"
             />
           </div>
-=======
-          <a href="**" class="set-menu-text6">
-            Template Premium (Segera Hadir)
-          </a>
-          <span class="set-menu-text7">Order Form</span>
-          <a href="rekrutmen.html" class="set-menu-text8">Rekrutmen</a>
->>>>>>> parent of 6aadc24 (add menu mobile)
         </div>
       </div>
     </div>
@@ -188,28 +180,6 @@
       let namaUser = urlParam.get('nama_user') || 'INTERNET';
 
       document.getElementById('nama_user').innerHTML = namaUser;
-    </script>
-    <script>
-      const scriptURL = 'https://script.google.com/macros/s/AKfycbwqZyRXwro1U_OvI_skhqAUHTPRGIsMWKnloS972AMdkuDrzr6CLT0tMm6ZGVGwlIdG/exec'
-      const form = document.forms['Form-pesanan-infinitex']
-
-      form.addEventListener('submit', e => {
-        e.preventDefault()
-        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-          .then(response => console.log('Success!', response))
-          .catch(error => console.error('Error!', error.message))
-        })
-    </script>
-    <script>
-      const scriptURL = 'https://script.google.com/macros/s/AKfycbwBeuw-Pm2-8J8N-tUKEFsP903PxxXgH1nxaA0Cz6vEne2JmsDOACu3CHCcoWKUBcKV/exec'
-      const form = document.forms['Form-order-socmed']
-
-      form.addEventListener('submit', e => {
-        e.preventDefault()
-        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-          .then(response => console.log('Success!', response))
-          .catch(error => console.error('Error!', error.message))
-        })
     </script>
   </body>
 </html>

@@ -130,7 +130,6 @@
                 <span>Rekrutmen</span>
               </a>
             </div>
-<<<<<<< HEAD
             <div class="menu-menu2">
               <a href="index.html" class="menu-text09"><span>Home</span></a>
               <a href="about.html" class="menu-text10"><span>About</span></a>
@@ -181,8 +180,6 @@
                 />
               </div>
             </div>
-=======
->>>>>>> parent of 6aadc24 (add menu mobile)
             <div id="close-mobile-menu" class="menu-close-mobile-menu">
               <svg viewBox="0 0 804.5714285714286 1024" class="menu-icon">
                 <path
@@ -203,11 +200,9 @@
                 </a>
               </div>
               <div class="menu-links">
-                <a href="index.html" class="menu-navlink1">
-                  <span>Web Development Service</span>
-                </a>
+                <a href="index.html" class="menu-navlink1"><span>Home</span></a>
                 <a href="about.html" class="menu-navlink2">
-                  <span>Digital Service</span>
+                  <span>About</span>
                 </a>
                 <div
                   data-thq="thq-dropdown"
@@ -217,7 +212,7 @@
                     data-thq="thq-dropdown-toggle"
                     class="menu-dropdown-toggle"
                   >
-                    <span class="menu-text09"><span>Service</span></span>
+                    <span class="menu-text19"><span>Service</span></span>
                     <div
                       data-thq="thq-dropdown-arrow"
                       class="menu-dropdown-arrow"
@@ -234,13 +229,8 @@
                           data-thq="thq-dropdown-toggle"
                           class="menu-dropdown-toggle1"
                         >
-<<<<<<< HEAD
                           <span class="menu-text20">
-                            <span>Web Service</span>
-=======
-                          <span class="menu-text10">
                             <span>Web Development</span>
->>>>>>> parent of 6aadc24 (add menu mobile)
                           </span>
                         </div>
                       </a>
@@ -248,20 +238,16 @@
                         data-thq="thq-dropdown-toggle"
                         class="menu-dropdown-toggle2"
                       >
-<<<<<<< HEAD
-                        <span class="menu-text21"><span>Order Form</span></span>
-=======
-                        <span class="menu-text11">
+                        <span class="menu-text21">
                           <span>Web Invitation</span>
                         </span>
->>>>>>> parent of 6aadc24 (add menu mobile)
                       </div>
                       <a href="suma-wedding.html">
                         <div
                           data-thq="thq-dropdown-toggle"
                           class="menu-dropdown-toggle3"
                         >
-                          <span class="menu-text12">
+                          <span class="menu-text22">
                             <span>Wedding Organizer</span>
                           </span>
                         </div>
@@ -277,7 +263,7 @@
                     data-thq="thq-dropdown-toggle"
                     class="menu-dropdown-toggle4"
                   >
-                    <span class="menu-text13">
+                    <span class="menu-text23">
                       <span>DigitaL Service</span>
                     </span>
                     <div
@@ -299,13 +285,8 @@
                           data-thq="thq-dropdown-toggle"
                           class="menu-dropdown-toggle5"
                         >
-<<<<<<< HEAD
                           <span class="menu-text24">
-                            <span>Rekrutmen</span>
-=======
-                          <span class="menu-text14">
                             <span>Social Media Service</span>
->>>>>>> parent of 6aadc24 (add menu mobile)
                           </span>
                         </div>
                       </a>
@@ -2276,6 +2257,7 @@
                   name="Form-pesanan-infinitex"
                   action="pemesanan-sukses"
                   method="POST"
+                  autocomplete="on"
                   data-netlify="true"
                   class="web-development-form"
                 >
@@ -2528,28 +2510,6 @@
       let namaUser = urlParam.get('nama_user') || 'INTERNET';
 
       document.getElementById('nama_user').innerHTML = namaUser;
-    </script>
-    <script>
-      const scriptURL = 'https://script.google.com/macros/s/AKfycbwqZyRXwro1U_OvI_skhqAUHTPRGIsMWKnloS972AMdkuDrzr6CLT0tMm6ZGVGwlIdG/exec'
-      const form = document.forms['Form-pesanan-infinitex']
-
-      form.addEventListener('submit', e => {
-        e.preventDefault()
-        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-          .then(response => console.log('Success!', response))
-          .catch(error => console.error('Error!', error.message))
-        })
-    </script>
-    <script>
-      const scriptURL = 'https://script.google.com/macros/s/AKfycbwBeuw-Pm2-8J8N-tUKEFsP903PxxXgH1nxaA0Cz6vEne2JmsDOACu3CHCcoWKUBcKV/exec'
-      const form = document.forms['Form-order-socmed']
-
-      form.addEventListener('submit', e => {
-        e.preventDefault()
-        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-          .then(response => console.log('Success!', response))
-          .catch(error => console.error('Error!', error.message))
-        })
     </script>
   </body>
 </html>
