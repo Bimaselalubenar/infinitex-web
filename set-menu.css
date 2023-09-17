@@ -121,7 +121,14 @@
 .set-menu-text09 {
   font-size: 15px;
   margin-top: var(--dl-space-space-fiveunits);
+  transition: 0.3s;
   text-decoration: none;
+}
+.set-menu-text09:hover {
+  color: var(--dl-color-secondary-700);
+  transform: translate(5px,0px);
+  font-style: normal;
+  font-weight: 500;
 }
 .set-menu-container1 {
   display: flex;
