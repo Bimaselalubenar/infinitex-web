@@ -1,0 +1,23 @@
+.app-component-container {
+  gap: var(--dl-space-space-halfunit);
+  width: 100%;
+  bottom: 0px;
+  height: 61px;
+  display: flex;
+  z-index: 1000;
+  position: fixed;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #ffffff;
+}
+.app-component-text {
+  font-style: normal;
+  font-weight: 600;
+}
+.app-component-text1 {
+  font-style: normal;
+  font-weight: 600;
+}
+
