@@ -134,7 +134,6 @@
 .navbar-navbar {
   width: 100%;
   display: flex;
-  z-index: 1000;
   position: relative;
   max-width: auto;
   align-items: center;
@@ -171,6 +170,7 @@
 }
 .navbar-register {
   color: #ffffff;
+  text-decoration: none;
   background-color: #59cb00;
 }
 .navbar-icon {

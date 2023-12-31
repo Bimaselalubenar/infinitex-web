@@ -1,0 +1,41 @@
+.sambutan-container {
+  gap: var(--dl-space-space-halfunit);
+  top: 0px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  z-index: 100;
+  flex-wrap: wrap;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #ffffff;
+}
+.sambutan-text {
+  font-style: normal;
+  margin-top: var(--dl-space-space-unit);
+  font-weight: 600;
+  margin-left: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.sambutan-text1 {
+  font-style: normal;
+  margin-top: var(--dl-space-space-unit);
+  font-weight: 600;
+  margin-right: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-unit);
+}
+
+.sambutan-root-class-name1 {
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+@media(max-width: 479px) {
+  .sambutan-root-class-name1 {
+    margin-top: 0px;
+    margin-bottom: var(--dl-space-space-fiveunits);
+  }
+}
