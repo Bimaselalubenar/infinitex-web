@@ -85,10 +85,16 @@
   margin-right: 0px;
   margin-bottom: 0px;
 }
+@media(max-width: 767px) {
+  .sambutan-container {
+    gap: 1;
+    flex-wrap: wrap;
+  }
+}
 @media(max-width: 479px) {
   .sambutan-root-class-name1 {
     margin-top: 0px;
-    margin-bottom: var(--dl-space-space-fiveunits);
+    margin-bottom: 0px;
   }
 }
 

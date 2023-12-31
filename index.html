@@ -74,11 +74,24 @@
       href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
     />
 
+    <!-- Google tag (gtag.js) -->
+
     <script src="https://unpkg.com/scrollreveal"></script>
     <script>
       ScrollReveal({ reset: true });
     </script>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      async=""
+      src="https://www.googletagmanager.com/gtag/js?id=G-BCB2XXS6XB"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-BCB2XXS6XB');
+    </script>
   </head>
   <body>
     <link rel="stylesheet" href="./style.css" />
@@ -171,30 +184,33 @@
                         <span class="link-menus-text">
                           <span>Service</span>
                         </span>
-                        <span class="link-menus-text01">
+                        <span class="link-menus-text1">
                           <span>Jasa Website</span>
                         </span>
-                        <span class="link-menus-text02">
+                        <a
+                          href="software-store.html"
+                          class="link-menus-navlink"
+                        >
                           <span>Software Store</span>
-                        </span>
+                        </a>
                       </div>
                       <div class="link-menus-company-container">
-                        <span class="link-menus-text03">
+                        <span class="link-menus-text2">
                           <span>Own Teams</span>
                         </span>
-                        <span class="link-menus-text04"><span>Bima</span></span>
-                        <span class="link-menus-text05"><span>Reny</span></span>
-                        <span class="link-menus-text06">
+                        <span class="link-menus-text3"><span>Bima</span></span>
+                        <span class="link-menus-text4"><span>Reny</span></span>
+                        <span class="link-menus-text5">
                           <span>Firman</span>
                         </span>
                       </div>
                     </div>
                     <div class="link-menus-container1">
                       <div class="link-menus-contact">
-                        <span class="link-menus-text07">
+                        <span class="link-menus-text6">
                           <span>Contact</span>
                         </span>
-                        <span class="link-menus-text08">
+                        <span class="link-menus-text7">
                           <span>Infinitex.my.id@gmail.com</span>
                         </span>
                         <div class="link-menus-container2">
@@ -674,24 +690,24 @@
               <div class="link-menus-container">
                 <div class="link-menus-product-container">
                   <span class="link-menus-text"><span>Service</span></span>
-                  <span class="link-menus-text01">
+                  <span class="link-menus-text1">
                     <span>Jasa Website</span>
                   </span>
-                  <span class="link-menus-text02">
+                  <a href="software-store.html" class="link-menus-navlink">
                     <span>Software Store</span>
-                  </span>
+                  </a>
                 </div>
                 <div class="link-menus-company-container">
-                  <span class="link-menus-text03"><span>Own Teams</span></span>
-                  <span class="link-menus-text04"><span>Bima</span></span>
-                  <span class="link-menus-text05"><span>Reny</span></span>
-                  <span class="link-menus-text06"><span>Firman</span></span>
+                  <span class="link-menus-text2"><span>Own Teams</span></span>
+                  <span class="link-menus-text3"><span>Bima</span></span>
+                  <span class="link-menus-text4"><span>Reny</span></span>
+                  <span class="link-menus-text5"><span>Firman</span></span>
                 </div>
               </div>
               <div class="link-menus-container1">
                 <div class="link-menus-contact">
-                  <span class="link-menus-text07"><span>Contact</span></span>
-                  <span class="link-menus-text08">
+                  <span class="link-menus-text6"><span>Contact</span></span>
+                  <span class="link-menus-text7">
                     <span>Infinitex.my.id@gmail.com</span>
                   </span>
                   <div class="link-menus-container2">
@@ -758,6 +774,10 @@
       let namaUser = urlParam.get('nama_user') || 'Sobat Digital';
 
       document.getElementById('nama_user').innerHTML = namaUser;
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
     </script>
   </body>
 </html>

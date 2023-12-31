@@ -33,10 +33,16 @@
   margin-right: 0px;
   margin-bottom: 0px;
 }
+@media(max-width: 767px) {
+  .sambutan-container {
+    gap: 1;
+    flex-wrap: wrap;
+  }
+}
 @media(max-width: 479px) {
   .sambutan-root-class-name1 {
     margin-top: 0px;
-    margin-bottom: var(--dl-space-space-fiveunits);
+    margin-bottom: 0px;
   }
 }
 
@@ -66,11 +72,12 @@
   font-weight: 700;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.link-menus-text01 {
+.link-menus-text1 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.link-menus-text02 {
+.link-menus-navlink {
   margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
 }
 .link-menus-company-container {
   flex: 0 0 auto;
@@ -79,17 +86,17 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.link-menus-text03 {
+.link-menus-text2 {
   font-weight: 700;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.link-menus-text04 {
+.link-menus-text3 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.link-menus-text05 {
+.link-menus-text4 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.link-menus-text06 {
+.link-menus-text5 {
   margin-bottom: var(--dl-space-space-unit);
 }
 .link-menus-container1 {
@@ -105,11 +112,11 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.link-menus-text07 {
+.link-menus-text6 {
   font-weight: 700;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.link-menus-text08 {
+.link-menus-text7 {
   margin-bottom: var(--dl-space-space-unit);
 }
 .link-menus-container2 {
@@ -508,7 +515,7 @@
   transform: scale(105%);
   box-shadow: 0px 3px 0px 0px #6cc400,0px 3px 10px 0px #edff1b;
   border-radius: var(--dl-radius-radius-radius8);
-  background-color: #07ff00;
+  background-color: #077902;
 }
 .jasa-text3 {
   color: #ffffff;
@@ -538,7 +545,7 @@
   transform: scale(105%);
   box-shadow: 0px 3px 0px 0px #6cc400,0px 3px 10px 0px #edff1b;
   border-radius: var(--dl-radius-radius-radius8);
-  background-color: #07ff00;
+  background-color: #077902;
 }
 .jasa-text4 {
   color: rgb(255, 255, 255);

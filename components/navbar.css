@@ -24,11 +24,12 @@
   font-weight: 700;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.link-menus-text01 {
+.link-menus-text1 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.link-menus-text02 {
+.link-menus-navlink {
   margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
 }
 .link-menus-company-container {
   flex: 0 0 auto;
@@ -37,17 +38,17 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.link-menus-text03 {
+.link-menus-text2 {
   font-weight: 700;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.link-menus-text04 {
+.link-menus-text3 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.link-menus-text05 {
+.link-menus-text4 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.link-menus-text06 {
+.link-menus-text5 {
   margin-bottom: var(--dl-space-space-unit);
 }
 .link-menus-container1 {
@@ -63,11 +64,11 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.link-menus-text07 {
+.link-menus-text6 {
   font-weight: 700;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.link-menus-text08 {
+.link-menus-text7 {
   margin-bottom: var(--dl-space-space-unit);
 }
 .link-menus-container2 {

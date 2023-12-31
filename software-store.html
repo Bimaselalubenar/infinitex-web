@@ -71,11 +71,24 @@
       href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
     />
 
+    <!-- Google tag (gtag.js) -->
+
     <script src="https://unpkg.com/scrollreveal"></script>
     <script>
       ScrollReveal({ reset: true });
     </script>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      async=""
+      src="https://www.googletagmanager.com/gtag/js?id=G-BCB2XXS6XB"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-BCB2XXS6XB');
+    </script>
   </head>
   <body>
     <link rel="stylesheet" href="./style.css" />
@@ -1049,6 +1062,10 @@
       let namaUser = urlParam.get('nama_user') || 'Sobat Digital';
 
       document.getElementById('nama_user').innerHTML = namaUser;
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
     </script>
   </body>
 </html>
