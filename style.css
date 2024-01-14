@@ -64,13 +64,13 @@
   opacity: 0.5;
 }
 .input {
-  color: var(--dl-color-gray-black);
+  color: #000000;
   cursor: auto;
   padding: 0.5rem 1rem;
-  border-color: var(--dl-color-gray-black);
-  border-width: 1px;
-  border-radius: 4px;
-  background-color: var(--dl-color-gray-white);
+  border-color: #07003a;
+  border-width: 2px;
+  border-radius: var(--dl-radius-radius-radius8);
+  background-color: #ffffff;
 }
 .textarea {
   color: var(--dl-color-gray-black);

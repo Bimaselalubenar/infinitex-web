@@ -44,6 +44,10 @@
       }
     </style>
     <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
       rel="shortcut icon"
       href="public/infinitex.png"
       type="icon/png"
@@ -62,6 +66,31 @@
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
       data-tag="font"
     />
     <link
@@ -184,33 +213,35 @@
                         <span class="link-menus-text">
                           <span>Service</span>
                         </span>
-                        <span class="link-menus-text1">
+                        <a
+                          href="jasa-bikin-website.html"
+                          class="link-menus-navlink"
+                        >
                           <span>Jasa Website</span>
-                        </span>
+                        </a>
                         <a
                           href="software-store.html"
-                          class="link-menus-navlink"
+                          class="link-menus-navlink1"
                         >
                           <span>Software Store</span>
                         </a>
                       </div>
                       <div class="link-menus-company-container">
-                        <span class="link-menus-text2">
+                        <span class="link-menus-text1">
                           <span>Own Teams</span>
                         </span>
-                        <span class="link-menus-text3"><span>Bima</span></span>
-                        <span class="link-menus-text4"><span>Reny</span></span>
-                        <span class="link-menus-text5">
+                        <span class="link-menus-text2"><span>Bima</span></span>
+                        <span class="link-menus-text3">
                           <span>Firman</span>
                         </span>
                       </div>
                     </div>
                     <div class="link-menus-container1">
                       <div class="link-menus-contact">
-                        <span class="link-menus-text6">
+                        <span class="link-menus-text4">
                           <span>Contact</span>
                         </span>
-                        <span class="link-menus-text7">
+                        <span class="link-menus-text5">
                           <span>Infinitex.my.id@gmail.com</span>
                         </span>
                         <div class="link-menus-container2">
@@ -224,16 +255,20 @@
                       </div>
                     </div>
                   </div>
-                  <div class="navbar-container2">
-                    <span class="navbar-text1">
-                      <span>SOFTWARE STORE</span>
-                    </span>
-                  </div>
-                  <div class="navbar-container3">
-                    <span class="navbar-text2">
-                      <span>WEB DEVELOPMENT</span>
-                    </span>
-                  </div>
+                  <a href="software-store.html" class="navbar-navlink1">
+                    <div class="navbar-container2">
+                      <span class="navbar-text1">
+                        <span>SOFTWARE STORE</span>
+                      </span>
+                    </div>
+                  </a>
+                  <a href="jasa-bikin-website.html" class="navbar-navlink2">
+                    <div class="navbar-container3">
+                      <span class="navbar-text2">
+                        <span>WEB DEVELOPMENT</span>
+                      </span>
+                    </div>
+                  </a>
                 </div>
                 <img
                   alt="image"
@@ -257,7 +292,7 @@
               <p data-aos="zoom-in-up" class="home-caption">
                 <span>
                   Setiap kode kami kerjakan, bersama team back end, desain
-                  grafis dan front end profesional
+                  grafis dan front end ahli.
                 </span>
                 <br />
               </p>
@@ -349,233 +384,185 @@
             </div>
           </div>
           <div class="home-container03">
-            <div class="jasa-container jasa-root-class-name">
-              <div class="jasa-container1">
-                <img
-                  alt="Fitur"
-                  src="https://ik.imagekit.io/Infinitex/bank%20data/Home/Frame%2099.png?updatedAt=1703980467227"
-                  loading="lazy"
-                  class="jasa-image"
-                />
-                <div class="jasa-container2">
-                  <span id="HargaFix" class="jasa-text">
-                    <span>Jasa Promosi Iklan berbayar</span>
-                  </span>
-                  <span id="HargaFix" class="jasa-text1">
-                    <span>Rp. 500.000</span>
-                  </span>
-                  <div class="jasa-container3">
-                    <div class="jasa-container4">
-                      <span class="jasa-text2">
-                        <span>Perencanaan materi dan pembuatan iklan..</span>
-                      </span>
+            <div class="home-container04">
+              <img
+                alt="Fitur"
+                src="https://ik.imagekit.io/Infinitex/bank%20data/Home/Frame%2099.png?updatedAt=1703980467227"
+                loading="lazy"
+                class="home-image04"
+              />
+              <div class="home-container05">
+                <span id="HargaFix" class="home-text12">
+                  Jasa Promosi Iklan berbayar
+                </span>
+                <span id="HargaFix" class="home-text13">Rp. 500.000</span>
+                <div class="home-container06">
+                  <div class="home-container07">
+                    <span class="home-text14">
+                      Perencanaan materi dan pembuatan iklan..
+                    </span>
+                  </div>
+                </div>
+                <div class="home-container08">
+                  <a
+                    href="https://beli"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="home-link"
+                  >
+                    <div class="home-container09">
+                      <span class="home-text15">Konsultasi Sekarang</span>
                     </div>
-                  </div>
-                  <div class="jasa-container5">
-                    <a
-                      href="https://beli"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      class="jasa-link"
-                    >
-                      <div class="jasa-container6">
-                        <span class="jasa-text3">Konsultasi Sekarang</span>
-                      </div>
-                    </a>
-                    <a href="service-digital.html" class="jasa-navlink">
-                      <div class="jasa-container7">
-                        <span class="jasa-text4">Lihat Harga</span>
-                      </div>
-                    </a>
-                  </div>
+                  </a>
                 </div>
               </div>
             </div>
-            <div class="jasa-container jasa-root-class-name2">
-              <div class="jasa-container1">
-                <img
-                  alt="Fitur"
-                  src="https://ik.imagekit.io/Infinitex/bank%20data/Home/Frame%20100.png?updatedAt=1703980466922"
-                  loading="lazy"
-                  class="jasa-image"
-                />
-                <div class="jasa-container2">
-                  <span id="HargaFix" class="jasa-text">
-                    <span>Jasa Design Graphic</span>
-                  </span>
-                  <span id="HargaFix" class="jasa-text1">
-                    <span>Rp. 500.000</span>
-                  </span>
-                  <div class="jasa-container3">
-                    <div class="jasa-container4">
-                      <span class="jasa-text2">
-                        <span>
-                          Menciptakan konsep visual untuk mengkomunikasikan ide
-                          dan pesan
-                        </span>
-                      </span>
+            <div class="home-container10">
+              <img
+                alt="Fitur"
+                src="https://ik.imagekit.io/Infinitex/bank%20data/Home/Frame%20100.png?updatedAt=1703980466922"
+                loading="lazy"
+                class="home-image05"
+              />
+              <div class="home-container11">
+                <span id="HargaFix" class="home-text16">
+                  Jasa Design Graphic
+                </span>
+                <span id="HargaFix" class="home-text17">Rp. 500.000</span>
+                <div class="home-container12">
+                  <div class="home-container13">
+                    <span class="home-text18">
+                      Menciptakan konsep visual untuk mengkomunikasikan ide dan
+                      pesan
+                    </span>
+                  </div>
+                </div>
+                <div class="home-container14">
+                  <a
+                    href="https://beli"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="home-link1"
+                  >
+                    <div class="home-container15">
+                      <span class="home-text19">Konsultasi Sekarang</span>
                     </div>
-                  </div>
-                  <div class="jasa-container5">
-                    <a
-                      href="https://beli"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      class="jasa-link"
-                    >
-                      <div class="jasa-container6">
-                        <span class="jasa-text3">Konsultasi Sekarang</span>
-                      </div>
-                    </a>
-                    <a href="service-digital.html" class="jasa-navlink">
-                      <div class="jasa-container7">
-                        <span class="jasa-text4">Lihat Harga</span>
-                      </div>
-                    </a>
-                  </div>
+                  </a>
                 </div>
               </div>
             </div>
-            <div class="jasa-container jasa-root-class-name1">
-              <div class="jasa-container1">
-                <img
-                  alt="Fitur"
-                  src="https://ik.imagekit.io/Infinitex/bank%20data/Home/Frame%20101.png?updatedAt=1703980466815"
-                  loading="lazy"
-                  class="jasa-image"
-                />
-                <div class="jasa-container2">
-                  <span id="HargaFix" class="jasa-text">
-                    <span>Jasa Web Development</span>
-                  </span>
-                  <span id="HargaFix" class="jasa-text1">
-                    <span>Rp. 500.000 - 1.000.000</span>
-                  </span>
-                  <div class="jasa-container3">
-                    <div class="jasa-container4">
-                      <span class="jasa-text2">
-                        <span>
-                          Desain dan pengembangan hingga pemeliharaan dan
-                          dukungan
-                        </span>
-                      </span>
+            <div class="home-container16">
+              <img
+                alt="Fitur"
+                src="https://ik.imagekit.io/Infinitex/bank%20data/Home/Frame%20101.png?updatedAt=1703980466815"
+                loading="lazy"
+                class="home-image06"
+              />
+              <div class="home-container17">
+                <span id="HargaFix" class="home-text20">
+                  Jasa Web Development
+                </span>
+                <span id="HargaFix" class="home-text21">
+                  Rp. 500.000 - 1.000.000
+                </span>
+                <div class="home-container18">
+                  <div class="home-container19">
+                    <span class="home-text22">
+                      Desain dan pengembangan hingga pemeliharaan dan dukungan
+                    </span>
+                  </div>
+                </div>
+                <div class="home-container20">
+                  <a
+                    href="https://beli"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="home-link2"
+                  >
+                    <div class="home-container21">
+                      <span class="home-text23">Konsultasi Sekarang</span>
                     </div>
-                  </div>
-                  <div class="jasa-container5">
-                    <a
-                      href="https://beli"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      class="jasa-link"
-                    >
-                      <div class="jasa-container6">
-                        <span class="jasa-text3">Konsultasi Sekarang</span>
-                      </div>
-                    </a>
-                    <a href="service-digital.html" class="jasa-navlink">
-                      <div class="jasa-container7">
-                        <span class="jasa-text4">Lihat Harga</span>
-                      </div>
-                    </a>
-                  </div>
+                  </a>
                 </div>
               </div>
             </div>
-            <div class="jasa-container jasa-root-class-name3">
-              <div class="jasa-container1">
-                <img
-                  alt="Fitur"
-                  src="https://ik.imagekit.io/Infinitex/bank%20data/Home/Frame%2098.png?updatedAt=1703980467253"
-                  loading="lazy"
-                  class="jasa-image"
-                />
-                <div class="jasa-container2">
-                  <span id="HargaFix" class="jasa-text">
-                    <span>Jasa tambah followers socmed</span>
-                  </span>
-                  <span id="HargaFix" class="jasa-text1">
-                    <span>Rp. 35.000 - 80.000</span>
-                  </span>
-                  <div class="jasa-container3">
-                    <div class="jasa-container4">
-                      <span class="jasa-text2">
-                        <span>
-                          Menambah value social media kamu, mulai dari pengikut
-                          hingga like &amp; comment
-                        </span>
-                      </span>
+            <div class="home-container22">
+              <img
+                alt="Fitur"
+                src="https://ik.imagekit.io/Infinitex/bank%20data/Home/Frame%2098.png?updatedAt=1703980467253"
+                loading="lazy"
+                class="home-image07"
+              />
+              <div class="home-container23">
+                <span id="HargaFix" class="home-text24">
+                  Jasa tambah followers socmed
+                </span>
+                <span id="HargaFix" class="home-text25">
+                  Rp. 35.000 - 80.000
+                </span>
+                <div class="home-container24">
+                  <div class="home-container25">
+                    <span class="home-text26">
+                      Menambah value social media kamu, mulai dari pengikut
+                      hingga like &amp; comment
+                    </span>
+                  </div>
+                </div>
+                <div class="home-container26">
+                  <a
+                    href="https://beli"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="home-link3"
+                  >
+                    <div class="home-container27">
+                      <span class="home-text27">Konsultasi Sekarang</span>
                     </div>
-                  </div>
-                  <div class="jasa-container5">
-                    <a
-                      href="https://beli"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      class="jasa-link"
-                    >
-                      <div class="jasa-container6">
-                        <span class="jasa-text3">Konsultasi Sekarang</span>
-                      </div>
-                    </a>
-                    <a href="service-digital.html" class="jasa-navlink">
-                      <div class="jasa-container7">
-                        <span class="jasa-text4">Lihat Harga</span>
-                      </div>
-                    </a>
-                  </div>
+                  </a>
                 </div>
               </div>
             </div>
-            <div class="jasa-container jasa-root-class-name4">
-              <div class="jasa-container1">
-                <img
-                  alt="Fitur"
-                  src="https://ik.imagekit.io/Infinitex/bank%20data/Home/Rolling-1s-200px.svg?updatedAt=1703989625556"
-                  loading="lazy"
-                  class="jasa-image"
-                />
-                <div class="jasa-container2">
-                  <span id="HargaFix" class="jasa-text">
-                    <span>Segera hadir</span>
-                  </span>
-                  <span id="HargaFix" class="jasa-text1"><span>-</span></span>
-                  <div class="jasa-container3">
-                    <div class="jasa-container4">
-                      <span class="jasa-text2"><span>-</span></span>
+            <div class="home-container28">
+              <img
+                alt="Fitur"
+                src="https://ik.imagekit.io/Infinitex/bank%20data/Home/Rolling-1s-200px.svg?updatedAt=1703989625556"
+                loading="lazy"
+                class="home-image08"
+              />
+              <div class="home-container29">
+                <span id="HargaFix" class="home-text28">Segera hadir</span>
+                <span id="HargaFix" class="home-text29">-</span>
+                <div class="home-container30">
+                  <div class="home-container31">
+                    <span class="home-text30">-</span>
+                  </div>
+                </div>
+                <div class="home-container32">
+                  <a
+                    href="https://beli"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="home-link4"
+                  >
+                    <div class="home-container33">
+                      <span class="home-text31">...</span>
                     </div>
-                  </div>
-                  <div class="jasa-container5">
-                    <a
-                      href="eror"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      class="jasa-link"
-                    >
-                      <div class="jasa-container6">
-                        <span class="jasa-text3">Konsultasi Sekarang</span>
-                      </div>
-                    </a>
-                    <a href="service-digital.html" class="jasa-navlink">
-                      <div class="jasa-container7">
-                        <span class="jasa-text4">Lihat Harga</span>
-                      </div>
-                    </a>
-                  </div>
+                  </a>
                 </div>
               </div>
             </div>
           </div>
         </section>
-        <div class="home-container04">
-          <div data-aos="data-aos" class="home-container05">
-            <div class="home-container06">
-              <div class="home-container07">
-                <h1 data-aos="zoom-in-up" class="home-text12">
+        <div class="home-container34">
+          <div data-aos="data-aos" class="home-container35">
+            <div class="home-container36">
+              <div class="home-container37">
+                <h1 data-aos="zoom-in-up" class="home-text32">
                   <span>Buat Usahamu di Kenal&nbsp;</span>
                   <span>Banyak Orang&nbsp;</span>
                   <span>Dengan</span>
-                  <span class="home-text16"></span>
-                  <span class="home-text17">Jasa Kami</span>
+                  <span class="home-text36"></span>
+                  <span class="home-text37">Jasa Kami</span>
                   <br />
                 </h1>
                 <p data-aos="zoom-in-up" class="home-caption2">
@@ -593,21 +580,21 @@
             <img
               alt="image"
               src="https://ik.imagekit.io/Infinitex/bank%20data/Home/Infinitex1.svg?updatedAt=1703973547351"
-              class="home-image04"
+              class="home-image09"
             />
           </div>
-          <div data-aos="data-aos" class="home-container08">
+          <div data-aos="data-aos" class="home-container38">
             <img
               alt="image"
               src="https://ik.imagekit.io/Infinitex/bank%20data/Home/semakin%20cepat.svg?updatedAt=1703973555691"
-              class="home-image05"
+              class="home-image10"
             />
-            <div class="home-container09">
-              <div class="home-container10">
-                <h1 data-aos="zoom-in-up" class="home-text21">
+            <div class="home-container39">
+              <div class="home-container40">
+                <h1 data-aos="zoom-in-up" class="home-text41">
                   Semakin mudah mengenali Minat pelanggan baru
                 </h1>
-                <h1 data-aos="zoom-in-up" class="home-text22">
+                <h1 data-aos="zoom-in-up" class="home-text42">
                   Google Analytics
                 </h1>
                 <p data-aos="zoom-in-up" class="home-caption3">
@@ -622,18 +609,18 @@
             <img
               alt="image"
               src="https://ik.imagekit.io/Infinitex/bank%20data/Home/semakin%20cepat.svg?updatedAt=1703973555691"
-              class="home-image06"
+              class="home-image11"
             />
           </div>
-          <div data-aos="data-aos" class="home-container11">
+          <div data-aos="data-aos" class="home-container41">
             <img
               alt="image"
               src="https://ik.imagekit.io/Infinitex/bank%20data/Home/semakin%20cepat.svg?updatedAt=1703973555691"
-              class="home-image07"
+              class="home-image12"
             />
-            <div class="home-container12">
-              <div class="home-container13">
-                <h1 data-aos="zoom-in-up" class="home-text25">
+            <div class="home-container42">
+              <div class="home-container43">
+                <h1 data-aos="zoom-in-up" class="home-text45">
                   Infinitex memiliki garansi domain. dan revisi hingga 3x
                 </h1>
                 <p data-aos="zoom-in-up" class="home-caption4">
@@ -643,10 +630,10 @@
                   href="https://api.whatsapp.com/send?phone=6281917304951&amp;text=Saya%20berminat%20melakukan%20pembelian%20app%20software"
                   target="_blank"
                   rel="noreferrer noopener"
-                  class="home-link"
+                  class="home-link5"
                 >
-                  <div class="home-container14">
-                    <span class="home-text26">Hubungi Admin</span>
+                  <div class="home-container44">
+                    <span class="home-text46">Hubungi Admin</span>
                     <svg viewBox="0 0 1024 1024" class="home-icon2">
                       <path
                         d="M873 148.8c-95.8-96-223.2-148.8-359-148.8-279.6 0-507.2 227.6-507.2 507.4 0 89.4 23.4 176.8 67.8 253.6l-72 263 269-70.6c74.2 40.4 157.6 61.8 242.4 61.8h0.2c0 0 0 0 0 0 279.6 0 507.4-227.6 507.4-507.4 0-135.6-52.8-263-148.6-359zM514.2 929.6v0c-75.8 0-150-20.4-214.8-58.8l-15.4-9.2-159.6 41.8 42.6-155.6-10-16c-42.4-67-64.6-144.6-64.6-224.4 0-232.6 189.2-421.8 422-421.8 112.6 0 218.6 44 298.2 123.6 79.6 79.8 123.4 185.6 123.4 298.4-0.2 232.8-189.4 422-421.8 422zM745.4 613.6c-12.6-6.4-75-37-86.6-41.2s-20-6.4-28.6 6.4c-8.4 12.6-32.8 41.2-40.2 49.8-7.4 8.4-14.8 9.6-27.4 3.2s-53.6-19.8-102-63c-37.6-33.6-63.2-75.2-70.6-87.8s-0.8-19.6 5.6-25.8c5.8-5.6 12.6-14.8 19-22.2s8.4-12.6 12.6-21.2c4.2-8.4 2.2-15.8-1-22.2s-28.6-68.8-39-94.2c-10.2-24.8-20.8-21.4-28.6-21.8-7.4-0.4-15.8-0.4-24.2-0.4s-22.2 3.2-33.8 15.8c-11.6 12.6-44.4 43.4-44.4 105.8s45.4 122.6 51.8 131.2c6.4 8.4 89.4 136.6 216.6 191.4 30.2 13 53.8 20.8 72.2 26.8 30.4 9.6 58 8.2 79.8 5 24.4-3.6 75-30.6 85.6-60.2s10.6-55 7.4-60.2c-3-5.6-11.4-8.8-24.2-15.2z"
@@ -659,18 +646,18 @@
             <img
               alt="image"
               src="https://ik.imagekit.io/Infinitex/bank%20data/Home/garansi.svg?updatedAt=1703973558812"
-              class="home-image08"
+              class="home-image13"
             />
           </div>
           <img
             alt="image"
             src="https://ik.imagekit.io/Infinitex/bank%20data/Home/flower-form-1.png?updatedAt=1704000879920"
-            class="home-image09"
+            class="home-image14"
           />
           <img
             alt="image"
             src="https://ik.imagekit.io/Infinitex/bank%20data/Home/flower-form-1.png?updatedAt=1704000879920"
-            class="home-image10"
+            class="home-image15"
           />
         </div>
         <footer class="footer-footer">
@@ -690,24 +677,23 @@
               <div class="link-menus-container">
                 <div class="link-menus-product-container">
                   <span class="link-menus-text"><span>Service</span></span>
-                  <span class="link-menus-text1">
+                  <a href="jasa-bikin-website.html" class="link-menus-navlink">
                     <span>Jasa Website</span>
-                  </span>
-                  <a href="software-store.html" class="link-menus-navlink">
+                  </a>
+                  <a href="software-store.html" class="link-menus-navlink1">
                     <span>Software Store</span>
                   </a>
                 </div>
                 <div class="link-menus-company-container">
-                  <span class="link-menus-text2"><span>Own Teams</span></span>
-                  <span class="link-menus-text3"><span>Bima</span></span>
-                  <span class="link-menus-text4"><span>Reny</span></span>
-                  <span class="link-menus-text5"><span>Firman</span></span>
+                  <span class="link-menus-text1"><span>Own Teams</span></span>
+                  <span class="link-menus-text2"><span>Bima</span></span>
+                  <span class="link-menus-text3"><span>Firman</span></span>
                 </div>
               </div>
               <div class="link-menus-container1">
                 <div class="link-menus-contact">
-                  <span class="link-menus-text6"><span>Contact</span></span>
-                  <span class="link-menus-text7">
+                  <span class="link-menus-text4"><span>Contact</span></span>
+                  <span class="link-menus-text5">
                     <span>Infinitex.my.id@gmail.com</span>
                   </span>
                   <div class="link-menus-container2">
@@ -728,7 +714,7 @@
           </span>
         </footer>
         <div>
-          <div class="home-container16">
+          <div class="home-container46">
             <script>
               ScrollReveal().reveal('.speaker');
               ScrollReveal().reveal('.image-notes');
@@ -736,7 +722,7 @@
           </div>
         </div>
         <div>
-          <div class="home-container18">
+          <div class="home-container48">
             <style>
               #scrollbar::-webkit-scrollbar-track
               {
