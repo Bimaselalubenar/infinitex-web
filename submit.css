@@ -1,4 +1,4 @@
-.terkirim-container {
+.submit-container {
   width: 100%;
   display: flex;
   overflow: auto;
@@ -7,7 +7,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.terkirim-container1 {
+.submit-container1 {
   gap: var(--dl-space-space-unit);
   flex: 0 0 auto;
   width: auto;
@@ -22,12 +22,12 @@
   justify-content: center;
   background-image: linear-gradient(180deg, rgb(66, 255, 46) 0.00%,rgb(0, 121, 19) 100.00%);
 }
-.terkirim-icon {
+.submit-icon {
   fill: #ffffff;
   width: 24px;
   height: 24px;
 }
-.terkirim-text {
+.submit-text {
   color: #ffffff;
   font-size: 18px;
   font-style: normal;
@@ -37,16 +37,16 @@
   text-transform: none;
   text-decoration: none;
 }
-.terkirim-navlink {
+.submit-navlink {
   display: contents;
 }
-.terkirim-text1 {
+.submit-text1 {
   color: #000000;
   margin-top: var(--dl-space-space-twounits);
   text-decoration: none;
 }
 @media(max-width: 479px) {
-  .terkirim-container {
+  .submit-container {
     align-items: center;
     justify-content: center;
   }

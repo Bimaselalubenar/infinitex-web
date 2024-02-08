@@ -639,7 +639,7 @@
   object-fit: cover;
 }
 .home-slider-pagination {
-  display: block;
+  display: none;
 }
 .home-slider-pagination-bullet {
   width: 26px;
@@ -648,11 +648,11 @@
 }
 .home-slider-button-prev {
   color: rgba(255, 255, 255, 0.66);
-  display: block;
+  display: none;
 }
 .home-slider-button-next {
   color: rgba(255, 255, 255, 0.66);
-  display: block;
+  display: none;
 }
 .home-container03 {
   gap: var(--dl-space-space-unit);
