@@ -4454,18 +4454,6 @@
   box-shadow: 5px 5px 15px 0px rgba(212, 212, 212, 0.5);
   border-radius: var(--dl-radius-radius-radius8);
 }
-.jasa-bikin-website-container166 {
-  flex: 0 0 auto;
-  width: 100%;
-  height: auto;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-}
-.jasa-bikin-website-container168 {
-  display: contents;
-}
 .jasa-bikin-website-button {
   color: rgb(255, 255, 255);
   width: 100%;
@@ -4474,7 +4462,7 @@
   justify-content: center;
   background-color: rgb(0, 194, 24);
 }
-.jasa-bikin-website-container169 {
+.jasa-bikin-website-container166 {
   left: 0px;
   width: 100%;
   bottom: -69px;
@@ -4492,10 +4480,10 @@
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
 }
-.jasa-bikin-website-container171 {
+.jasa-bikin-website-container168 {
   display: contents;
 }
-.jasa-bikin-website-container173 {
+.jasa-bikin-website-container170 {
   display: contents;
 }
 @media(max-width: 991px) {
