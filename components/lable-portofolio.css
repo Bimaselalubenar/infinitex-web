@@ -1,10 +1,10 @@
-.sambutan-container {
+.lable-portofolio-container {
   gap: var(--dl-space-space-halfunit);
   top: 0px;
   width: 100%;
   height: auto;
   display: flex;
-  z-index: 500;
+  z-index: 100;
   position: fixed;
   flex-wrap: wrap;
   box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
@@ -13,37 +13,30 @@
   justify-content: center;
   background-color: #ffffff;
 }
-.sambutan-text {
+.lable-portofolio-icon {
+  fill: #ff0000;
+  width: 24px;
+  height: 24px;
+}
+.lable-portofolio-text {
+  color: #ff0000;
   font-style: normal;
   margin-top: var(--dl-space-space-unit);
   font-weight: 600;
   margin-left: var(--dl-space-space-unit);
-  margin-bottom: var(--dl-space-space-unit);
-}
-.sambutan-text1 {
-  font-style: normal;
-  margin-top: var(--dl-space-space-unit);
-  font-weight: 600;
   margin-right: var(--dl-space-space-unit);
   margin-bottom: var(--dl-space-space-unit);
 }
 
-.sambutan-root-class-name1 {
+.lable-portofolio-root-class-name1 {
   margin-top: 0px;
   margin-left: 0px;
   margin-right: 0px;
   margin-bottom: 0px;
 }
-
 @media(max-width: 767px) {
-  .sambutan-container {
+  .lable-portofolio-container {
     gap: 1;
     flex-wrap: wrap;
-  }
-}
-@media(max-width: 479px) {
-  .sambutan-root-class-name1 {
-    margin-top: 0px;
-    margin-bottom: 0px;
   }
 }

@@ -49,6 +49,12 @@
 .link-menus-text3 {
   margin-bottom: var(--dl-space-space-unit);
 }
+.link-menus-text4 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.link-menus-text5 {
+  margin-bottom: var(--dl-space-space-unit);
+}
 .link-menus-container1 {
   display: flex;
   align-items: flex-start;
@@ -62,11 +68,11 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.link-menus-text4 {
+.link-menus-text6 {
   font-weight: 700;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.link-menus-text5 {
+.link-menus-text7 {
   margin-bottom: var(--dl-space-space-unit);
 }
 .link-menus-container2 {
