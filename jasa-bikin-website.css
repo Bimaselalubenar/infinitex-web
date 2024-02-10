@@ -597,9 +597,6 @@
   width: 100%;
   font-family: "Inter";
 }
-.jasa-bikin-website-link {
-  display: contents;
-}
 .jasa-bikin-website-container002 {
   gap: var(--dl-space-space-unit);
   width: 50%;
@@ -711,7 +708,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.jasa-bikin-website-link01 {
+.jasa-bikin-website-link {
   display: contents;
 }
 .jasa-bikin-website-container005 {
@@ -748,7 +745,7 @@
   width: 16px;
   height: 16px;
 }
-.jasa-bikin-website-link02 {
+.jasa-bikin-website-link1 {
   display: contents;
 }
 .jasa-bikin-website-container006 {
@@ -1541,7 +1538,7 @@
   color: rgb(255, 255, 255);
   font-size: 12px;
 }
-.jasa-bikin-website-link03 {
+.jasa-bikin-website-link2 {
   color: rgb(255, 255, 255);
   font-size: 12px;
   transition: 0.9s;
@@ -1553,7 +1550,7 @@
   text-decoration: none;
   background-image: linear-gradient(135deg, rgb(3, 106, 14) 0.00%,rgb(57, 189, 25) 100.00%);
 }
-.jasa-bikin-website-link03:hover {
+.jasa-bikin-website-link2:hover {
   transform: scale(105%);
 }
 .jasa-bikin-website-slider-pagination {
@@ -1946,7 +1943,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.jasa-bikin-website-link04 {
+.jasa-bikin-website-link3 {
   display: contents;
 }
 .jasa-bikin-website-paket-bronze05 {
@@ -2292,7 +2289,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.jasa-bikin-website-link05 {
+.jasa-bikin-website-link4 {
   display: contents;
 }
 .jasa-bikin-website-paket-bronze07 {
@@ -2645,7 +2642,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.jasa-bikin-website-link06 {
+.jasa-bikin-website-link5 {
   display: contents;
 }
 .jasa-bikin-website-paket-bronze09 {
@@ -2991,7 +2988,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.jasa-bikin-website-link07 {
+.jasa-bikin-website-link6 {
   display: contents;
 }
 .jasa-bikin-website-paket-bronze11 {
@@ -3491,7 +3488,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.jasa-bikin-website-link08 {
+.jasa-bikin-website-link7 {
   display: contents;
 }
 .jasa-bikin-website-paket-bronze13 {
@@ -3952,7 +3949,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.jasa-bikin-website-link09 {
+.jasa-bikin-website-link8 {
   display: contents;
 }
 .jasa-bikin-website-paket-bronze15 {
@@ -4063,7 +4060,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.jasa-bikin-website-paket-bronze16 {
+.jasa-bikin-website-landingpage {
   gap: var(--dl-space-space-unit);
   flex: 1;
   width: 232px;
@@ -4236,7 +4233,7 @@
 .jasa-bikin-website-navlink {
   display: contents;
 }
-.jasa-bikin-website-paket-bronze17 {
+.jasa-bikin-website-paket-bronze16 {
   gap: var(--dl-space-space-halfunit);
   width: 100%;
   cursor: pointer;
@@ -4253,7 +4250,7 @@
   text-decoration: none;
   background-color: #07003a;
 }
-.jasa-bikin-website-paket-bronze17:hover {
+.jasa-bikin-website-paket-bronze16:hover {
   transform: scale(105%);
   box-shadow: 5px 5px 10px 0px rgba(80, 80, 80, 0.38);
   border-color: #ffffff;
@@ -6639,7 +6636,7 @@
     flex-direction: row;
     justify-content: center;
   }
-  .jasa-bikin-website-paket-bronze16 {
+  .jasa-bikin-website-landingpage {
     width: 161px;
     background-color: #f7f7f7;
   }
@@ -6686,7 +6683,7 @@
     gap: var(--dl-space-space-halfunit);
     margin-top: var(--dl-space-space-unit);
   }
-  .jasa-bikin-website-paket-bronze17 {
+  .jasa-bikin-website-paket-bronze16 {
     gap: var(--dl-space-space-halfunit);
     width: 100%;
     height: 36px;
