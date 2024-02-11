@@ -73,7 +73,6 @@
 .lp-uinfly-container {
   width: 100%;
   display: flex;
-  overflow: hidden;
   min-height: 100vh;
   align-items: center;
   padding-left: var(--dl-space-space-halfunit);
@@ -83,80 +82,57 @@
 }
 .lp-uinfly-container01 {
   top: 0px;
-  right: 8px;
+  left: 0px;
+  right: 0px;
   width: 100%;
-  height: 727px;
+  height: 881px;
+  margin: auto;
   display: flex;
   z-index: 1;
-  overflow: hidden;
   position: absolute;
   align-items: flex-start;
-  border-radius: 0px;
   flex-direction: column;
-  border-bottom-left-radius: 250px;
-  border-bottom-right-radius: 0px;
+  background-image: linear-gradient(0deg, rgb(255, 255, 255) 0.00%,rgba(255, 255, 255, 0) 75.00%);
 }
-.lp-uinfly-image {
-  top: -122px;
-  right: -390px;
-  width: 1439px;
-  height: 1439px;
-  opacity: 30%;
-  z-index: 100;
-  position: absolute;
-  object-fit: cover;
-}
-.lp-uinfly-container02 {
-  top: 0px;
-  right: 8px;
+.lp-uinfly-video {
+  top: var(--dl-space-space-fourunits);
+  left: 0px;
+  right: 0px;
   width: 100%;
-  height: 727px;
-  display: flex;
+  height: auto;
+  margin: auto;
   position: absolute;
-  align-items: flex-start;
-  border-radius: 0px;
-  flex-direction: column;
-  background-color: #eaeaea;
-  border-bottom-left-radius: 250px;
-  border-bottom-right-radius: 0px;
 }
 .lp-uinfly-header {
   flex: 0 0 auto;
   width: 100%;
-  height: 100vh;
+  height: auto;
   display: flex;
   z-index: 1;
-  flex-wrap: wrap;
+  position: relative;
   max-width: 1000px;
+  margin-top: var(--dl-space-space-fiveunits);
   align-items: center;
-  padding-top: 0px;
+  padding-top: var(--dl-space-space-threeunits);
   padding-left: 0px;
   padding-right: 0px;
-  flex-direction: row;
-  padding-bottom: 0px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-fiveunits);
   justify-content: center;
 }
-.lp-uinfly-container03 {
-  flex: 1;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.lp-uinfly-image1 {
-  flex: 1;
-  width: 100%;
-  height: 452px;
+.lp-uinfly-image {
+  width: 327px;
+  height: 435px;
   object-fit: cover;
 }
-.lp-uinfly-container04 {
+.lp-uinfly-container02 {
   gap: var(--dl-space-space-unit);
-  flex: 1;
   width: 100%;
   height: auto;
   display: flex;
   padding: var(--dl-space-space-unit);
-  align-items: flex-start;
+  align-self: flex-start;
+  align-items: center;
   flex-direction: column;
   justify-content: center;
 }
@@ -166,7 +142,7 @@
   font-family: "Oxygen";
   font-weight: 700;
 }
-.lp-uinfly-container05 {
+.lp-uinfly-container03 {
   width: 100%;
   height: 2px;
   display: flex;
@@ -177,11 +153,13 @@
 .lp-uinfly-text01 {
   font-size: 16px;
   font-style: normal;
+  text-align: center;
   font-family: "Oxygen";
   font-weight: 400;
 }
-.lp-uinfly-container06 {
+.lp-uinfly-container04 {
   gap: var(--dl-space-space-unit);
+  width: 100%;
   display: flex;
   align-items: flex-start;
   flex-direction: row;
@@ -190,26 +168,21 @@
 .lp-uinfly-link {
   display: contents;
 }
-.lp-uinfly-container07 {
+.lp-uinfly-container05 {
   flex: 0 0 auto;
   width: auto;
   cursor: pointer;
   height: auto;
   display: flex;
-  transition: 0.9s;
   align-items: center;
   padding-top: var(--dl-space-space-unit);
-  padding-left: var(--dl-space-space-unit);
-  border-radius: var(--dl-radius-radius-radius8);
-  padding-right: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-twounits);
+  border-radius: 30px;
+  padding-right: var(--dl-space-space-twounits);
   padding-bottom: var(--dl-space-space-unit);
   justify-content: center;
   text-decoration: none;
-  background-color: #5f5f5f;
-}
-.lp-uinfly-container07:hover {
-  gap: var(--dl-space-space-halfunit);
-  background-color: #909090;
+  background-color: #d6b314;
 }
 .lp-uinfly-text02 {
   color: rgb(255, 255, 255);
@@ -218,56 +191,26 @@
   font-family: "Oxygen";
   font-weight: 400;
 }
-.lp-uinfly-link1 {
-  display: contents;
-}
-.lp-uinfly-container08 {
-  flex: 0 0 auto;
-  width: auto;
-  cursor: pointer;
-  height: auto;
-  display: flex;
-  transition: 0.9s;
-  align-items: center;
-  padding-top: var(--dl-space-space-unit);
-  padding-left: var(--dl-space-space-unit);
-  border-radius: var(--dl-radius-radius-radius8);
-  padding-right: var(--dl-space-space-unit);
-  padding-bottom: var(--dl-space-space-unit);
-  justify-content: center;
-  text-decoration: none;
-  background-color: #c99700;
-}
-.lp-uinfly-container08:hover {
-  gap: var(--dl-space-space-halfunit);
-  background-color: #909090;
-}
-.lp-uinfly-text03 {
-  color: rgb(255, 255, 255);
-  font-size: 16px;
-  font-style: normal;
-  font-family: "Oxygen";
-  font-weight: 400;
-}
-.lp-uinfly-container09 {
+.lp-uinfly-container06 {
   gap: var(--dl-space-space-unit);
   flex: 0 0 auto;
   width: 100%;
   height: auto;
   display: flex;
   padding: var(--dl-space-space-unit);
+  z-index: 2;
   max-width: 1000px;
   align-items: center;
   flex-direction: column;
   justify-content: flex-start;
 }
-.lp-uinfly-text04 {
+.lp-uinfly-text03 {
   font-size: 30px;
   font-style: normal;
   font-family: "Oxygen";
   font-weight: 700;
 }
-.lp-uinfly-container10 {
+.lp-uinfly-container07 {
   width: 100%;
   height: 2px;
   display: flex;
@@ -275,7 +218,7 @@
   flex-direction: column;
   background-image: linear-gradient(90deg, rgb(255, 255, 255) 0.00%,rgb(202, 202, 202) 49.00%,rgb(255, 255, 255) 100.00%);
 }
-.lp-uinfly-container11 {
+.lp-uinfly-container08 {
   gap: var(--dl-space-space-unit);
   flex: 0 0 auto;
   width: 100%;
@@ -285,7 +228,7 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.lp-uinfly-container12 {
+.lp-uinfly-container09 {
   gap: var(--dl-space-space-unit);
   flex: 1;
   width: 100%;
@@ -303,10 +246,10 @@
 }
 .lp-uinfly-icon {
   fill: #ef7a0e;
-  width: auto;
-  height: var(--dl-size-size-small);
+  width: 45px;
+  height: auto;
 }
-.lp-uinfly-text05 {
+.lp-uinfly-text04 {
   font-size: 16px;
   align-self: center;
   font-style: normal;
@@ -314,7 +257,7 @@
   font-family: "Oxygen";
   font-weight: 700;
 }
-.lp-uinfly-container13 {
+.lp-uinfly-container10 {
   gap: var(--dl-space-space-unit);
   flex: 1;
   width: 100%;
@@ -332,10 +275,78 @@
 }
 .lp-uinfly-icon02 {
   fill: #ef7a0e;
-  width: auto;
-  height: var(--dl-size-size-small);
+  width: 45px;
+  height: auto;
+}
+.lp-uinfly-text05 {
+  font-size: 16px;
+  align-self: center;
+  font-style: normal;
+  text-align: center;
+  font-family: "Oxygen";
+  font-weight: 700;
+}
+.lp-uinfly-container11 {
+  gap: var(--dl-space-space-unit);
+  flex: 1;
+  width: 100%;
+  height: auto;
+  display: flex;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-halfunit);
+  border-radius: 20px;
+  padding-right: var(--dl-space-space-halfunit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: center;
+}
+.lp-uinfly-icon04 {
+  fill: #ef7a0e;
+  width: 45px;
+  height: auto;
 }
 .lp-uinfly-text06 {
+  font-size: 16px;
+  align-self: center;
+  font-style: normal;
+  text-align: center;
+  font-family: "Oxygen";
+  font-weight: 700;
+}
+.lp-uinfly-container12 {
+  gap: var(--dl-space-space-unit);
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.lp-uinfly-container13 {
+  gap: var(--dl-space-space-unit);
+  flex: 1;
+  width: 100%;
+  height: auto;
+  display: flex;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-halfunit);
+  border-radius: 20px;
+  padding-right: var(--dl-space-space-halfunit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: center;
+}
+.lp-uinfly-icon06 {
+  fill: #ef7a0e;
+  width: 45px;
+  height: auto;
+}
+.lp-uinfly-text07 {
   font-size: 16px;
   align-self: center;
   font-style: normal;
@@ -359,49 +370,10 @@
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: center;
 }
-.lp-uinfly-icon04 {
+.lp-uinfly-icon08 {
   fill: #ef7a0e;
-  width: auto;
-  height: var(--dl-size-size-small);
-}
-.lp-uinfly-text07 {
-  font-size: 16px;
-  align-self: center;
-  font-style: normal;
-  text-align: center;
-  font-family: "Oxygen";
-  font-weight: 700;
-}
-.lp-uinfly-container15 {
-  gap: var(--dl-space-space-unit);
-  flex: 0 0 auto;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  flex-direction: row;
-  justify-content: flex-start;
-}
-.lp-uinfly-container16 {
-  gap: var(--dl-space-space-unit);
-  flex: 1;
-  width: 100%;
+  width: 45px;
   height: auto;
-  display: flex;
-  box-shadow: 5px 5px 10px 0px #d4d4d4;
-  align-items: center;
-  padding-top: var(--dl-space-space-twounits);
-  padding-left: var(--dl-space-space-halfunit);
-  border-radius: 20px;
-  padding-right: var(--dl-space-space-halfunit);
-  flex-direction: column;
-  padding-bottom: var(--dl-space-space-twounits);
-  justify-content: center;
-}
-.lp-uinfly-icon06 {
-  fill: #ef7a0e;
-  width: auto;
-  height: var(--dl-size-size-small);
 }
 .lp-uinfly-text08 {
   font-size: 16px;
@@ -411,36 +383,7 @@
   font-family: "Oxygen";
   font-weight: 700;
 }
-.lp-uinfly-container17 {
-  gap: var(--dl-space-space-unit);
-  flex: 1;
-  width: 100%;
-  height: auto;
-  display: flex;
-  box-shadow: 5px 5px 10px 0px #d4d4d4;
-  align-items: center;
-  padding-top: var(--dl-space-space-twounits);
-  padding-left: var(--dl-space-space-halfunit);
-  border-radius: 20px;
-  padding-right: var(--dl-space-space-halfunit);
-  flex-direction: column;
-  padding-bottom: var(--dl-space-space-twounits);
-  justify-content: center;
-}
-.lp-uinfly-icon08 {
-  fill: #ef7a0e;
-  width: auto;
-  height: var(--dl-size-size-small);
-}
-.lp-uinfly-text09 {
-  font-size: 16px;
-  align-self: center;
-  font-style: normal;
-  text-align: center;
-  font-family: "Oxygen";
-  font-weight: 700;
-}
-.lp-uinfly-container18 {
+.lp-uinfly-container15 {
   gap: var(--dl-space-space-unit);
   flex: 1;
   width: 100%;
@@ -458,10 +401,10 @@
 }
 .lp-uinfly-icon10 {
   fill: #ef7a0e;
-  width: auto;
-  height: var(--dl-size-size-small);
+  width: 45px;
+  height: auto;
 }
-.lp-uinfly-text10 {
+.lp-uinfly-text09 {
   font-size: 16px;
   align-self: center;
   font-style: normal;
@@ -483,7 +426,7 @@
   padding-bottom: 0px;
   justify-content: center;
 }
-.lp-uinfly-container19 {
+.lp-uinfly-container16 {
   gap: var(--dl-space-space-unit);
   flex: 1;
   width: 100%;
@@ -494,17 +437,17 @@
   flex-direction: column;
   justify-content: center;
 }
-.lp-uinfly-image2 {
+.lp-uinfly-image01 {
   width: 200px;
   object-fit: cover;
 }
-.lp-uinfly-text11 {
+.lp-uinfly-text10 {
   font-size: 30px;
   font-style: normal;
   font-family: "Oxygen";
   font-weight: 700;
 }
-.lp-uinfly-container20 {
+.lp-uinfly-container17 {
   width: 100%;
   height: 2px;
   display: flex;
@@ -512,20 +455,20 @@
   flex-direction: column;
   background-image: linear-gradient(90deg, rgb(255, 255, 255) 0.00%,rgb(202, 202, 202) 49.00%,rgb(255, 255, 255) 100.00%);
 }
-.lp-uinfly-text12 {
+.lp-uinfly-text11 {
   font-size: 16px;
   font-style: normal;
   text-align: center;
   font-family: "Oxygen";
   font-weight: 400;
 }
-.lp-uinfly-text14 {
+.lp-uinfly-text13 {
   font-weight: 700;
 }
-.lp-uinfly-link2 {
+.lp-uinfly-link1 {
   display: contents;
 }
-.lp-uinfly-container21 {
+.lp-uinfly-container18 {
   flex: 0 0 auto;
   width: auto;
   cursor: pointer;
@@ -542,11 +485,11 @@
   text-decoration: none;
   background-color: #5f5f5f;
 }
-.lp-uinfly-container21:hover {
+.lp-uinfly-container18:hover {
   gap: var(--dl-space-space-halfunit);
   background-color: #909090;
 }
-.lp-uinfly-text16 {
+.lp-uinfly-text15 {
   color: rgb(255, 255, 255);
   font-size: 16px;
   font-style: normal;
@@ -574,16 +517,55 @@
   flex-direction: column;
   justify-content: center;
 }
-.lp-uinfly-link3 {
+.lp-uinfly-link2 {
   display: contents;
 }
-.lp-uinfly-image3 {
+.lp-uinfly-image02 {
   width: 483px;
   height: 483px;
   object-fit: cover;
   text-decoration: none;
 }
-.lp-uinfly-container22 {
+.lp-uinfly-container19 {
+  flex: 0 0 auto;
+  width: auto;
+  cursor: pointer;
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  justify-content: center;
+  background-color: #5f5f5f;
+}
+.lp-uinfly-text16 {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-style: normal;
+  font-family: "Oxygen";
+  font-weight: 400;
+}
+.lp-uinfly-slider-slide1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.lp-uinfly-link3 {
+  display: contents;
+}
+.lp-uinfly-image03 {
+  width: 483px;
+  height: 483px;
+  object-fit: cover;
+  text-decoration: none;
+}
+.lp-uinfly-container20 {
   flex: 0 0 auto;
   width: auto;
   cursor: pointer;
@@ -605,7 +587,7 @@
   font-family: "Oxygen";
   font-weight: 400;
 }
-.lp-uinfly-slider-slide1 {
+.lp-uinfly-slider-slide2 {
   width: 100%;
   height: auto;
   display: flex;
@@ -616,13 +598,13 @@
 .lp-uinfly-link4 {
   display: contents;
 }
-.lp-uinfly-image4 {
+.lp-uinfly-image04 {
   width: 483px;
   height: 483px;
   object-fit: cover;
   text-decoration: none;
 }
-.lp-uinfly-container23 {
+.lp-uinfly-container21 {
   flex: 0 0 auto;
   width: auto;
   cursor: pointer;
@@ -644,45 +626,6 @@
   font-family: "Oxygen";
   font-weight: 400;
 }
-.lp-uinfly-slider-slide2 {
-  width: 100%;
-  height: auto;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-}
-.lp-uinfly-link5 {
-  display: contents;
-}
-.lp-uinfly-image5 {
-  width: 483px;
-  height: 483px;
-  object-fit: cover;
-  text-decoration: none;
-}
-.lp-uinfly-container24 {
-  flex: 0 0 auto;
-  width: auto;
-  cursor: pointer;
-  height: auto;
-  display: flex;
-  align-items: center;
-  padding-top: var(--dl-space-space-halfunit);
-  padding-left: var(--dl-space-space-unit);
-  border-radius: var(--dl-radius-radius-radius8);
-  padding-right: var(--dl-space-space-unit);
-  padding-bottom: var(--dl-space-space-halfunit);
-  justify-content: center;
-  background-color: #5f5f5f;
-}
-.lp-uinfly-text19 {
-  color: rgb(255, 255, 255);
-  font-size: 16px;
-  font-style: normal;
-  font-family: "Oxygen";
-  font-weight: 400;
-}
 .lp-uinfly-slider-button-prev {
   color: #a0a0a0;
   display: block;
@@ -691,7 +634,7 @@
   color: #a0a0a0;
   display: block;
 }
-.lp-uinfly-container25 {
+.lp-uinfly-container22 {
   gap: var(--dl-space-space-halfunit);
   flex: 1;
   width: 100%;
@@ -705,13 +648,13 @@
   flex-direction: column;
   justify-content: center;
 }
-.lp-uinfly-text20 {
+.lp-uinfly-text19 {
   font-size: 30px;
   font-style: normal;
   font-family: "Oxygen";
   font-weight: 700;
 }
-.lp-uinfly-container26 {
+.lp-uinfly-container23 {
   width: 100%;
   height: 2px;
   display: flex;
@@ -719,7 +662,7 @@
   flex-direction: column;
   background-image: linear-gradient(90deg, rgb(255, 255, 255) 0.00%,rgb(202, 202, 202) 49.00%,rgb(255, 255, 255) 100.00%);
 }
-.lp-uinfly-text21 {
+.lp-uinfly-text20 {
   font-size: 16px;
   font-style: normal;
   text-align: center;
@@ -742,7 +685,7 @@
   padding-bottom: 0px;
   justify-content: center;
 }
-.lp-uinfly-container27 {
+.lp-uinfly-container24 {
   gap: var(--dl-space-space-halfunit);
   flex: 1;
   display: flex;
@@ -750,7 +693,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.lp-uinfly-container28 {
+.lp-uinfly-container25 {
   gap: var(--dl-space-space-unit);
   flex: 1;
   width: 100%;
@@ -764,25 +707,20 @@
   flex-direction: column;
   justify-content: center;
 }
-.lp-uinfly-container29 {
-  width: 200px;
-  height: 200px;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  background-size: contain;
-  background-image: url('https://uwinflyofficial.id/wp-content/uploads/2023/10/uwinfly-17.png');
-  background-repeat: no-repeat;
-  background-position: center;
+.lp-uinfly-image05 {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 15px;
 }
-.lp-uinfly-text22 {
+.lp-uinfly-text21 {
   font-size: 16px;
   font-style: normal;
   text-align: center;
   font-family: "Oxygen";
   font-weight: 700;
 }
-.lp-uinfly-container30 {
+.lp-uinfly-container26 {
   width: 100%;
   height: 2px;
   display: flex;
@@ -790,7 +728,7 @@
   flex-direction: column;
   background-image: linear-gradient(90deg, rgb(255, 255, 255) 0.00%,rgb(202, 202, 202) 49.00%,rgb(255, 255, 255) 100.00%);
 }
-.lp-uinfly-container31 {
+.lp-uinfly-container27 {
   gap: var(--dl-space-space-halfunit);
   display: flex;
   align-items: center;
@@ -802,14 +740,14 @@
   width: 20px;
   height: auto;
 }
-.lp-uinfly-text23 {
+.lp-uinfly-text22 {
   font-size: 14px;
   font-style: normal;
   text-align: center;
   font-family: "Oxygen";
   font-weight: 400;
 }
-.lp-uinfly-container32 {
+.lp-uinfly-container28 {
   gap: var(--dl-space-space-halfunit);
   display: flex;
   align-items: center;
@@ -821,14 +759,14 @@
   width: 20px;
   height: auto;
 }
-.lp-uinfly-text24 {
+.lp-uinfly-text23 {
   font-size: 14px;
   font-style: normal;
   text-align: center;
   font-family: "Oxygen";
   font-weight: 400;
 }
-.lp-uinfly-container33 {
+.lp-uinfly-container29 {
   gap: var(--dl-space-space-halfunit);
   flex: 0 0 auto;
   width: auto;
@@ -846,23 +784,23 @@
   padding-bottom: var(--dl-space-space-halfunit);
   justify-content: center;
 }
-.lp-uinfly-container33:hover {
+.lp-uinfly-container29:hover {
   scale: 105%;
   box-shadow: 5px 5px 10px 0px #b3b3b3;
 }
-.lp-uinfly-text25 {
+.lp-uinfly-text24 {
   color: #ff0000;
-  font-size: 16px;
+  font-size: 14px;
   font-style: normal;
   font-family: "Oxygen";
   font-weight: 400;
 }
 .lp-uinfly-icon16 {
   fill: #ff0000;
-  width: 24px;
-  height: 24px;
+  width: 16px;
+  height: auto;
 }
-.lp-uinfly-container34 {
+.lp-uinfly-container30 {
   gap: var(--dl-space-space-unit);
   flex: 1;
   width: 100%;
@@ -876,25 +814,20 @@
   flex-direction: column;
   justify-content: center;
 }
-.lp-uinfly-container35 {
-  width: 200px;
-  height: 200px;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  background-size: contain;
-  background-image: url('https://uwinflyofficial.id/wp-content/uploads/2023/10/uwinfly-16.png');
-  background-repeat: no-repeat;
-  background-position: center;
+.lp-uinfly-image06 {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 15px;
 }
-.lp-uinfly-text26 {
+.lp-uinfly-text25 {
   font-size: 16px;
   font-style: normal;
   text-align: center;
   font-family: "Oxygen";
   font-weight: 700;
 }
-.lp-uinfly-container36 {
+.lp-uinfly-container31 {
   width: 100%;
   height: 2px;
   display: flex;
@@ -902,7 +835,7 @@
   flex-direction: column;
   background-image: linear-gradient(90deg, rgb(255, 255, 255) 0.00%,rgb(202, 202, 202) 49.00%,rgb(255, 255, 255) 100.00%);
 }
-.lp-uinfly-container37 {
+.lp-uinfly-container32 {
   gap: var(--dl-space-space-halfunit);
   display: flex;
   align-items: center;
@@ -914,14 +847,14 @@
   width: 20px;
   height: auto;
 }
-.lp-uinfly-text27 {
+.lp-uinfly-text26 {
   font-size: 14px;
   font-style: normal;
   text-align: center;
   font-family: "Oxygen";
   font-weight: 400;
 }
-.lp-uinfly-container38 {
+.lp-uinfly-container33 {
   gap: var(--dl-space-space-halfunit);
   display: flex;
   align-items: center;
@@ -933,14 +866,14 @@
   width: 20px;
   height: auto;
 }
-.lp-uinfly-text28 {
+.lp-uinfly-text27 {
   font-size: 14px;
   font-style: normal;
   text-align: center;
   font-family: "Oxygen";
   font-weight: 400;
 }
-.lp-uinfly-container39 {
+.lp-uinfly-container34 {
   gap: var(--dl-space-space-halfunit);
   flex: 0 0 auto;
   width: auto;
@@ -958,29 +891,136 @@
   padding-bottom: var(--dl-space-space-halfunit);
   justify-content: center;
 }
-.lp-uinfly-container39:hover {
+.lp-uinfly-container34:hover {
   scale: 105%;
   box-shadow: 5px 5px 10px 0px #b3b3b3;
 }
-.lp-uinfly-text29 {
+.lp-uinfly-text28 {
   color: #ff0000;
-  font-size: 16px;
+  font-size: 14px;
   font-style: normal;
   font-family: "Oxygen";
   font-weight: 400;
 }
 .lp-uinfly-icon24 {
   fill: #ff0000;
-  width: 24px;
-  height: 24px;
+  width: 16px;
+  height: auto;
 }
-.lp-uinfly-container40 {
+.lp-uinfly-container35 {
   gap: var(--dl-space-space-halfunit);
   flex: 1;
   display: flex;
   align-items: flex-start;
   flex-direction: row;
   justify-content: center;
+}
+.lp-uinfly-container36 {
+  gap: var(--dl-space-space-unit);
+  flex: 1;
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  align-items: center;
+  border-color: #adadad;
+  border-width: 2px;
+  border-radius: var(--dl-radius-radius-radius8);
+  flex-direction: column;
+  justify-content: center;
+}
+.lp-uinfly-image07 {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 15px;
+}
+.lp-uinfly-text29 {
+  font-size: 16px;
+  font-style: normal;
+  text-align: center;
+  font-family: "Oxygen";
+  font-weight: 700;
+}
+.lp-uinfly-container37 {
+  width: 100%;
+  height: 2px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  background-image: linear-gradient(90deg, rgb(255, 255, 255) 0.00%,rgb(202, 202, 202) 49.00%,rgb(255, 255, 255) 100.00%);
+}
+.lp-uinfly-container38 {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.lp-uinfly-icon28 {
+  fill: #ff0000;
+  width: 20px;
+  height: auto;
+}
+.lp-uinfly-text30 {
+  font-size: 14px;
+  font-style: normal;
+  text-align: center;
+  font-family: "Oxygen";
+  font-weight: 400;
+}
+.lp-uinfly-container39 {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.lp-uinfly-icon30 {
+  fill: #ff0000;
+  width: 20px;
+  height: auto;
+}
+.lp-uinfly-text31 {
+  font-size: 14px;
+  font-style: normal;
+  text-align: center;
+  font-family: "Oxygen";
+  font-weight: 400;
+}
+.lp-uinfly-container40 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 0 0 auto;
+  width: auto;
+  cursor: pointer;
+  height: auto;
+  display: flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  border-color: #ff0000;
+  border-width: 2px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  justify-content: center;
+}
+.lp-uinfly-container40:hover {
+  scale: 105%;
+  box-shadow: 5px 5px 10px 0px #b3b3b3;
+}
+.lp-uinfly-text32 {
+  color: #ff0000;
+  font-size: 14px;
+  font-style: normal;
+  font-family: "Oxygen";
+  font-weight: 400;
+}
+.lp-uinfly-icon32 {
+  fill: #ff0000;
+  width: 16px;
+  height: auto;
 }
 .lp-uinfly-container41 {
   gap: var(--dl-space-space-unit);
@@ -996,137 +1036,20 @@
   flex-direction: column;
   justify-content: center;
 }
-.lp-uinfly-container42 {
-  width: 200px;
-  height: 200px;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  background-size: contain;
-  background-image: url('https://uwinflyofficial.id/wp-content/uploads/2023/10/uwinfly-15.png');
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.lp-uinfly-text30 {
-  font-size: 16px;
-  font-style: normal;
-  text-align: center;
-  font-family: "Oxygen";
-  font-weight: 700;
-}
-.lp-uinfly-container43 {
+.lp-uinfly-image08 {
   width: 100%;
-  height: 2px;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  background-image: linear-gradient(90deg, rgb(255, 255, 255) 0.00%,rgb(202, 202, 202) 49.00%,rgb(255, 255, 255) 100.00%);
-}
-.lp-uinfly-container44 {
-  gap: var(--dl-space-space-halfunit);
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: center;
-}
-.lp-uinfly-icon28 {
-  fill: #ff0000;
-  width: 20px;
   height: auto;
-}
-.lp-uinfly-text31 {
-  font-size: 14px;
-  font-style: normal;
-  text-align: center;
-  font-family: "Oxygen";
-  font-weight: 400;
-}
-.lp-uinfly-container45 {
-  gap: var(--dl-space-space-halfunit);
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: center;
-}
-.lp-uinfly-icon30 {
-  fill: #ff0000;
-  width: 20px;
-  height: auto;
-}
-.lp-uinfly-text32 {
-  font-size: 14px;
-  font-style: normal;
-  text-align: center;
-  font-family: "Oxygen";
-  font-weight: 400;
-}
-.lp-uinfly-container46 {
-  gap: var(--dl-space-space-halfunit);
-  flex: 0 0 auto;
-  width: auto;
-  cursor: pointer;
-  height: auto;
-  display: flex;
-  transition: 0.3s;
-  align-items: center;
-  padding-top: var(--dl-space-space-halfunit);
-  border-color: #ff0000;
-  border-width: 2px;
-  padding-left: var(--dl-space-space-unit);
-  border-radius: var(--dl-radius-radius-radius8);
-  padding-right: var(--dl-space-space-unit);
-  padding-bottom: var(--dl-space-space-halfunit);
-  justify-content: center;
-}
-.lp-uinfly-container46:hover {
-  scale: 105%;
-  box-shadow: 5px 5px 10px 0px #b3b3b3;
+  object-fit: cover;
+  border-radius: 15px;
 }
 .lp-uinfly-text33 {
-  color: #ff0000;
-  font-size: 16px;
-  font-style: normal;
-  font-family: "Oxygen";
-  font-weight: 400;
-}
-.lp-uinfly-icon32 {
-  fill: #ff0000;
-  width: 24px;
-  height: 24px;
-}
-.lp-uinfly-container47 {
-  gap: var(--dl-space-space-unit);
-  flex: 1;
-  width: 100%;
-  height: auto;
-  display: flex;
-  padding: var(--dl-space-space-halfunit);
-  align-items: center;
-  border-color: #adadad;
-  border-width: 2px;
-  border-radius: var(--dl-radius-radius-radius8);
-  flex-direction: column;
-  justify-content: center;
-}
-.lp-uinfly-container48 {
-  width: 200px;
-  height: 200px;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  background-size: contain;
-  background-image: url('https://uwinflyofficial.id/wp-content/uploads/2023/10/uwinfly-14.png');
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.lp-uinfly-text34 {
   font-size: 16px;
   font-style: normal;
   text-align: center;
   font-family: "Oxygen";
   font-weight: 700;
 }
-.lp-uinfly-container49 {
+.lp-uinfly-container42 {
   width: 100%;
   height: 2px;
   display: flex;
@@ -1134,7 +1057,7 @@
   flex-direction: column;
   background-image: linear-gradient(90deg, rgb(255, 255, 255) 0.00%,rgb(202, 202, 202) 49.00%,rgb(255, 255, 255) 100.00%);
 }
-.lp-uinfly-container50 {
+.lp-uinfly-container43 {
   gap: var(--dl-space-space-halfunit);
   display: flex;
   align-items: center;
@@ -1146,14 +1069,14 @@
   width: 20px;
   height: auto;
 }
-.lp-uinfly-text35 {
+.lp-uinfly-text34 {
   font-size: 14px;
   font-style: normal;
   text-align: center;
   font-family: "Oxygen";
   font-weight: 400;
 }
-.lp-uinfly-container51 {
+.lp-uinfly-container44 {
   gap: var(--dl-space-space-halfunit);
   display: flex;
   align-items: center;
@@ -1165,14 +1088,14 @@
   width: 20px;
   height: auto;
 }
-.lp-uinfly-text36 {
+.lp-uinfly-text35 {
   font-size: 14px;
   font-style: normal;
   text-align: center;
   font-family: "Oxygen";
   font-weight: 400;
 }
-.lp-uinfly-container52 {
+.lp-uinfly-container45 {
   gap: var(--dl-space-space-halfunit);
   flex: 0 0 auto;
   width: auto;
@@ -1190,21 +1113,21 @@
   padding-bottom: var(--dl-space-space-halfunit);
   justify-content: center;
 }
-.lp-uinfly-container52:hover {
+.lp-uinfly-container45:hover {
   scale: 105%;
   box-shadow: 5px 5px 10px 0px #b3b3b3;
 }
-.lp-uinfly-text37 {
+.lp-uinfly-text36 {
   color: #ff0000;
-  font-size: 16px;
+  font-size: 14px;
   font-style: normal;
   font-family: "Oxygen";
   font-weight: 400;
 }
 .lp-uinfly-icon40 {
   fill: #ff0000;
-  width: 24px;
-  height: 24px;
+  width: 16px;
+  height: auto;
 }
 .lp-uinfly-deskription2 {
   gap: var(--dl-space-space-halfunit);
@@ -1222,7 +1145,7 @@
   padding-bottom: 0px;
   justify-content: center;
 }
-.lp-uinfly-container53 {
+.lp-uinfly-container46 {
   gap: var(--dl-space-space-halfunit);
   flex: 1;
   display: flex;
@@ -1230,7 +1153,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.lp-uinfly-container54 {
+.lp-uinfly-container47 {
   gap: var(--dl-space-space-unit);
   flex: 1;
   width: 100%;
@@ -1244,25 +1167,20 @@
   flex-direction: column;
   justify-content: center;
 }
-.lp-uinfly-container55 {
-  width: 200px;
-  height: 200px;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  background-size: contain;
-  background-image: url('https://uwinflyofficial.id/wp-content/uploads/2023/10/uwinfly-13.png');
-  background-repeat: no-repeat;
-  background-position: center;
+.lp-uinfly-image09 {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 15px;
 }
-.lp-uinfly-text38 {
+.lp-uinfly-text37 {
   font-size: 16px;
   font-style: normal;
   text-align: center;
   font-family: "Oxygen";
   font-weight: 700;
 }
-.lp-uinfly-container56 {
+.lp-uinfly-container48 {
   width: 100%;
   height: 2px;
   display: flex;
@@ -1270,7 +1188,7 @@
   flex-direction: column;
   background-image: linear-gradient(90deg, rgb(255, 255, 255) 0.00%,rgb(202, 202, 202) 49.00%,rgb(255, 255, 255) 100.00%);
 }
-.lp-uinfly-container57 {
+.lp-uinfly-container49 {
   gap: var(--dl-space-space-halfunit);
   display: flex;
   align-items: center;
@@ -1282,14 +1200,14 @@
   width: 20px;
   height: auto;
 }
-.lp-uinfly-text39 {
+.lp-uinfly-text38 {
   font-size: 14px;
   font-style: normal;
   text-align: center;
   font-family: "Oxygen";
   font-weight: 400;
 }
-.lp-uinfly-container58 {
+.lp-uinfly-container50 {
   gap: var(--dl-space-space-halfunit);
   display: flex;
   align-items: center;
@@ -1301,14 +1219,14 @@
   width: 20px;
   height: auto;
 }
-.lp-uinfly-text40 {
+.lp-uinfly-text39 {
   font-size: 14px;
   font-style: normal;
   text-align: center;
   font-family: "Oxygen";
   font-weight: 400;
 }
-.lp-uinfly-container59 {
+.lp-uinfly-container51 {
   gap: var(--dl-space-space-halfunit);
   flex: 0 0 auto;
   width: auto;
@@ -1326,23 +1244,23 @@
   padding-bottom: var(--dl-space-space-halfunit);
   justify-content: center;
 }
-.lp-uinfly-container59:hover {
+.lp-uinfly-container51:hover {
   scale: 105%;
   box-shadow: 5px 5px 10px 0px #b3b3b3;
 }
-.lp-uinfly-text41 {
+.lp-uinfly-text40 {
   color: #ff0000;
-  font-size: 16px;
+  font-size: 14px;
   font-style: normal;
   font-family: "Oxygen";
   font-weight: 400;
 }
 .lp-uinfly-icon48 {
   fill: #ff0000;
-  width: 24px;
-  height: 24px;
+  width: 16px;
+  height: auto;
 }
-.lp-uinfly-container60 {
+.lp-uinfly-container52 {
   gap: var(--dl-space-space-unit);
   flex: 1;
   width: 100%;
@@ -1356,25 +1274,20 @@
   flex-direction: column;
   justify-content: center;
 }
-.lp-uinfly-container61 {
-  width: 200px;
-  height: 200px;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  background-size: contain;
-  background-image: url('https://uwinflyofficial.id/wp-content/uploads/2023/10/uwinfly-12.png');
-  background-repeat: no-repeat;
-  background-position: center;
+.lp-uinfly-image10 {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 15px;
 }
-.lp-uinfly-text42 {
+.lp-uinfly-text41 {
   font-size: 16px;
   font-style: normal;
   text-align: center;
   font-family: "Oxygen";
   font-weight: 700;
 }
-.lp-uinfly-container62 {
+.lp-uinfly-container53 {
   width: 100%;
   height: 2px;
   display: flex;
@@ -1382,7 +1295,7 @@
   flex-direction: column;
   background-image: linear-gradient(90deg, rgb(255, 255, 255) 0.00%,rgb(202, 202, 202) 49.00%,rgb(255, 255, 255) 100.00%);
 }
-.lp-uinfly-container63 {
+.lp-uinfly-container54 {
   gap: var(--dl-space-space-halfunit);
   display: flex;
   align-items: center;
@@ -1394,14 +1307,14 @@
   width: 20px;
   height: auto;
 }
-.lp-uinfly-text43 {
+.lp-uinfly-text42 {
   font-size: 14px;
   font-style: normal;
   text-align: center;
   font-family: "Oxygen";
   font-weight: 400;
 }
-.lp-uinfly-container64 {
+.lp-uinfly-container55 {
   gap: var(--dl-space-space-halfunit);
   display: flex;
   align-items: center;
@@ -1413,14 +1326,14 @@
   width: 20px;
   height: auto;
 }
-.lp-uinfly-text44 {
+.lp-uinfly-text43 {
   font-size: 14px;
   font-style: normal;
   text-align: center;
   font-family: "Oxygen";
   font-weight: 400;
 }
-.lp-uinfly-container65 {
+.lp-uinfly-container56 {
   gap: var(--dl-space-space-halfunit);
   flex: 0 0 auto;
   width: auto;
@@ -1438,23 +1351,23 @@
   padding-bottom: var(--dl-space-space-halfunit);
   justify-content: center;
 }
-.lp-uinfly-container65:hover {
+.lp-uinfly-container56:hover {
   scale: 105%;
   box-shadow: 5px 5px 10px 0px #b3b3b3;
 }
-.lp-uinfly-text45 {
+.lp-uinfly-text44 {
   color: #ff0000;
-  font-size: 16px;
+  font-size: 14px;
   font-style: normal;
   font-family: "Oxygen";
   font-weight: 400;
 }
 .lp-uinfly-icon56 {
   fill: #ff0000;
-  width: 24px;
-  height: 24px;
+  width: 16px;
+  height: auto;
 }
-.lp-uinfly-container66 {
+.lp-uinfly-container57 {
   gap: var(--dl-space-space-halfunit);
   flex: 1;
   display: flex;
@@ -1462,7 +1375,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.lp-uinfly-container67 {
+.lp-uinfly-container58 {
   gap: var(--dl-space-space-unit);
   flex: 1;
   width: 100%;
@@ -1476,25 +1389,20 @@
   flex-direction: column;
   justify-content: center;
 }
-.lp-uinfly-container68 {
-  width: 200px;
-  height: 200px;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  background-size: contain;
-  background-image: url('https://uwinflyofficial.id/wp-content/uploads/2023/09/T5.png');
-  background-repeat: no-repeat;
-  background-position: center;
+.lp-uinfly-image11 {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 15px;
 }
-.lp-uinfly-text46 {
+.lp-uinfly-text45 {
   font-size: 16px;
   font-style: normal;
   text-align: center;
   font-family: "Oxygen";
   font-weight: 700;
 }
-.lp-uinfly-container69 {
+.lp-uinfly-container59 {
   width: 100%;
   height: 2px;
   display: flex;
@@ -1502,7 +1410,7 @@
   flex-direction: column;
   background-image: linear-gradient(90deg, rgb(255, 255, 255) 0.00%,rgb(202, 202, 202) 49.00%,rgb(255, 255, 255) 100.00%);
 }
-.lp-uinfly-container70 {
+.lp-uinfly-container60 {
   gap: var(--dl-space-space-halfunit);
   display: flex;
   align-items: center;
@@ -1514,14 +1422,14 @@
   width: 20px;
   height: auto;
 }
-.lp-uinfly-text47 {
+.lp-uinfly-text46 {
   font-size: 14px;
   font-style: normal;
   text-align: center;
   font-family: "Oxygen";
   font-weight: 400;
 }
-.lp-uinfly-container71 {
+.lp-uinfly-container61 {
   gap: var(--dl-space-space-halfunit);
   display: flex;
   align-items: center;
@@ -1533,14 +1441,14 @@
   width: 20px;
   height: auto;
 }
-.lp-uinfly-text48 {
+.lp-uinfly-text47 {
   font-size: 14px;
   font-style: normal;
   text-align: center;
   font-family: "Oxygen";
   font-weight: 400;
 }
-.lp-uinfly-container72 {
+.lp-uinfly-container62 {
   gap: var(--dl-space-space-halfunit);
   flex: 0 0 auto;
   width: auto;
@@ -1558,23 +1466,23 @@
   padding-bottom: var(--dl-space-space-halfunit);
   justify-content: center;
 }
-.lp-uinfly-container72:hover {
+.lp-uinfly-container62:hover {
   scale: 105%;
   box-shadow: 5px 5px 10px 0px #b3b3b3;
 }
-.lp-uinfly-text49 {
+.lp-uinfly-text48 {
   color: #ff0000;
-  font-size: 16px;
+  font-size: 14px;
   font-style: normal;
   font-family: "Oxygen";
   font-weight: 400;
 }
 .lp-uinfly-icon64 {
   fill: #ff0000;
-  width: 24px;
-  height: 24px;
+  width: 16px;
+  height: auto;
 }
-.lp-uinfly-container73 {
+.lp-uinfly-container63 {
   gap: var(--dl-space-space-unit);
   flex: 1;
   width: 100%;
@@ -1588,25 +1496,20 @@
   flex-direction: column;
   justify-content: center;
 }
-.lp-uinfly-container74 {
-  width: 200px;
-  height: 200px;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  background-size: contain;
-  background-image: url('https://uwinflyofficial.id/wp-content/uploads/2023/09/T5-1-1.png');
-  background-repeat: no-repeat;
-  background-position: center;
+.lp-uinfly-image12 {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 15px;
 }
-.lp-uinfly-text50 {
+.lp-uinfly-text49 {
   font-size: 16px;
   font-style: normal;
   text-align: center;
   font-family: "Oxygen";
   font-weight: 700;
 }
-.lp-uinfly-container75 {
+.lp-uinfly-container64 {
   width: 100%;
   height: 2px;
   display: flex;
@@ -1614,7 +1517,7 @@
   flex-direction: column;
   background-image: linear-gradient(90deg, rgb(255, 255, 255) 0.00%,rgb(202, 202, 202) 49.00%,rgb(255, 255, 255) 100.00%);
 }
-.lp-uinfly-container76 {
+.lp-uinfly-container65 {
   gap: var(--dl-space-space-halfunit);
   display: flex;
   align-items: center;
@@ -1626,14 +1529,14 @@
   width: 20px;
   height: auto;
 }
-.lp-uinfly-text51 {
+.lp-uinfly-text50 {
   font-size: 14px;
   font-style: normal;
   text-align: center;
   font-family: "Oxygen";
   font-weight: 400;
 }
-.lp-uinfly-container77 {
+.lp-uinfly-container66 {
   gap: var(--dl-space-space-halfunit);
   display: flex;
   align-items: center;
@@ -1645,14 +1548,14 @@
   width: 20px;
   height: auto;
 }
-.lp-uinfly-text52 {
+.lp-uinfly-text51 {
   font-size: 14px;
   font-style: normal;
   text-align: center;
   font-family: "Oxygen";
   font-weight: 400;
 }
-.lp-uinfly-container78 {
+.lp-uinfly-container67 {
   gap: var(--dl-space-space-halfunit);
   flex: 0 0 auto;
   width: auto;
@@ -1670,21 +1573,21 @@
   padding-bottom: var(--dl-space-space-halfunit);
   justify-content: center;
 }
-.lp-uinfly-container78:hover {
+.lp-uinfly-container67:hover {
   scale: 105%;
   box-shadow: 5px 5px 10px 0px #b3b3b3;
 }
-.lp-uinfly-text53 {
+.lp-uinfly-text52 {
   color: #ff0000;
-  font-size: 16px;
+  font-size: 14px;
   font-style: normal;
   font-family: "Oxygen";
   font-weight: 400;
 }
 .lp-uinfly-icon72 {
   fill: #ff0000;
-  width: 24px;
-  height: 24px;
+  width: 16px;
+  height: auto;
 }
 .lp-uinfly-banner {
   gap: var(--dl-space-space-halfunit);
@@ -1702,7 +1605,7 @@
   justify-content: center;
   background-color: #ececec;
 }
-.lp-uinfly-container79 {
+.lp-uinfly-container68 {
   gap: var(--dl-space-space-unit);
   width: 100%;
   display: flex;
@@ -1711,7 +1614,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.lp-uinfly-text54 {
+.lp-uinfly-text53 {
   color: #000000;
   width: 100%;
   font-size: 30px;
@@ -1720,23 +1623,23 @@
   font-weight: 600;
   margin-bottom: 0px;
 }
-.lp-uinfly-container80 {
+.lp-uinfly-container69 {
   gap: var(--dl-space-space-unit);
   flex: 0 0 auto;
   width: 100%;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: flex-start;
 }
-.lp-uinfly-container81 {
-  gap: var(--dl-space-space-halfunit);
+.lp-uinfly-container70 {
+  gap: var(--dl-space-space-unit);
   flex: 1;
   width: 100%;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.lp-uinfly-text55 {
+.lp-uinfly-text54 {
   color: #000000;
   width: 100%;
   font-size: 16px;
@@ -1746,12 +1649,12 @@
   font-weight: 700;
   margin-bottom: 0px;
 }
-.lp-uinfly-text56 {
+.lp-uinfly-text55 {
   color: #000000;
   font-family: "Oxygen";
   margin-right: 0px;
 }
-.lp-uinfly-text57 {
+.lp-uinfly-text56 {
   color: #000000;
   width: 100%;
   font-size: 16px;
@@ -1761,7 +1664,7 @@
   font-weight: 700;
   margin-bottom: 0px;
 }
-.lp-uinfly-container82 {
+.lp-uinfly-container71 {
   gap: var(--dl-space-space-halfunit);
   flex: 0 0 auto;
   width: auto;
@@ -1778,12 +1681,12 @@
   justify-content: center;
   background-color: #33bf04;
 }
-.lp-uinfly-container82:hover {
+.lp-uinfly-container71:hover {
   scale: 105%;
   box-shadow: 5px 5px 10px 0px rgba(89, 88, 88, 0.5);
   background-color: #0034df;
 }
-.lp-uinfly-text58 {
+.lp-uinfly-text57 {
   color: #ffffff;
   font-size: 16px;
   font-style: normal;
@@ -1795,7 +1698,7 @@
   width: 24px;
   height: 24px;
 }
-.lp-uinfly-container83 {
+.lp-uinfly-container72 {
   flex: 1;
   width: 100%;
   height: 261px;
@@ -1808,11 +1711,11 @@
   flex-direction: column;
   justify-content: center;
 }
-.lp-uinfly-container84 {
+.lp-uinfly-container73 {
   width: 100%;
   height: 100%;
 }
-.lp-uinfly-container85 {
+.lp-uinfly-container74 {
   display: contents;
 }
 .lp-uinfly-banner1 {
@@ -1828,7 +1731,7 @@
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: space-between;
 }
-.lp-uinfly-container86 {
+.lp-uinfly-container75 {
   width: 100%;
   display: flex;
   align-items: flex-start;
@@ -1836,7 +1739,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.lp-uinfly-text59 {
+.lp-uinfly-text58 {
   width: 100%;
   font-size: 30px;
   text-align: left;
@@ -1844,17 +1747,17 @@
   font-weight: 600;
   margin-bottom: var(--dl-space-space-unit);
 }
-.lp-uinfly-text62 {
+.lp-uinfly-text61 {
   font-family: "Oxygen";
   margin-right: var(--dl-space-space-threeunits);
 }
-.lp-uinfly-text64 {
+.lp-uinfly-text63 {
   font-family: "Oxygen";
 }
-.lp-uinfly-text67 {
+.lp-uinfly-text66 {
   font-family: "Oxygen";
 }
-.lp-uinfly-image6 {
+.lp-uinfly-image13 {
   width: 184px;
   height: 184px;
   object-fit: cover;
@@ -1873,7 +1776,7 @@
   padding-bottom: var(--dl-space-space-halfunit);
   justify-content: space-between;
 }
-.lp-uinfly-image7 {
+.lp-uinfly-image14 {
   width: 197px;
   height: 51px;
   object-fit: cover;
@@ -1898,7 +1801,7 @@
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
-.lp-uinfly-container87 {
+.lp-uinfly-container76 {
   right: 8px;
   width: 100%;
   bottom: 0px;
@@ -1914,69 +1817,64 @@
 }
 @media(max-width: 991px) {
   .lp-uinfly-container01 {
-    height: 714px;
-  }
-  .lp-uinfly-container02 {
-    height: 714px;
+    height: 633px;
   }
   .lp-uinfly-banner {
     flex-direction: column;
   }
-  .lp-uinfly-container79 {
+  .lp-uinfly-container68 {
     align-items: center;
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-threeunits);
+  }
+  .lp-uinfly-text53 {
+    text-align: center;
   }
   .lp-uinfly-text54 {
     text-align: center;
   }
   .lp-uinfly-text55 {
     text-align: center;
-  }
-  .lp-uinfly-text56 {
-    text-align: center;
     margin-left: 0px;
     margin-right: 0px;
   }
-  .lp-uinfly-text57 {
+  .lp-uinfly-text56 {
     text-align: center;
   }
   .lp-uinfly-banner1 {
     flex-direction: column;
   }
-  .lp-uinfly-container86 {
+  .lp-uinfly-container75 {
     align-items: center;
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-threeunits);
   }
-  .lp-uinfly-text59 {
+  .lp-uinfly-text58 {
     text-align: center;
   }
-  .lp-uinfly-text62 {
+  .lp-uinfly-text61 {
     text-align: center;
     margin-left: 0px;
     margin-right: 0px;
   }
-  .lp-uinfly-image6 {
+  .lp-uinfly-image13 {
     width: var(--dl-size-size-xxlarge);
     height: var(--dl-size-size-xxlarge);
   }
 }
 @media(max-width: 767px) {
   .lp-uinfly-container01 {
-    height: 509px;
+    height: 502px;
   }
-  .lp-uinfly-container02 {
-    height: 509px;
+  .lp-uinfly-video {
+    height: auto;
   }
   .lp-uinfly-header {
-    flex-direction: column;
+    height: 887px;
   }
-  .lp-uinfly-image1 {
-    height: 742px;
-  }
-  .lp-uinfly-container04 {
+  .lp-uinfly-container02 {
     align-items: center;
+    justify-content: flex-start;
   }
   .lp-uinfly-text01 {
     text-align: center;
@@ -1984,56 +1882,56 @@
   .lp-uinfly-deskription1 {
     flex-direction: column;
   }
-  .lp-uinfly-container27 {
+  .lp-uinfly-container24 {
     width: 100%;
   }
-  .lp-uinfly-container40 {
+  .lp-uinfly-container35 {
     width: 100%;
   }
   .lp-uinfly-deskription2 {
     flex-direction: column;
   }
-  .lp-uinfly-container53 {
+  .lp-uinfly-container46 {
     width: 100%;
   }
-  .lp-uinfly-container66 {
+  .lp-uinfly-container57 {
     width: 100%;
   }
   .lp-uinfly-banner {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .lp-uinfly-text54 {
+  .lp-uinfly-text53 {
     text-align: center;
   }
-  .lp-uinfly-container80 {
+  .lp-uinfly-container69 {
     flex-direction: column;
   }
-  .lp-uinfly-container81 {
+  .lp-uinfly-container70 {
     align-items: center;
     flex-direction: column;
   }
-  .lp-uinfly-text55 {
+  .lp-uinfly-text54 {
     text-align: center;
   }
-  .lp-uinfly-text57 {
+  .lp-uinfly-text56 {
     text-align: center;
   }
-  .lp-uinfly-container84 {
+  .lp-uinfly-container73 {
     height: 445px;
   }
   .lp-uinfly-banner1 {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .lp-uinfly-text59 {
+  .lp-uinfly-text58 {
     text-align: center;
   }
   .lp-uinfly-footer {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .lp-uinfly-text70 {
+  .lp-uinfly-text69 {
     text-align: center;
     margin-left: var(--dl-space-space-unit);
     margin-right: var(--dl-space-space-unit);
@@ -2041,32 +1939,13 @@
 }
 @media(max-width: 479px) {
   .lp-uinfly-container01 {
-    height: 457px;
+    height: 339px;
   }
   .lp-uinfly-image {
-    top: 0px;
-    right: 0px;
-    width: 478px;
-    height: 892px;
-    margin: auto;
+    width: 334px;
+    height: 444px;
   }
   .lp-uinfly-container02 {
-    height: 457px;
-  }
-  .lp-uinfly-header {
-    padding-top: var(--dl-space-space-fiveunits);
-    padding-left: var(--dl-space-space-halfunit);
-    padding-right: var(--dl-space-space-halfunit);
-    flex-direction: column;
-  }
-  .lp-uinfly-container03 {
-    height: 735px;
-    flex-direction: column;
-  }
-  .lp-uinfly-image1 {
-    height: auto;
-  }
-  .lp-uinfly-container04 {
     justify-content: flex-start;
   }
   .lp-uinfly-text {
@@ -2076,13 +1955,15 @@
   .lp-uinfly-text01 {
     text-align: center;
   }
-  .lp-uinfly-container06 {
+  .lp-uinfly-container04 {
     align-self: center;
+    align-items: center;
+    flex-direction: column;
   }
-  .lp-uinfly-container11 {
-    flex-direction: row;
+  .lp-uinfly-container08 {
+    flex-direction: column;
   }
-  .lp-uinfly-container12 {
+  .lp-uinfly-container09 {
     width: 100%;
     height: 160px;
     align-items: center;
@@ -2091,7 +1972,7 @@
   .lp-uinfly-icon {
     height: var(--dl-size-size-small);
   }
-  .lp-uinfly-container13 {
+  .lp-uinfly-container10 {
     width: 100%;
     height: 160px;
     align-items: center;
@@ -2100,7 +1981,7 @@
   .lp-uinfly-icon02 {
     height: var(--dl-size-size-small);
   }
-  .lp-uinfly-container14 {
+  .lp-uinfly-container11 {
     width: 100%;
     height: 160px;
     align-items: center;
@@ -2109,10 +1990,10 @@
   .lp-uinfly-icon04 {
     height: var(--dl-size-size-small);
   }
-  .lp-uinfly-container15 {
-    flex-direction: row;
+  .lp-uinfly-container12 {
+    flex-direction: column;
   }
-  .lp-uinfly-container16 {
+  .lp-uinfly-container13 {
     width: 100%;
     height: 160px;
     align-items: center;
@@ -2121,7 +2002,7 @@
   .lp-uinfly-icon06 {
     height: var(--dl-size-size-small);
   }
-  .lp-uinfly-container17 {
+  .lp-uinfly-container14 {
     width: 100%;
     height: 160px;
     align-items: center;
@@ -2130,7 +2011,7 @@
   .lp-uinfly-icon08 {
     height: var(--dl-size-size-small);
   }
-  .lp-uinfly-container18 {
+  .lp-uinfly-container15 {
     width: 100%;
     height: 160px;
     align-items: center;
@@ -2144,23 +2025,23 @@
     padding-right: var(--dl-space-space-halfunit);
     flex-direction: column;
   }
-  .lp-uinfly-container22 {
+  .lp-uinfly-container19 {
     background-color: #1a83ff;
   }
-  .lp-uinfly-container23 {
+  .lp-uinfly-container20 {
     background-color: #4ba6bd;
   }
-  .lp-uinfly-container25 {
+  .lp-uinfly-container22 {
     gap: var(--dl-space-space-halfunit);
   }
   .lp-uinfly-deskription1 {
-    padding-left: var(--dl-space-space-halfunit);
-    padding-right: var(--dl-space-space-halfunit);
+    padding-left: 0px;
+    padding-right: 0px;
     flex-direction: column;
   }
   .lp-uinfly-deskription2 {
-    padding-left: var(--dl-space-space-halfunit);
-    padding-right: var(--dl-space-space-halfunit);
+    padding-left: 0px;
+    padding-right: 0px;
     flex-direction: column;
   }
   .lp-uinfly-banner {
@@ -2173,28 +2054,28 @@
     padding-bottom: var(--dl-space-space-twounits);
     justify-content: center;
   }
-  .lp-uinfly-container79 {
+  .lp-uinfly-container68 {
     align-items: center;
+  }
+  .lp-uinfly-text53 {
+    text-align: center;
+  }
+  .lp-uinfly-container70 {
+    gap: var(--dl-space-space-unit);
   }
   .lp-uinfly-text54 {
     text-align: center;
   }
-  .lp-uinfly-container81 {
-    gap: var(--dl-space-space-unit);
-  }
-  .lp-uinfly-text55 {
+  .lp-uinfly-text56 {
     text-align: center;
   }
-  .lp-uinfly-text57 {
-    text-align: center;
-  }
-  .lp-uinfly-container82 {
+  .lp-uinfly-container71 {
     width: 100%;
   }
-  .lp-uinfly-container83 {
+  .lp-uinfly-container72 {
     height: auto;
   }
-  .lp-uinfly-container84 {
+  .lp-uinfly-container73 {
     height: 354px;
     border-radius: var(--dl-radius-radius-radius8);
   }
@@ -2204,13 +2085,13 @@
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-twounits);
   }
-  .lp-uinfly-container86 {
+  .lp-uinfly-container75 {
     align-items: center;
   }
-  .lp-uinfly-text59 {
+  .lp-uinfly-text58 {
     text-align: center;
   }
-  .lp-uinfly-image6 {
+  .lp-uinfly-image13 {
     width: var(--dl-size-size-xlarge);
     height: var(--dl-size-size-xlarge);
   }
@@ -2218,15 +2099,15 @@
     padding: var(--dl-space-space-unit);
     flex-direction: column;
   }
-  .lp-uinfly-image7 {
+  .lp-uinfly-image14 {
     margin-bottom: var(--dl-space-space-unit);
   }
-  .lp-uinfly-text70 {
+  .lp-uinfly-text69 {
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .lp-uinfly-container87 {
+  .lp-uinfly-container76 {
     height: 406px;
   }
 }
