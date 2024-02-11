@@ -8,11 +8,18 @@
   position: fixed;
   align-items: center;
   padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
   flex-direction: row;
   padding-bottom: var(--dl-space-space-unit);
   justify-content: center;
   text-decoration: none;
   background-color: #178e00;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
 .ct-acust-icon {
   fill: #ffffff;
@@ -26,4 +33,21 @@
   font-family: "Inter";
   font-weight: 600;
 }
-
+.ct-acust-root-class-name {
+  align-self: center;
+}
+@media(max-width: 991px) {
+  .ct-acust-root-class-name {
+    align-self: center;
+  }
+}
+@media(max-width: 767px) {
+  .ct-acust-root-class-name {
+    align-self: center;
+  }
+}
+@media(max-width: 479px) {
+  .ct-acust-root-class-name {
+    align-self: center;
+  }
+}
