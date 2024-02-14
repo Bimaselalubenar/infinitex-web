@@ -925,7 +925,7 @@
 .jasa-bikin-website-paket-bronze {
   gap: var(--dl-space-space-unit);
   flex: 1;
-  width: 232px;
+  width: 100%;
   cursor: pointer;
   height: auto;
   display: flex;
@@ -1060,7 +1060,7 @@
 .jasa-bikin-website-paket-bronze01 {
   gap: var(--dl-space-space-unit);
   flex: 1;
-  width: 232px;
+  width: 100%;
   cursor: pointer;
   height: auto;
   display: flex;
@@ -1194,7 +1194,7 @@
 }
 .jasa-bikin-website-container019 {
   gap: var(--dl-space-space-unit);
-  flex: 0;
+  flex: 1;
   height: 100%;
   display: flex;
   align-items: flex-start;
@@ -1204,7 +1204,7 @@
 .jasa-bikin-website-paket-bronze02 {
   gap: var(--dl-space-space-unit);
   flex: 1;
-  width: 232px;
+  width: 100%;
   cursor: pointer;
   height: auto;
   display: flex;
@@ -1339,7 +1339,7 @@
 .jasa-bikin-website-paket-bronze03 {
   gap: var(--dl-space-space-unit);
   flex: 1;
-  width: 232px;
+  width: 100%;
   cursor: pointer;
   height: auto;
   display: flex;
@@ -4270,6 +4270,8 @@
   align-self: center;
   align-items: center;
   padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
   flex-direction: row;
   padding-bottom: 0px;
   justify-content: center;
@@ -4278,7 +4280,7 @@
   color: rgb(7, 0, 58);
   font-size: 20px;
   font-style: normal;
-  text-align: left;
+  text-align: center;
   font-family: "Inter";
   font-weight: 600;
   line-height: 1.1;
@@ -4357,11 +4359,20 @@
   margin-bottom: 0px;
 }
 .jasa-bikin-website-image19 {
-  width: 200px;
+  width: 112px;
   height: auto;
   margin-top: var(--dl-space-space-unit);
   object-fit: cover;
+  transition: 0.3s;
   margin-bottom: var(--dl-space-space-unit);
+}
+.jasa-bikin-website-image19:hover {
+  animation-name: tada;
+  animation-delay: 0s;
+  animation-duration: 1s;
+  animation-direction: normal;
+  animation-iteration-count: 2;
+  animation-timing-function: ease;
 }
 .jasa-bikin-website-container153 {
   gap: var(--dl-space-space-unit);
@@ -4665,11 +4676,20 @@
   color: #003dff;
 }
 .jasa-bikin-website-image20 {
-  width: 200px;
+  width: 112px;
   height: auto;
   margin-top: var(--dl-space-space-unit);
   object-fit: cover;
+  transition: 0.3s;
   margin-bottom: var(--dl-space-space-unit);
+}
+.jasa-bikin-website-image20:hover {
+  animation-name: tada;
+  animation-delay: 0s;
+  animation-duration: 1s;
+  animation-direction: normal;
+  animation-iteration-count: 2;
+  animation-timing-function: ease;
 }
 .jasa-bikin-website-container165 {
   gap: var(--dl-space-space-unit);
@@ -7535,7 +7555,7 @@
     font-weight: 600;
   }
   .jasa-bikin-website-image19 {
-    width: 151px;
+    width: 100px;
     height: auto;
   }
   .jasa-bikin-website-container153 {
@@ -7639,7 +7659,7 @@
     font-weight: 600;
   }
   .jasa-bikin-website-image20 {
-    width: 151px;
+    width: 100px;
     height: auto;
   }
   .jasa-bikin-website-container165 {
