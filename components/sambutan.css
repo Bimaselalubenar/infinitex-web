@@ -14,6 +14,7 @@
   background-color: #ffffff;
 }
 .sambutan-text {
+  font-size: 12px;
   font-style: normal;
   margin-top: var(--dl-space-space-unit);
   font-weight: 600;
@@ -21,6 +22,8 @@
   margin-bottom: var(--dl-space-space-unit);
 }
 .sambutan-text1 {
+  color: #0050ff;
+  font-size: 12px;
   font-style: normal;
   margin-top: var(--dl-space-space-unit);
   font-weight: 600;

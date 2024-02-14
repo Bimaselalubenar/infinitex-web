@@ -1,0 +1,192 @@
+.menu-container {
+  gap: var(--dl-space-space-unit);
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  z-index: 1;
+  position: relative;
+  max-width: 1000px;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-twounits);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-unit);
+  justify-content: flex-start;
+}
+.menu-container1 {
+  gap: var(--dl-space-space-unit);
+  flex: 1;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.menu-container2 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 1;
+  width: 209px;
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  transition: 0.3s;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-radius8);
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ffffff;
+}
+.menu-container2:hover {
+  animation-name: pulse;
+  animation-delay: 0s;
+  animation-duration: 1s;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+.menu-image {
+  width: 100%;
+  cursor: pointer;
+  height: auto;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-radius8);
+}
+.menu-container3 {
+  gap: var(--dl-space-space-halfunit);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: var(--dl-space-space-halfunit);
+  padding-right: var(--dl-space-space-halfunit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-halfunit);
+  justify-content: center;
+}
+.menu-text {
+  color: #07003a;
+  width: 100%;
+  font-size: 12px;
+  align-self: center;
+  font-style: normal;
+  text-align: left;
+  font-weight: 600;
+}
+.menu-container4 {
+  gap: 5px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.menu-container5 {
+  gap: 5px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.menu-text1 {
+  color: rgb(0, 10, 255);
+  width: auto;
+  font-size: 9px;
+  align-self: center;
+  font-style: normal;
+  text-align: left;
+  font-weight: 400;
+}
+.menu-container6 {
+  gap: var(--dl-space-space-halfunit);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.menu-link {
+  display: contents;
+}
+.menu-container7 {
+  gap: var(--dl-space-space-halfunit);
+  width: 100%;
+  cursor: pointer;
+  height: 38px;
+  display: flex;
+  padding: 5px;
+  transition: 0.5s;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-radius8);
+  flex-direction: row;
+  justify-content: center;
+  text-decoration: none;
+  background-color: #07003a;
+}
+.menu-container7:hover {
+  transform: scale(105%);
+  box-shadow: 0px 3px 0px 0px #6cc400,0px 3px 10px 0px #edff1b;
+  border-radius: var(--dl-radius-radius-radius8);
+  background-color: #077902;
+}
+.menu-text2 {
+  color: #ffffff;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+}
+@media(max-width: 991px) {
+  .menu-text {
+    color: rgb(7, 0, 58);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .menu-text1 {
+    color: rgb(0, 10, 255);
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+@media(max-width: 767px) {
+  .menu-container {
+    height: auto;
+    flex-direction: column;
+  }
+}
+@media(max-width: 479px) {
+  .menu-container2 {
+    width: 161px;
+    background-color: #f7f7f7;
+  }
+  .menu-image {
+    height: auto;
+  }
+  .menu-container3 {
+    gap: 5px;
+  }
+  .menu-text {
+    color: #07003a;
+    font-size: 12px;
+  }
+  .menu-container5 {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .menu-text1 {
+    font-size: 8px;
+  }
+  .menu-container6 {
+    gap: var(--dl-space-space-halfunit);
+  }
+  .menu-container7 {
+    gap: var(--dl-space-space-halfunit);
+    width: 100%;
+    height: auto;
+    padding: var(--dl-space-space-halfunit);
+  }
+  .menu-text2 {
+    width: auto;
+    font-size: 10px;
+  }
+}
