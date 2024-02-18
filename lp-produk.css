@@ -137,7 +137,7 @@
 }
 .lp-produk-image01 {
   width: auto;
-  height: 435px;
+  height: auto;
   object-fit: cover;
 }
 .lp-produk-container02 {
@@ -1596,8 +1596,8 @@
     margin-top: var(--dl-space-space-sixunits);
   }
   .lp-produk-image01 {
-    width: auto;
-    height: 444px;
+    width: 100%;
+    height: auto;
     padding: var(--dl-space-space-twounits);
     margin-top: var(--dl-space-space-fiveunits);
   }
