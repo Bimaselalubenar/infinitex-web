@@ -641,57 +641,83 @@
 
 .menu-pilihan-container {
   gap: var(--dl-space-space-halfunit);
-  right: 0px;
-  width: 102px;
+  width: 100%;
+  bottom: 0px;
   height: auto;
   display: flex;
   z-index: 100;
   position: fixed;
   align-items: center;
-  padding-right: var(--dl-space-space-unit);
-  flex-direction: column;
-  justify-content: flex-start;
+  flex-direction: row;
+  justify-content: center;
+  background-image: linear-gradient(180deg, rgb(169, 56, 238) 0.00%,rgb(97, 0, 144) 100.00%);
+}
+.menu-pilihan-container1 {
+  gap: 0;
+  flex: 1;
+  width: 100%;
+  display: flex;
+  max-width: 479px;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
 }
 .menu-pilihan-link {
+  display: contents;
+}
+.menu-pilihan-container2 {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  transition: 0.3s;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  text-decoration: none;
+}
+.menu-pilihan-container2:focus {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.menu-pilihan-text {
+  color: #ffffff;
   padding: var(--dl-space-space-halfunit);
   z-index: 100;
   font-style: normal;
   text-align: center;
-  transition: 0.3s;
   font-weight: 500;
   border-radius: 15px;
-  text-decoration: none;
-  background-color: #ffffff;
-}
-.menu-pilihan-link:active {
-  color: #ffffff;
-  box-shadow: 4px 4px 15px 0px rgba(0, 0, 0, 0.42);
-  background-color: transparent;
-  background-image: linear-gradient(135deg, rgb(180, 8, 238) 0.00%,rgb(21, 0, 110) 100.00%);
 }
 .menu-pilihan-link1 {
+  display: contents;
+}
+.menu-pilihan-container3 {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  transition: 0.3s;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  text-decoration: none;
+}
+.menu-pilihan-container3:focus {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.menu-pilihan-text1 {
+  color: #ffffff;
   padding: var(--dl-space-space-halfunit);
   z-index: 100;
   font-style: normal;
   text-align: center;
-  transition: 0.3s;
   font-weight: 500;
   border-radius: 15px;
-  text-decoration: none;
-  background-color: #ffffff;
-}
-.menu-pilihan-link1:active {
-  color: #ffffff;
-  box-shadow: 4px 4px 15px 0px rgba(0, 0, 0, 0.42);
-  background-color: transparent;
-  background-image: linear-gradient(135deg, rgb(180, 8, 238) 0.00%,rgb(21, 0, 110) 100.00%);
 }
 .menu-pilihan-root-class-name {
   margin-top: 300px;
 }
 @media(max-width: 479px) {
   .menu-pilihan-container {
-    width: 102px;
+    width: 100%;
   }
 }
 
